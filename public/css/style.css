@@ -1,0 +1,99 @@
+
+@font-face {
+  font-family: 'BreePeru-Bold';
+  src: url('fonts/BreePeru-Bold/BreePeru-Bold.eot?#iefix') format('embedded-opentype'),  url('fonts/BreePeru-Bold/BreePeru-Bold.otf')  format('opentype'),
+	     url('fonts/BreePeru-Bold/BreePeru-Bold.woff') format('woff'), url('fonts/BreePeru-Bold/BreePeru-Bold.ttf')  format('truetype'), url('fonts/BreePeru-Bold/BreePeru-Bold.svg#BreePeru-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreePeru-BoldOblique';
+  src: url('fonts/BreePeru-BoldOblique/BreePeru-BoldOblique.eot?#iefix') format('embedded-opentype'),  url('fonts/BreePeru-BoldOblique/BreePeru-BoldOblique.otf')  format('opentype'),
+	     url('fonts/BreePeru-BoldOblique/BreePeru-BoldOblique.woff') format('woff'), url('fonts/BreePeru-BoldOblique/BreePeru-BoldOblique.ttf')  format('truetype'), url('fonts/BreePeru-BoldOblique/BreePeru-BoldOblique.svg#BreePeru-BoldOblique') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreePeru-Light';
+  src: url('fonts/BreePeru-Light/BreePeru-Light.eot?#iefix') format('embedded-opentype'),  url('fonts/BreePeru-Light/BreePeru-Light.otf')  format('opentype'),
+	     url('fonts/BreePeru-Light/BreePeru-Light.woff') format('woff'), url('fonts/BreePeru-Light/BreePeru-Light.ttf')  format('truetype'), url('fonts/BreePeru-Light/BreePeru-Light.svg#BreePeru-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreePeru-Oblique';
+  src: url('fonts/BreePeru-Oblique/BreePeru-Oblique.eot?#iefix') format('embedded-opentype'),  url('fonts/BreePeru-Oblique/BreePeru-Oblique.otf')  format('opentype'),
+	     url('fonts/BreePeru-Oblique/BreePeru-Oblique.woff') format('woff'), url('fonts/BreePeru-Oblique/BreePeru-Oblique.ttf')  format('truetype'), url('fonts/BreePeru-Oblique/BreePeru-Oblique.svg#BreePeru-Oblique') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BreePeru-Regular';
+  src: url('fonts/BreePeru-Regular/BreePeru-Regular.eot?#iefix') format('embedded-opentype'),  url('fonts/BreePeru-Regular/BreePeru-Regular.otf')  format('opentype'),
+	     url('fonts/BreePeru-Regular/BreePeru-Regular.woff') format('woff'), url('fonts/BreePeru-Regular/BreePeru-Regular.ttf')  format('truetype'), url('fonts/BreePeru-Regular/BreePeru-Regular.svg#BreePeru-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+* {
+    background-color: '#fffff';
+    font-family: 'BreePeru-Light';
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.container {
+
+}
+.header {
+    margin-top: 40px;
+}
+.title-h1 {
+    font-weight:bold;
+    font-size: 17px;
+}
+.text-bold {
+    font-family: 'BreePeru-Bold';
+}
+
+.main-title-1 {
+    font-family: 'BreePeru-Bold';
+    font-size:30px;
+    margin: 0px 0 0 70px;
+}
+.main-title-2 {
+    font-family: 'BreePeru-BoldOblique';
+    font-size:52px;
+    background-color: #0079C0;
+    color: white;
+}
+.content-instruction {
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-bottom:10px;
+    color:gray;
+}
+.content-instruction ul{
+    margin:0;
+    padding:0
+}
+.content-instruction ul li{
+    font-weight:bold;
+}
+.title-instruction{
+    font-family: 'BreePeru-Bold';
+    font-weight:bold;
+    font-size: 15px
+}
+.button-download {
+    font-size:18px;
+}
+.imageDownload {
+    margin-bottom:10px;
+}

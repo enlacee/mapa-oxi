@@ -1,0 +1,8 @@
+
+@font-face {
+  font-family: 'BreePeru-Regular';
+  src: url('BreePeru-Regular.eot?#iefix') format('embedded-opentype'),  url('BreePeru-Regular.otf')  format('opentype'),
+	     url('BreePeru-Regular.woff') format('woff'), url('BreePeru-Regular.ttf')  format('truetype'), url('BreePeru-Regular.svg#BreePeru-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
