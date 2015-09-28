@@ -97,3 +97,8 @@
 .imageDownload {
     margin-bottom:10px;
 }
+
+.red {
+  border:1px solid red;
+
+}

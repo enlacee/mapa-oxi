@@ -40,8 +40,16 @@
                         </ul>
                     </div>
                     <div class="col-md-6  pull-right">
+<!--
                         <img src="public/image/peru-mapa.png" />
+
+                        <hr>
+-->
                     </div>
+                </div>
+
+                <div class="row" style="max-width:800px">
+                    <?php require_once 'mapa-svg.php' ?>
                 </div>
             </div>
             <div class="footer container">

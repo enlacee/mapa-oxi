@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<style type="text/css">
+div {
+  background: tomato;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 30px solid;
+  border-color: orange black;
+  transition: linear 1s;
+}
+.uno {  
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+}
+.uno:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%)
+}
+.dos {  
+  clip-path: polygon(50% 0%, 50% 0%, 100% 100%, 0% 100%);
+}
+.dos:hover {
+  clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 50% 100%)
+}
+</style>
+
+<div class='uno'></div>
+<div class='dos'></div>
+
+<svg width="0" height="0">
+  <defs>
+	<clipPath id="clip-triT" clipPathUnits="objectBoundingBox">
+	  <polygon points=".5 0, .5 0, 1 1, 0 1" />
+	</clipPath>
+	<clipPath id="clip-triB" clipPathUnits="objectBoundingBox">
+	  <polygon points="0 0, 1 0, .5 1, .5 1" />
+	</clipPath>
+  </defs>
+</svg>
+</body>
+</html>
+
