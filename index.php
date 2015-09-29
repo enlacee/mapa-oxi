@@ -83,30 +83,73 @@
             }
 
 */
-            function seleccionarDepa(el) {
+            var sector = {};
+            var curItem = {};
+            var pathB = 'public/image/sectores/';
+                sector = [
+                    {id: 1, name: 'Transporte', image: pathB+'ico_transporte.png'},
+                    {id: 2, name: 'Comercio', image: pathB+'ico_comercio.png'},
+                    {id: 3, name: 'Irrigación', image: pathB+'ico_irrigacion.png'},
+                    {id: 4, name: 'Energía', image: pathB+'ico_energia.png'},
+                    {id: 5, name: 'Seguridad', image: pathB+'ico_seguridad.png'},
+                    {id: 6, name: 'Eduación', image: pathB+'ico_educacion.png'},
+                    {id: 7, name: 'Saniamiento y Salud', image: pathB+'ico_salud.png'},
+                    {id: 8, name: 'Telecomunicaciones', image: pathB+'ico_telecomunicaciones.png'},
+                    {id: 9, name: 'Cultura y Esparcimiento', image: pathB+'ico_cultura.png'},
+                    {id: 10, name: 'Otros', image: pathB+'ico_otros.png'}
+                ];
 
-                el.style.fill = '#0079C0';
+
+            function seleccionarDepa(el, statusClear) {
+
+                //el.style.fill = '#0079C0';
+                var json = readMetaData(el);
+                setText(json);
+                selectSector(json.sectores, statusClear)
+            }
+            function readMetaData(el) {
                 var stringMeta =  el.getAttribute('metadatajson')
                 var str_json = JSON.stringify(eval("(" + stringMeta + ")"));
-                var json = JSON.parse(str_json);
-                console.log('json',json);
-
-                document.getElementById('nombre_depa').innerHTML = json.name;
-
-                selectSector(json.sector)
+                return JSON.parse(str_json);
             }
 
-
-            function selectSector(dataArray) {
-                console.log('dataArray', dataArray)
-                var data = dataArray[0];
-                if (data.name == 1) {
-                    var im = document.getElementById('sector_1');
-                    im.setAttribute('xlink:href', data.image);
-                }
+            function setText(data) {
+                var text = document.getElementById('nombre_depa');
+                text.setAttribute('x', data.x);
+                text.setAttribute('y', data.y);
+                text.innerHTML = data.name;
             }
 
+            function selectSector(dataArray, flagOVER) {
+                sector.forEach(function(item, i) {
+                    var img = document.getElementById('sector_'+item.id);
+                    var idlocal = item.id;
 
+                    if (flagOVER == true) {                        
+                        if (typeof(dataArray[item.id]) != 'undefined') {
+                            img.setAttribute('xlink:href', dataArray[idlocal].image);
+                        } else {
+                            img.setAttribute('xlink:href', item.image);
+
+                        }   
+                    } else {
+                        //FUERA
+                        if (typeof(curItem.name) != 'undefined') {
+                            img.setAttribute('xlink:href', curItem[idlocal].image);
+                        } else {
+                            img.setAttribute('xlink:href', '');
+                        }
+                        //
+                        
+                    }
+                });
+            }
+
+            // click
+            function clickDepa(el) {
+                var json = readMetaData(el);
+                curItem = json;
+            }
         </script>
     </body>
 </html>

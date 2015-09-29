@@ -1,25 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 1000"
-		style="background-color:blue">
+		style="">
 
-		<rect width="100%" height="100%" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+
     <!-- SVG content -->
     <image xlink:href="public/image/peru-mapa.png" x="200" y="0" height="80%" width="80%"/>
 
 	<!--lima-->
-	<path
-"	onclick="seleccionarDepa(this)"
-     style="fill:yellow;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="m 326.53602,365.59852 c 1.02106,0.25526 3.41446,4.17298 4.23728,4.50211 3.69855,1.47942 4.1877,14.34226 7.81251,16.15467 5.40496,3.74186 3.68602,8.89937 5.77983,10.05586 4.27685,2.36229 1.01765,-0.54048 5.61733,8.54285 0.0779,0.15385 3.36381,2.15688 4.5431,2.32848 0.51639,0.0751 5.81295,-7.24556 5.70363,-6.63937 -0.14057,0.77952 8.25066,-7.2603 7.65441,-11.95387 -0.35178,-2.76915 -17.99264,-51.39584 -44.65847,-34.24603 -0.38195,3.84253 1.4339,9.60885 3.31038,11.2553 z"
-     id="departamento_02"
-	 metadatajson="{name:'ANCASH',sector:[{name: 1, image: 'public/image/sectores/ico_transporte_xx.png'}]}"
+	
+  <path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	 metadatajson="{
+	 	name:'ANCASH',
+	 	x:455,
+	 	y:390,
+	 	sectores: {
+	 		1: {image: 'public/image/sectores/ico_transporte_on.png'},
+	 		2: {image: 'public/image/sectores/ico_comercio_on.png'},
+	 		6: {image: 'public/image/sectores/ico_educacion_on.png'},
+	 		7: {image: 'public/image/sectores/ico_salud_on.png'},
+	 		9: {image: 'public/image/sectores/ico_cultura_on.png'}
+	 	}
+	}"
+
+     style="fill:yellow;fill-opacity:0;stroke:#ffffff;stroke-width:1.65666521px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 444.71091,372.60241 c 1.69156,0.42287 2.46989,5.9973 3.29697,7.21031 0.78401,1.14983 3.14728,1.14942 3.56514,3.87955 0.78089,5.10193 2.70643,6.68914 3.64275,12.09437 0.49581,2.86218 1.34055,10.26707 2.88068,11.03713 9.01846,8.37497 9.66582,13.31972 12.73533,14.91174 0.58931,0.30564 1.29851,-4.31147 2.35086,-4.31486 1.00543,-0.003 1.72528,0.64513 2.66588,0.54793 0.95661,-0.0989 -1.55275,1.96196 -0.58412,3.08851 1.44972,1.68608 4.79625,3.87604 7.8747,5.54486 0.85548,0.12445 7.16438,-0.88003 7.96354,-1.51458 3.42516,-2.71968 -0.69336,-5.62191 2.17281,-7.9128 2.44252,-1.95227 9.46971,-4.27166 9.01522,-7.84925 -0.11106,-0.87415 -2.15569,-2.85301 -4.09151,-7.89886 -0.91896,-2.39532 0.82944,-4.89021 -0.45977,-7.84132 -0.89834,-2.05636 5.16561,-8.55888 4.0502,-10.77346 -0.74534,-1.47987 5.25791,0.38401 4.36475,-1.09752 -0.51985,-0.86232 -0.082,-2.47281 -0.67005,-3.33957 -1.34362,-1.98049 -4.49931,-4.34778 -6.20382,-6.31304 -2.91611,-3.36221 -4.07279,-6.6373 -7.75294,-9.60355 -2.72499,-2.19638 -3.9117,-7.83617 -6.98099,-9.66151 -0.83538,-0.49682 -0.81769,-0.71946 -1.68264,-1.16416 -1.58641,-0.81562 0.36855,-2.59294 -0.69672,-4.05064 -1.48372,-2.03034 -2.90679,-4.32295 -5.34527,-5.24486 -1.75653,-0.66408 -2.98663,1.18449 -5.11398,1.03397 -2.42279,-0.1714 -6.87479,0.15658 -8.58383,2.34601 -2.44792,3.13602 -5.98189,5.82916 -7.3939,7.84369 -1.77441,2.53157 -2.17563,6.76854 -3.18766,8.36018 -1.72219,2.70856 -4.31736,1.42457 -7.85571,3.70022 -0.63276,6.3658 -3.08462,4.2539 0.0241,6.98151 z"
+     id="path2983"
      inkscape:connector-curvature="0"
-     transform="matrix(1.25,0,0,1.25,0,-125)"
-     sodipodi:nodetypes="cscssssscc" />
+     sodipodi:nodetypes="cssscsssscsssssssssssssssssscc" />
 
 
-	<text id="nombre_depa" x="350" y="500" fill="black" style="font-weight:bold; font-size: 19px" >Name</text>
 
-	<!-- cirlces-->
+	<text id="nombre_depa" x="350" y="500" fill="white" style="font-weight:bold; font-size: 13px;text-shadow: 1px 1px;" >
+		NAME
+	</text>
+
+	<!-- cirlces-->text-shadow: 1px 1px;
 	<!-- TRANSPORTE-->
 	<image
 	id="sector_1"
