@@ -100,12 +100,12 @@
                 ];
 
 
-            function seleccionarDepa(el, statusClear) {
+            function seleccionarDepa(el, statusOver) {
 
                 //el.style.fill = '#0079C0';
                 var json = readMetaData(el);
-                setText(json);
-                selectSector(json.sectores, statusClear)
+                setText(json, statusOver);
+                selectSector(json.sectores, statusOver)
             }
             function readMetaData(el) {
                 var stringMeta =  el.getAttribute('metadatajson')
@@ -113,11 +113,11 @@
                 return JSON.parse(str_json);
             }
 
-            function setText(data) {
+            function setText(data, flag) {
                 var text = document.getElementById('nombre_depa');
                 text.setAttribute('x', data.x);
                 text.setAttribute('y', data.y);
-                text.innerHTML = data.name;
+                text.innerHTML = (flag) ? data.name : '';              
             }
 
             function selectSector(dataArray, flagOVER) {
@@ -125,7 +125,7 @@
                     var img = document.getElementById('sector_'+item.id);
                     var idlocal = item.id;
 
-                    if (flagOVER == true) {                        
+                    if (flagOVER == true) {
                         if (typeof(dataArray[item.id]) != 'undefined') {
                             img.setAttribute('xlink:href', dataArray[idlocal].image);
                         } else {
