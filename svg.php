@@ -13,14 +13,35 @@
 	onclick="clickDepa(this)"
 	 metadatajson="{
 	 	name:'ANCASH',
-	 	x:455,
-	 	y:390,
+	 	x:430,
+	 	y:370,
 	 	sectores: {
-	 		1: {image: 'public/image/sectores/ico_transporte_on.png'},
-	 		2: {image: 'public/image/sectores/ico_comercio_on.png'},
-	 		6: {image: 'public/image/sectores/ico_educacion_on.png'},
-	 		7: {image: 'public/image/sectores/ico_salud_on.png'},
-	 		9: {image: 'public/image/sectores/ico_cultura_on.png'}
+	 		1: {
+	 			name: 'Transporte',
+	 			content: '<ol><li><a onclick=\'abrirVentanaHijo(event)\' href=\'#\'>title 01<\/a><\/li><li>title 02<\/li><\/ol>',
+	 			image: 'public/image/sectores/ico_transporte_on.png',
+	 			imageSelect: 'public/image/sectores/ico_transporte_xx.png'
+	 		},
+	 		2: {
+	 			name: 'Comercio y Turismo',
+	 			image: 'public/image/sectores/ico_comercio_on.png',
+	 			imageSelect: 'public/image/sectores/ico_comercio_xx.png'
+	 		},
+	 		6: {
+	 			name: 'Educación',
+	 			image: 'public/image/sectores/ico_educacion_on.png',
+ 				imageSelect: 'public/image/sectores/ico_educacion_xx.png'
+	 		},
+	 		7: {
+	 			name: 'Salud',
+	 			image: 'public/image/sectores/ico_salud_on.png',
+	 			imageSelect: 'public/image/sectores/ico_salud_xx.png'
+	 		},
+	 		9: {
+	 			name: 'Cultura y Esparcimiento',
+	 			image: 'public/image/sectores/ico_cultura_on.png',
+	 			imageSelect: 'public/image/sectores/ico_cultura_xx.png'
+	 		}
 	 	}
 	}"
 
@@ -40,52 +61,52 @@
 	<!-- TRANSPORTE-->
 	<image
 	id="sector_1"
-	xlink:href="public/image/sectores/ico_transporte.png" x="50" y="0" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_transporte.png" x="250" y="0" height="100px" width="100px"/>
 
 	<!-- COMERCIO-->
 	<image
 	id="sector_2"
-	xlink:href="public/image/sectores/ico_comercio.png" x="50" y="100" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_comercio.png" x="180" y="75" height="100px" width="100px"/>
 
 	<!-- IRRIGACION-->
 	<image
 	id="sector_3"
-	xlink:href="public/image/sectores/ico_irrigacion.png" x="50" y="200" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_irrigacion.png" x="120" y="160" height="100px" width="100px"/>
 
 	<!-- ENERGIA-->
 	<image
 	id="sector_4"
-	xlink:href="public/image/sectores/ico_energia.png" x="50" y="300" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_energia.png" x="90" y="260" height="100px" width="100px"/>
 
 	<!-- SEGURIDAD-->
 	<image
 	id="sector_5"
-	xlink:href="public/image/sectores/ico_seguridad.png" x="50" y="400" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_seguridad.png" x="80" y="360" height="100px" width="100px"/>
 
 	<!-- EDUCACION-->
 	<image
 	id="sector_6"
-	xlink:href="public/image/sectores/ico_educacion.png" x="50" y="500" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_educacion.png" x="90" y="460" height="100px" width="100px"/>
 
 	<!-- SANEAMIENTO SALUD-->
 	<image
 	id="sector_7"
-	xlink:href="public/image/sectores/ico_salud.png" x="50" y="600" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_salud.png" x="120" y="560" height="100px" width="100px"/>
 
 	<!-- TELECOMUNICACIONES-->
 	<image
 	id="sector_8"
-	xlink:href="public/image/sectores/ico_telecomunicaciones.png" x="50" y="700" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_telecomunicaciones.png" x="175" y="644" height="100px" width="100px"/>
 
 	<!-- CULTURA-->
 	<image
 	id="sector_9"
-	xlink:href="public/image/sectores/ico_cultura.png" x="50" y="800" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_cultura.png" x="250" y="715" height="100px" width="100px"/>
 
 	<!-- OTROS-->
 	<image
 	id="sector_10"
-	xlink:href="public/image/sectores/ico_otros.png" x="50" y="900" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_otros.png" x="330" y="780" height="100px" width="100px"/>
 
 
 </svg>
