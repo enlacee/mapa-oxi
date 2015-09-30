@@ -99,3 +99,25 @@ $(function() {
         $(this).parent().css('display', 'none')
     })
 });
+
+
+
+// slide
+
+$(document).ready(function() {
+    var autoplaySlider = $('#content-slider').lightSlider({
+        auto:false,
+        loop:false,
+        onBeforeSlide: function (el) {
+            $('#current').text(el.getCurrentSlideCount());
+        }
+    });
+    $('#total').text(autoplaySlider.getTotalSlideCount());
+    $('#content-slider').parent().on('mouseenter',function(){
+        autoplaySlider.pause();
+    });
+    $('#content-slider').parent().on('mouseleave',function(){
+        autoplaySlider.play();
+    });
+
+});

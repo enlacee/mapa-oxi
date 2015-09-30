@@ -4,6 +4,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="public/plugin/bootstrap-3.3.5-dist/css/bootstrap.css" media="screen" charset="utf-8">
+        <link type="text/css" rel="stylesheet" href="public/plugin/lightslider/src/css/lightslider.css"/>
         <link rel="stylesheet" href="public/css/style.css" media="screen" charset="utf-8">
         <title>Proyectos 2009 - 2015</title>
     </head>
@@ -50,7 +51,7 @@
             <div class="footer _container">
                 <div class="button-download col-md-3 pull-right nopadding">
                     <div class="text-center imageDownload">
-                        <img src="public/image/ico_descargue.jpg" />
+                        <img src="public/image/ico_descargue.png" />
                     </div>
                     <div class="row">
                         <div class="text-bold text-center">
@@ -145,12 +146,12 @@ provincia de Huaraz, departamento de Ancash.</p>
         </div>
 </div>
 
-        <script type='text/javascript' src='public/plugin/jquery-1.11.3.min.js'></script>
-        <script charset="utf-8" src='public/js/base.js'>
+        <div style="display:none">
+            <?php require_once 'slide.php' ?>
+        </div>
 
-        </script>
-        <script charset="utf-8">
-        |
-        </script>
+        <script type='text/javascript' src='public/plugin/jquery-1.11.3.min.js'></script>
+        <script type='text/javascript' src="public/plugin/lightslider/src/js/lightslider.js"></script>
+        <script charset="utf-8" src='public/js/base.js'></script>
     </body>
 </html>
