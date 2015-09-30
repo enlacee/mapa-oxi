@@ -1,0 +1,22 @@
+{
+  "name": "main",
+  "version": "0.0.0",
+  "homepage": "https://github.com/enlacee/mapa-oxi",
+  "authors": [
+    "Anibal C <detops.tk@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
