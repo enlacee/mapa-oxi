@@ -120,3 +120,100 @@
     color:purple;
     font-family:'BreePeru-Bold';
 }
+
+/*
+* add style
+*
+*/
+
+body {
+    margin:0;
+    padding:0;
+}
+.wrapper {
+
+}
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    top: 0;
+}
+#modalPadre{
+    position: fixed;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 26px;
+    top: 25%;
+    width: 34%;
+    left: 6.5%;
+}
+
+#modalPadre h2 {
+    font-family: 'BreePeru-Regular';
+    margin: 15px 15px 0 25px;
+    font-size: 23px;
+    font-weight: bold;
+    color:white;
+}
+#modalPadre .franja-lila {
+    background-color: #90278E;
+    display: inline-block;
+    margin: 25px 0 12px 0;
+    padding-right: 20px;
+}
+#modalPadre ol {
+    font-size: 16px;
+    font-weight: bold;
+}
+div#modalPadre a {
+    color:black;
+    font-weight: 100;
+}
+div#modalPadre a:hover, a:focus {
+    font-family: 'BreePeru-Bold';
+    text-decoration: none;
+    color:#4A0D49;
+}
+.bold-purple {
+
+}
+
+
+#modalHijo {
+    position: fixed;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 26px;
+    top: 30%;
+    width: 28%;
+    height: 66%;
+    left: 6.5%;
+}
+#modalHijo h2 {
+    font-family: 'BreePeru-Regular';
+    color: purple;
+    margin: 15px 0 0 25px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.btn-close {
+    background-image: url('public/image/btn-close.png');
+    width: 60px;
+    height: 60px;
+    right: -18px;
+    position: absolute;
+    top: -18px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    #modalPadre {
+        width: 88%;
+    }
+    #modalHijo {
+        width: 88%;
+    }
+}
