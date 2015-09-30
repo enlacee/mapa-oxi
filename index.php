@@ -42,7 +42,7 @@
                         </ul>
                     </div>
                     <div class="col-md-8  _pull-right">
-                        <div style="width: 100%">
+                        <div style="width: 85%">
                             <?php require_once 'svg.php' ?>
                         </div>
                     </div>
@@ -51,7 +51,9 @@
             <div class="footer _container">
                 <div class="button-download col-md-3 pull-right nopadding">
                     <div class="text-center imageDownload">
-                        <img src="public/image/ico_descargue.png" />
+                        <a href="#">
+                            <img src="public/image/ico_descargue.png" />
+                        </a>
                     </div>
                     <div class="row">
                         <div class="text-bold text-center">

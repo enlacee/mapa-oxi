@@ -96,8 +96,8 @@
     font-size:15px;
     font-family: 'BreePeru-Oblique';
     position: fixed;
-    bottom: 0px;
-    right: 0;
+    bottom: 4%;
+    right: 12%;
 }
 .imageDownload {
     margin-bottom:10px;
@@ -230,5 +230,11 @@ div#modalPadre a:hover, a:focus {
     }
     #modalHijo {
         width: 88%;
+    }
+}
+
+@media (max-width: 600px) {
+    .button-download{
+        font-size:13px;
     }
 }
