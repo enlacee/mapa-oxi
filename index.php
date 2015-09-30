@@ -109,12 +109,6 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="row" style="max-width:800px">
-                    <div style="width: 100%">
-                        <?php require_once 'svg.php' ?>
-                    </div>
-                </div>
             </div>
             <div class="footer container">
                 <div class="button-download col-md-3 pull-right nopadding">
