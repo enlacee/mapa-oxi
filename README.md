@@ -13,3 +13,7 @@ configurar archivo para .bowerrc
 
     npm install -g bower
     bower install lightslider
+
+#image
+
+![image](http://i61.tinypic.com/xcvfo0.png)
