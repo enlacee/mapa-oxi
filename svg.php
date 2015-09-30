@@ -6,7 +6,7 @@
     <image xlink:href="public/image/peru-mapa.png" x="200" y="0" height="80%" width="80%"/>
 
 	<!--lima-->
-	
+
   <path
 	onmouseover="seleccionarDepa(this, true)"
 	onmouseout="seleccionarDepa(this, false)"
@@ -86,27 +86,27 @@
 	<!-- EDUCACION-->
 	<image
 	id="sector_6"
-	xlink:href="public/image/sectores/ico_educacion.png" x="90" y="460" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_educacion.png" x="90" y="457" height="100px" width="100px"/>
 
 	<!-- SANEAMIENTO SALUD-->
 	<image
 	id="sector_7"
-	xlink:href="public/image/sectores/ico_salud.png" x="120" y="560" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_salud.png" x="120" y="551" height="100px" width="100px"/>
 
 	<!-- TELECOMUNICACIONES-->
 	<image
 	id="sector_8"
-	xlink:href="public/image/sectores/ico_telecomunicaciones.png" x="175" y="644" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_telecomunicaciones.png" x="175" y="633" height="100px" width="100px"/>
 
 	<!-- CULTURA-->
 	<image
 	id="sector_9"
-	xlink:href="public/image/sectores/ico_cultura.png" x="250" y="715" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_cultura.png" x="250" y="700" height="100px" width="100px"/>
 
 	<!-- OTROS-->
 	<image
 	id="sector_10"
-	xlink:href="public/image/sectores/ico_otros.png" x="330" y="780" height="100px" width="100px"/>
+	xlink:href="public/image/sectores/ico_otros.png" x="330" y="760" height="100px" width="100px"/>
 
 
 </svg>

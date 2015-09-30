@@ -7,6 +7,13 @@
         <link rel="stylesheet" href="public/css/style.css" media="screen" charset="utf-8">
         <title>Proyectos 2009 - 2015</title>
         <style type="text/css">
+        body {
+            margin:0;
+            padding:0;
+        }
+        .wrapper {
+
+        }
         #shadow {
             position: fixed;
             width: 100%;
@@ -84,6 +91,7 @@
                         <img src="public/image/ico_proinversion.png" />
                     </div>
                 </div>
+                <div style="clear:both"></div>
             </div>
             <div class="body container">
                 <div class="row">
@@ -95,7 +103,7 @@
                             <li>Buscar el proyecto en la lista y hacer click para ver detalle.</li>
                         </ul>
                     </div>
-                    <div class="col-md-8  pull-right">
+                    <div class="col-md-8  _pull-right">
                         <div style="width: 100%">
                             <?php require_once 'svg.php' ?>
                         </div>
@@ -126,10 +134,11 @@
 
                 </div>
             </div>
+            <div style="clear:both"></div>
         </div>
 
 <!--modals-->
-<div class="#shadow"> shadow</div>
+<div class="#shadow" style="display:none"> shadow</div>
 <div id="modalPadre" style="display:none">
     <div class="btn-close"></div>
     <div>
@@ -221,7 +230,7 @@ provincia de Huaraz, departamento de Ancash.</p>
                 var text = document.getElementById('nombre_depa');
                 text.setAttribute('x', data.x);
                 text.setAttribute('y', data.y);
-                text.innerHTML = data.name;              
+                text.innerHTML = data.name;
             }
 
             function selectSector(dataArray, flagOVER) {
@@ -234,7 +243,7 @@ provincia de Huaraz, departamento de Ancash.</p>
                             img.setAttribute('xlink:href', dataArray[idlocal].image);
                         } else {
                             img.setAttribute('xlink:href', item.image);
-                        }   
+                        }
                     } else {
                         //FUERA
                         if (typeof(curItem.name) != 'undefined') { //click

@@ -41,7 +41,7 @@
 
 
 * {
-    background-color: '#fffff';
+    background-color: trasparent;
     font-family: 'BreePeru-Light';
 }
 .nopadding {
@@ -49,10 +49,10 @@
    margin: 0 !important;
 }
 .container {
-
+    width: 70%;
 }
 .header {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .title-h1 {
     font-weight:bold;
@@ -64,14 +64,15 @@
 
 .main-title-1 {
     font-family: 'BreePeru-Bold';
-    font-size:30px;
+    font-size:25px;
     margin: 0px 0 0 70px;
 }
 .main-title-2 {
     font-family: 'BreePeru-BoldOblique';
-    font-size:52px;
+    font-size:43px;
     background-color: #0079C0;
     color: white;
+    margin-top: 13px;
 }
 .content-instruction {
     padding-top: 30px;
@@ -96,6 +97,10 @@
 }
 .imageDownload {
     margin-bottom:10px;
+}
+.footer.container {
+    position: relative;
+    top: -140px;
 }
 
 .red {
