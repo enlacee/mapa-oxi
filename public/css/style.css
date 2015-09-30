@@ -118,6 +118,10 @@
     font-size: 15px;
     margin:0px 10px 0 0;
 }
+.link-sky {
+    color:#93D9FF;
+    font-weight: bold;
+}
 .link-purpura,  .link-purpura a, .link-purpura a:hover, a:focus{
     font-weight:bold;
     color:purple;
@@ -136,19 +140,13 @@ body {
 .wrapper {
 
 }
-#shadow {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    top: 0;
-}
+
 #modalPadre{
     position: fixed;
     background-color: white;
     border:1px solid black;
     border-radius: 26px;
-    top: 25%;
+    top: 10%;
     width: 34%;
     left: 6.5%;
 }
@@ -183,15 +181,19 @@ div#modalPadre a:hover, a:focus {
 
 }
 
-
+.modalshadow {
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
 #modalHijo {
     position: fixed;
     background-color: white;
     border:1px solid black;
     border-radius: 26px;
-    top: 30%;
+    top: 15%;
     width: 28%;
-    height: 66%;
+    height: auto;
     left: 6.5%;
 }
 #modalHijo h2 {
@@ -210,9 +212,19 @@ div#modalPadre a:hover, a:focus {
     top: -18px;
     cursor: pointer;
 }
+#shadow {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.2;
 
+    z-index:1;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 980px) {
     #modalPadre {
         width: 88%;
     }

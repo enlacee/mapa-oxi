@@ -69,8 +69,8 @@
         </div>
 
 <!--modals-->
-<div class="#shadow" style="display:none"> shadow</div>
-<div id="modalPadre" style="display:none">
+
+<div id="modalPadre" class="modalshadow" style="display:none">
     <div class="btn-close"></div>
     <div>
         <span class="franja-lila">
@@ -102,7 +102,7 @@
     </div>
 </div>
 
-<div id="modalHijo" style="display:none; padding: 0 0 0 10px; margin-top: 25px; margin-left: 20px;">
+<div id="modalHijo" class="modalshadow" style="display:none; padding: 0 0 0 10px; margin-top: 25px; margin-left: 20px;">
     <div class="btn-close"></div>
 
 
@@ -142,11 +142,11 @@ provincia de Huaraz, departamento de Ancash.</p>
         </div>
 
         <div class="pull-right">
-            <a href="#" class="link-gallery">Ver galería de fotos>></a>
+            <a href="#" id="ver-gallery" class="link-gallery">Ver galería de fotos>></a>
         </div>
 </div>
 
-        <div style="display:none">
+        <div style="display:block">
             <?php require_once 'slide.php' ?>
         </div>
 
