@@ -93,7 +93,8 @@
     font-size: 15px
 }
 .button-download {
-    font-size:18px;
+    font-size:15px;
+    font-family: 'BreePeru-Oblique';
 }
 .imageDownload {
     margin-bottom:10px;
@@ -106,4 +107,16 @@
 .red {
   border:1px solid red;
 
+}
+.link-gallery {
+    color: #0000FF;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 15px;
+    margin:0px 10px 0 0;
+}
+.link-purpura,  .link-purpura a, .link-purpura a:hover, a:focus{
+    font-weight:bold;
+    color:purple;
+    font-family:'BreePeru-Bold';
 }

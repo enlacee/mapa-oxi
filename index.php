@@ -28,21 +28,40 @@
             border-radius: 26px;
             top: 25%;
             width: 34%;
-            height: 66%;
             left: 6.5%;
         }
+
         #modalPadre h2 {
-            font-family: 'BreePeru-Light';
+            font-family: 'BreePeru-Regular';
+            margin: 15px 15px 0 25px;
+            font-size: 23px;
             font-weight: bold;
             color:white;
-            margin: 15px 0 0 25px;
         }
         #modalPadre .franja-lila {
             background-color: #90278E;
             display: inline-block;
-            margin: 25px 0 0 0;
+            margin: 25px 0 12px 0;
             padding-right: 20px;
         }
+        #modalPadre ol {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        div#modalPadre a {
+            color:black;
+            font-weight: 100;
+        }
+        div#modalPadre a:hover, a:focus {
+            font-family: 'BreePeru-Bold';
+            text-decoration: none;
+            color:#4A0D49;
+        }
+        .bold-purple {
+
+        }
+
+
         #modalHijo {
             position: fixed;
             background-color: white;
@@ -54,19 +73,30 @@
             left: 6.5%;
         }
         #modalHijo h2 {
-            font-family: 'BreePeru-Light';
-            font-weight: bold;
-            color:purple;
+            font-family: 'BreePeru-Regular';
+            color: purple;
             margin: 15px 0 0 25px;
+            font-size: 23px;
+            font-weight: bold;
         }
         .btn-close {
             background-image: url('public/image/btn-close.png');
-            width: 70px;
-            height: 70px;
+            width: 60px;
+            height: 60px;
             right: -18px;
             position: absolute;
             top: -18px;
             cursor: pointer;
+        }
+
+
+        @media (max-width: 800px) {
+            #modalPadre {
+                width: 88%;
+            }
+            #modalHijo {
+                width: 88%;
+            }
         }
         </style>
     </head>
@@ -110,10 +140,10 @@
                     </div>
                 </div>
             </div>
-            <div class="footer container">
+            <div class="footer _container">
                 <div class="button-download col-md-3 pull-right nopadding">
                     <div class="text-center imageDownload">
-                        <img src="public/image/ico_descargue.png" alt="" />
+                        <img src="public/image/ico_descargue.jpg" />
                     </div>
                     <div class="row">
                         <div class="text-bold text-center">
@@ -125,7 +155,6 @@
                             Todos los proyectos en Excel
                         </div>
                     </div>
-
                 </div>
             </div>
             <div style="clear:both"></div>
@@ -165,21 +194,48 @@
     </div>
 </div>
 
-<div id="modalHijo" style="display:none;    padding: 0 0 0 10px;">
+<div id="modalHijo" style="display:none; padding: 0 0 0 10px; margin-top: 25px; margin-left: 20px;">
     <div class="btn-close"></div>
-    <div>
-        <span class="franja-lila">
-            <h2 class="title">Mejoramiento infraestructura vial y peatonal distritos de Huaraz</h2>
-        </span>
+
+
+        <div class="row" style="padding-top: 30px;">
+            <div class="col-md-3">
+                <img src="public/image/sectores/ico_transporte_xx.png" />
+            </div>
+            <div class="col-md-8">
+                <h2 class="title">Mejoramiento infraestructura vial y peatonal distritos de Huaraz</h2>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
 
         <div class="content">
-            <p><b>descripcion</b></p>
+            <span class="link-purpura">DESCRIPCION</span>
             <p>Mejoramiento de la Infraestructura vial y peatonal
 en los barrios emprendedores de Vista Alegre, Piedras
 Azules, 08 de diciembre del distrito de Huaraz,
 provincia de Huaraz, departamento de Ancash.</p>
+
+            <span class="link-purpura">FECHA DE ADJUDICACIÓN</span>
+            <p>
+            Julio, 2015
+            </p>
+
+            <span class="link-purpura">STATUS</span>
+            <p>
+            Adjudicado
+            </p>
+
+            <span class="link-purpura">ENTIDAD PUBLICA</span>
+            <p>
+            Municipalidad provincial de Huaraz
+            </p>
         </div>
-    </div>
+
+        <div class="pull-right">
+            <a href="#" class="link-gallery">Ver galería de fotos>></a>
+        </div>
 </div>
 
         <script type='text/javascript' src='public/plugin/jquery-1.11.3.min.js'></script>
