@@ -58,6 +58,10 @@
     font-weight:bold;
     font-size: 17px;
 }
+.title-h3 {
+    font-weight:bold;
+    font-size: 13px;
+}
 .text-bold {
     font-family: 'BreePeru-Bold';
 }
@@ -72,7 +76,7 @@
     font-size:43px;
     background-color: #0079C0;
     color: white;
-    margin-top: 13px;
+    margin-top: -1px;
 }
 .content-instruction {
     padding-top: 30px;
@@ -81,19 +85,23 @@
     color:gray;
 }
 .content-instruction ul{
+    list-style-type: disc;
     margin:0;
-    padding:0
+    padding:0;
 }
 .content-instruction ul li{
     font-weight:bold;
+    font-style: italic;
+    font-size: 10px;
 }
 .title-instruction{
     font-family: 'BreePeru-Bold';
     font-weight:bold;
-    font-size: 15px
+    font-style: italic;
+    font-size: 12px;
 }
 .button-download {
-    font-size:15px;
+    font-size:11px;
     font-family: 'BreePeru-Oblique';
     position: fixed;
     bottom: 4%;
@@ -205,11 +213,11 @@ div#modalPadre a:hover, a:focus {
 }
 .btn-close {
     background-image: url('../image/btn-close.png');
-    width: 60px;
-    height: 60px;
-    right: -18px;
+    width: 30px;
+    height: 30px;
+    right: -8px;
     position: absolute;
-    top: -18px;
+    top: -8px;
     cursor: pointer;
 }
 #shadow {

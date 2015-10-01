@@ -20,9 +20,8 @@
                             <div class="text-center">
                                 <h1 class="main-title-2">Obras por Impuestos</h1>
                             </div>
-                            <div class="title-h1 text-right">
-                                Proyectos adjudicados, en ejecución y concluidos 2009 - 2015
-                            </div>
+                            <div class="title-h3 text-right">Proyectos adjudicados, en ejecución y concluidos <spam class="title-h1">2009 - 2015
+                            </spam></div>
                         </div>
                     </div>
                     <div class="col-md-5 text-right" style="margin-top:30px">
@@ -42,7 +41,7 @@
                         </ul>
                     </div>
                     <div class="col-md-8  _pull-right">
-                        <div style="width: 85%">
+                        <div style="width: 88%">
                             <?php require_once 'svg.php' ?>
                         </div>
                     </div>

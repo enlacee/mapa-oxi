@@ -27,7 +27,7 @@
 
             <div class="row">
                 <div class="pull-left">
-                    <h4 class="slide_counter" style="margin:0 0 10px 0;"><span id="current">1</span> of <span id="total"></span></h4>
+                    <h4 class="slide_counter" style="margin:0 0 10px 0;"><span id="current">1</span> / <span id="total"></span></h4>
                 </div>
                 <div class="pull-right" style="margin-right:2vh;">
                     <img src="public/image/slide/lupa.png" />
