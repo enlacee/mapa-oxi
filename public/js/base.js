@@ -1,24 +1,27 @@
 var sector = {};
 var curItem = {};
+var curIdSector = 0;
 var pathB = 'public/image/sectores/';
     sector = [
-        {id: 1, name: 'Transporte', image: pathB+'ico_transporte.png'},
-        {id: 2, name: 'Comercio', image: pathB+'ico_comercio.png'},
-        {id: 3, name: 'Irrigación', image: pathB+'ico_irrigacion.png'},
-        {id: 4, name: 'Energía', image: pathB+'ico_energia.png'},
-        {id: 5, name: 'Seguridad', image: pathB+'ico_seguridad.png'},
-        {id: 6, name: 'Eduación', image: pathB+'ico_educacion.png'},
-        {id: 7, name: 'Saniamiento y Salud', image: pathB+'ico_salud.png'},
-        {id: 8, name: 'Telecomunicaciones', image: pathB+'ico_telecomunicaciones.png'},
-        {id: 9, name: 'Cultura y Esparcimiento', image: pathB+'ico_cultura.png'},
-        {id: 10, name: 'Otros', image: pathB+'ico_otros.png'}
+        {id: 1, name: 'Transporte', image: pathB+'ico_transporte.png', imageSelect: pathB+'ico_transporte_xx.png', imageOn: pathB+'ico_transporte_on.png'},
+        {id: 2, name: 'Comercio', image: pathB+'ico_comercio.png', imageSelect: pathB+'ico_comercio_xx.png', imageOn: pathB+'ico_comercio_on.png'},
+        {id: 3, name: 'Irrigación', image: pathB+'ico_irrigacion.png', imageSelect: pathB+'ico_irrigacion_xx.png', imageOn: pathB+'ico_irrigacion_on.png'},
+        {id: 4, name: 'Energía', image: pathB+'ico_energia.png', imageSelect: pathB+'ico_energia_xx.png', imageOn: pathB+'ico_energia_on.png'},
+        {id: 5, name: 'Seguridad', image: pathB+'ico_seguridad.png', imageSelect: pathB+'ico_seguridad_xx.png', imageOn: pathB+'ico_seguridad_on.png'},
+        {id: 6, name: 'Eduación', image: pathB+'ico_educacion.png', imageSelect: pathB+'ico_educacion_xx.png', imageOn: pathB+'ico_educacion_on.png'},
+        {id: 7, name: 'Saniamiento y Salud', image: pathB+'ico_salud.png', imageSelect: pathB+'ico_salud_xx.png', imageOn: pathB+'ico_salud_on.png'},
+        {id: 8, name: 'Telecomunicaciones', image: pathB+'ico_telecomunicaciones.png', imageSelect: pathB+'ico_telecomunicaciones_xx.png', imageSelect: pathB+'ico_telecomunicaciones_on.png'},
+        {id: 9, name: 'Cultura y Esparcimiento', image: pathB+'ico_cultura.png', imageSelect: pathB+'ico_cultura_xx.png', imageOn: pathB+'ico_cultura_on.png'},
+        {id: 10, name: 'Otros', image: pathB+'ico_otros.png', imageSelect: pathB+'ico_otros_xx.png', imageOn: pathB+'ico_otros_on.png'}
     ];
 
 
 function seleccionarDepa(el, statusOver) {
     var json = readMetaData(el);
     setText(json, statusOver);
-    selectSector(json.sectores, statusOver)
+    selectSector(json.sectores, statusOver);
+    //
+    setSector();
 }
 function readMetaData(el) {
     var stringMeta =  el.getAttribute('metadatajson')
@@ -57,6 +60,8 @@ function selectSector(dataArray, flagOVER) {
             }
         }
     });
+    // set sector
+    setSector();
 }
 // click
 function clickDepa(el) {
@@ -66,6 +71,23 @@ function clickDepa(el) {
     curItem = json;
 }
 
+function setSector() {
+    if (Object.keys(curItem).length > 0) {
+        if (Object.keys(curItem.sectores).length > 0) {
+            var data = Object.keys(curItem.sectores);
+            data.forEach(function(i){
+                var img = document.getElementById('sector_'+i);
+                var indice = i-1;
+                if (curIdSector == i) {
+                    img.setAttribute('xlink:href', sector[indice].imageSelect);
+                } else {
+                    img.setAttribute('xlink:href', sector[indice].imageOn);
+                }                
+            });
+        }
+    }
+}
+
 //========================================
 // buble
 function abrirVentanaBase(el) {
@@ -73,10 +95,13 @@ function abrirVentanaBase(el) {
     $modal.css('display', 'block');
     var strid = el.getAttribute('id');
     var key = strid.split('_')[1];
+    //console.log('el', key);
+    curIdSector = key;
 
     $modal.find('.title').html(curItem.sectores[key].name);
     $modal.find('.content').html(curItem.sectores[key].content);
     el.setAttribute('xlink:href',curItem.sectores[key].imageSelect);
+    setSector();
 }
 
 function abrirVentanaHijo(e) {
@@ -88,7 +113,6 @@ function abrirVentanaHijo(e) {
 
 //Load init
 $(function() {
-    // Handler for .ready() called.
     $('.btn-close').click(function(){
         $(this).parent().css('display', 'none')
     })
@@ -101,17 +125,12 @@ $(function() {
 * =============================================================================
 */
 $(document).ready(function() {
-    var autoplaySlider = $("#content-slider").lightSlider();
-    $('#total').text(autoplaySlider.getTotalSlideCount());
-/*    var autoplaySlider = $('#content-slider').lightSlider({
-        auto:false,
-        loop:false,
+    var autoplaySlider = $("#content-slider").lightSlider({
         onBeforeSlide: function (el) {
             $('#current').text(el.getCurrentSlideCount());
         }
     });
     $('#total').text(autoplaySlider.getTotalSlideCount());
-*/
 
     // MODALS
     var $shadow =  $('#shadow');

@@ -57,7 +57,7 @@
 		
 	</text>
 
-	<!-- cirlces-->text-shadow: 1px 1px;
+	<!-- cirlces-->
 	<!-- TRANSPORTE-->
 	<image
 	id="sector_1"
