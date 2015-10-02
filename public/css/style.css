@@ -67,7 +67,7 @@
 }
 
 .main-title-1 {
-    font-family: 'BreePeru-Bold';
+    font-family: 'BreePeru-BoldOblique';
     font-size:25px;
     margin: 0px 0 0 70px;
 }
@@ -144,6 +144,11 @@
 body {
     margin:0;
     padding:0;
+    color:black;
+}
+#container_svg {
+    height: 80%;
+    overflow: hidden;
 }
 .wrapper {
 
@@ -244,5 +249,8 @@ div#modalPadre a:hover, a:focus {
 @media (max-width: 600px) {
     .button-download{
         font-size:13px;
+    }
+    #container_svg {
+        height: 50%;
     }
 }
