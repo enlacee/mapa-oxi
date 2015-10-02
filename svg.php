@@ -61,52 +61,52 @@
 	<!-- TRANSPORTE-->
 	<image
 	id="sector_1"
-	xlink:href="public/image/sectores/ico_transporte.png" x="250" y="0" height="100px" width="100px"/>
+	xlink:href="" x="250" y="0" height="100px" width="100px"/>
 
 	<!-- COMERCIO-->
 	<image
 	id="sector_2"
-	xlink:href="public/image/sectores/ico_comercio.png" x="180" y="75" height="100px" width="100px"/>
+	xlink:href="" x="180" y="75" height="100px" width="100px"/>
 
 	<!-- IRRIGACION-->
 	<image
 	id="sector_3"
-	xlink:href="public/image/sectores/ico_irrigacion.png" x="120" y="160" height="100px" width="100px"/>
+	xlink:href="" x="120" y="160" height="100px" width="100px"/>
 
 	<!-- ENERGIA-->
 	<image
 	id="sector_4"
-	xlink:href="public/image/sectores/ico_energia.png" x="90" y="260" height="100px" width="100px"/>
+	xlink:href="" x="90" y="260" height="100px" width="100px"/>
 
 	<!-- SEGURIDAD-->
 	<image
 	id="sector_5"
-	xlink:href="public/image/sectores/ico_seguridad.png" x="80" y="360" height="100px" width="100px"/>
+	xlink:href="" x="80" y="360" height="100px" width="100px"/>
 
 	<!-- EDUCACION-->
 	<image
 	id="sector_6"
-	xlink:href="public/image/sectores/ico_educacion.png" x="90" y="457" height="100px" width="100px"/>
+	xlink:href="" x="90" y="457" height="100px" width="100px"/>
 
 	<!-- SANEAMIENTO SALUD-->
 	<image
 	id="sector_7"
-	xlink:href="public/image/sectores/ico_salud.png" x="120" y="551" height="100px" width="100px"/>
+	xlink:href="" x="120" y="551" height="100px" width="100px"/>
 
 	<!-- TELECOMUNICACIONES-->
 	<image
 	id="sector_8"
-	xlink:href="public/image/sectores/ico_telecomunicaciones.png" x="175" y="633" height="100px" width="100px"/>
+	xlink:href="" x="175" y="633" height="100px" width="100px"/>
 
 	<!-- CULTURA-->
 	<image
 	id="sector_9"
-	xlink:href="public/image/sectores/ico_cultura.png" x="250" y="700" height="100px" width="100px"/>
+	xlink:href="" x="250" y="700" height="100px" width="100px"/>
 
 	<!-- OTROS-->
 	<image
 	id="sector_10"
-	xlink:href="public/image/sectores/ico_otros.png" x="330" y="760" height="100px" width="100px"/>
+	xlink:href="" x="330" y="760" height="100px" width="100px"/>
 
 
 </svg>
