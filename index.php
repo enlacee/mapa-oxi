@@ -41,7 +41,7 @@
                         </ul>
                     </div>
                     <div class="col-md-8  _pull-right">
-                        <div style="width: 88%">
+                        <div id="container_svg">
                             <?php require_once 'svg.php' ?>
                         </div>
                     </div>

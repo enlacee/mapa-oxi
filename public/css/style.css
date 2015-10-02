@@ -151,9 +151,11 @@ body {
     overflow: hidden;
 }
 .wrapper {
-
+    
 }
-
+.content{
+   overflow: hidden; 
+}
 #modalPadre{
     position: fixed;
     background-color: white;

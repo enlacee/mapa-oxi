@@ -14,7 +14,7 @@
 	 metadatajson="{
 	 	name:'ANCASH',
 	 	x:430,
-	 	y:370,
+	 	y:390,
 	 	sectores: {
 	 		1: {
 	 			name: 'Transporte',
@@ -54,7 +54,7 @@
 
 
 	<text id="nombre_depa" x="350" y="500" fill="white" style="font-weight:bold; font-size: 13px;text-shadow: 1px 1px;" >
-		NAME
+		
 	</text>
 
 	<!-- cirlces-->text-shadow: 1px 1px;
