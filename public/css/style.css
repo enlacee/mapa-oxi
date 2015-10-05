@@ -105,7 +105,7 @@
     font-family: 'BreePeru-Oblique';
     position: fixed;
     bottom: 4%;
-    right: 12%;
+    right: 8%;
 }
 .imageDownload {
     margin-bottom:10px;
@@ -151,10 +151,10 @@ body {
     overflow: hidden;
 }
 .wrapper {
-    
+
 }
 .content{
-   overflow: hidden; 
+   overflow: hidden;
 }
 #modalPadre{
     position: fixed;

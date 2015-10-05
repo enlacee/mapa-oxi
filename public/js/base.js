@@ -14,12 +14,36 @@ var pathB = 'public/image/sectores/';
         {id: 9, name: 'Cultura y Esparcimiento', image: pathB+'ico_cultura.png', imageSelect: pathB+'ico_cultura_xx.png', imageOn: pathB+'ico_cultura_on.png'},
         {id: 10, name: 'Otros', image: pathB+'ico_otros.png', imageSelect: pathB+'ico_otros_xx.png', imageOn: pathB+'ico_otros_on.png'}
     ];
-
+var departamento = [];
+    departamento[0] = {name : 'amazonas'};
+    departamento[1] = {name : 'ancash'};
+    departamento[2] = {name : 'apurimac'};
+    departamento[3] = {name : 'arequipa'};
+    departamento[4] = {name : 'ayacucho'};
+    departamento[5] = {name : 'cajamarca'};
+    departamento[6] = {name : 'cusco'};
+    departamento[7] = {name : 'huancavelica'};
+    departamento[8] = {name : 'huanuco'};
+    departamento[9] = {name : 'ica'};
+    departamento[10] = {name : 'junin'};
+    departamento[11] = {name : 'la libertad'};
+    departamento[12] = {name : 'lambayeque'};
+    departamento[13] = {name : 'lima'};
+    departamento[14] = {name : 'loreto'};
+    departamento[15] = {name : 'madre de dios'};
+    departamento[16] = {name : 'moquegua'};
+    departamento[17] = {name : 'pasco'};
+    departamento[18] = {name : 'piura'};
+    departamento[19] = {name : 'puno'};
+    departamento[20] = {name : 'san martin'};
+    departamento[21] = {name : 'tacna'};
+    departamento[22] = {name : 'tumbes'};
+    departamento[23] = {name : 'ucayali'};
 
 function seleccionarDepa(el, statusOver) {
     var json = readMetaData(el);
     setText(json, statusOver);
-    selectSector(json.sectores, statusOver);
+    selectSector(el, json.sectores, statusOver);
     //
     setSector();
 }
@@ -31,12 +55,36 @@ function readMetaData(el) {
 
 function setText(data, flag) {
     var text = document.getElementById('nombre_depa');
-    text.setAttribute('x', data.x);
-    text.setAttribute('y', data.y);
-    text.innerHTML = data.name;
+    if (flag) {
+        text.setAttribute('x', data.x);
+        text.setAttribute('y', data.y);
+        text.innerHTML = data.name;
+    } else {
+        text.innerHTML = '';
+    }
 }
 
-function selectSector(dataArray, flagOVER) {
+function selectSector(el, dataArray, flagOVER) {
+    console.log('el', el);
+    // typeof(curItem.name) != 'undefined'
+    var json = readMetaData(el);
+    console.log('curItem.name', curItem.name);
+    //var id_departamento = json.id_departamento;
+    if (curItem.id_departamento == json.id_departamento) {
+        //
+    } else {
+        if (flagOVER == true) {
+            el.style.fill = '#0079C0';
+            el.style.fillOpacity = 1;
+
+        } else {
+            el.style.fillOpacity = 0;
+        }
+    }
+
+
+
+
     sector.forEach(function(item, i) {
         var img = document.getElementById('sector_'+item.id);
         var idlocal = item.id;
@@ -82,7 +130,7 @@ function setSector() {
                     img.setAttribute('xlink:href', sector[indice].imageSelect);
                 } else {
                     img.setAttribute('xlink:href', sector[indice].imageOn);
-                }                
+                }
             });
         }
     }

@@ -25,7 +25,7 @@
                         </div>
                     </div>
                     <div class="col-md-5 text-right" style="margin-top:30px">
-                        <img src="public/image/ico_proinversion.png" />
+                        <img class="img-responsive_" src="public/image/ico_proinversion.png" />
                     </div>
                 </div>
                 <div style="clear:both"></div>
