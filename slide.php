@@ -1,5 +1,5 @@
-<div id="shadow" style="display:block"></div>
-<div id="slide" style="display:block">
+<div id="shadow" style="display:none"></div>
+<div id="slide" style="display:none">
     <div style="width: 100vw; position: fixed; top:0; top:25%">
         <div class="marco-black">
             <div class="btn-close-blue"></div>
