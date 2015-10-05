@@ -45,7 +45,7 @@
 	}"
 
      style="fill:yellow;fill-opacity:0;stroke:#ffffff;stroke-width:1.65666521px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-	d="m 505.62193,359.89054 c 1.69156,0.42287 2.46989,5.9973 3.29697,7.21031 0.78401,1.14983 3.14728,1.14942 3.56514,3.87955 0.78089,5.10193 2.70643,6.68914 3.64275,12.09437 0.49581,2.86218 1.34055,10.26707 2.88068,11.03713 9.01846,8.37497 9.66582,13.31972 12.73533,14.91174 0.58931,0.30564 1.29851,-4.31147 2.35086,-4.31486 1.00543,-0.003 1.72528,0.64513 2.66588,0.54793 0.95661,-0.0989 -1.55275,1.96196 -0.58412,3.08851 1.44972,1.68608 4.79625,3.87604 7.8747,5.54486 0.85548,0.12445 7.16438,-0.88003 7.96354,-1.51458 3.42516,-2.71968 -0.69336,-5.62191 2.17281,-7.9128 2.44252,-1.95227 9.46971,-4.27166 9.01522,-7.84925 -0.11106,-0.87415 -2.15569,-2.85301 -4.09151,-7.89886 -0.91896,-2.39532 0.82944,-4.89021 -0.45977,-7.84132 -0.89834,-2.05636 5.16561,-8.55888 4.0502,-10.77346 -0.74534,-1.47987 5.25791,0.38401 4.36475,-1.09752 -0.51985,-0.86232 -0.082,-2.47281 -0.67005,-3.33957 -1.34362,-1.98049 -4.49931,-4.34778 -6.20382,-6.31304 -2.91611,-3.36221 -4.07279,-6.6373 -7.75294,-9.60355 -2.72499,-2.19638 -3.9117,-7.83617 -6.98099,-9.66151 -0.83538,-0.49682 -0.81769,-0.71946 -1.68264,-1.16416 -1.58641,-0.81562 0.36855,-2.59294 -0.69672,-4.05064 -1.48372,-2.03034 -2.90679,-4.32295 -5.34527,-5.24486 -1.75653,-0.66408 -2.98663,1.18449 -5.11398,1.03397 -2.42279,-0.1714 -6.87479,0.15658 -8.58383,2.34601 -2.44792,3.13602 -5.98189,5.82916 -7.3939,7.84369 -1.77441,2.53157 -2.17563,6.76854 -3.18766,8.36018 -1.72219,2.70856 -4.31736,1.42457 -7.85571,3.70022 -0.63276,6.3658 -3.08462,4.2539 0.0241,6.98151 z"
+	d="m 511.59938,366.36084 c 1.52701,0.35234 2.22962,4.99698 2.97623,6.00766 0.70775,0.95805 2.84112,0.95771 3.21833,3.23246 0.70491,4.25095 2.44314,5.57341 3.28837,10.07707 0.44758,2.38478 1.21014,8.55456 2.60045,9.19619 8.14113,6.97806 8.72551,11.09803 11.49642,12.42452 0.53197,0.25466 1.17218,-3.59233 2.12215,-3.59517 0.90762,-0.003 1.55745,0.53753 2.40655,0.45655 0.86354,-0.0825 -1.4017,1.63471 -0.5273,2.57336 1.30868,1.40485 4.32966,3.22952 7.10864,4.62 0.77225,0.10369 6.46742,-0.73325 7.18883,-1.26196 3.09195,-2.26605 -0.62591,-4.6842 1.96143,-6.59297 2.20491,-1.62665 8.54848,-3.55916 8.13822,-6.54003 -0.10026,-0.72835 -1.94598,-2.37715 -3.69348,-6.58137 -0.82957,-1.99579 0.74874,-4.07453 -0.41506,-6.53341 -0.81094,-1.71337 4.6631,-7.13129 3.6562,-8.97649 -0.67283,-1.23304 4.7464,0.31996 3.94014,-0.91447 -0.46927,-0.71847 -0.0741,-2.06035 -0.60487,-2.78254 -1.21291,-1.65014 -4.06161,-3.62257 -5.60031,-5.26004 -2.63241,-2.80142 -3.67657,-5.53023 -6.99871,-8.00173 -2.4599,-1.83003 -3.53116,-6.52912 -6.30187,-8.05001 -0.75412,-0.41394 -0.73815,-0.59945 -1.51895,-0.96997 -1.43208,-0.67957 0.3327,-2.16045 -0.62895,-3.37501 -1.33937,-1.69169 -2.624,-3.6019 -4.82527,-4.37004 -1.58565,-0.55332 -2.69608,0.98692 -4.61649,0.86151 -2.18709,-0.14282 -6.20598,0.13046 -7.74877,1.9547 -2.2098,2.61294 -5.39996,4.85689 -6.6746,6.53541 -1.60181,2.1093 -1.96401,5.63956 -2.87757,6.96572 -1.55466,2.25678 -3.89736,1.18695 -7.09149,3.08304 -0.57121,5.30401 -2.78456,3.54437 0.0217,5.81702 z"
      id="path2983"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cssscsssscsssssssssssssssssscc" />
@@ -56,64 +56,62 @@
 
 	<!-- cirlces-->
 	<!-- TRANSPORTE-->
-	<image
-	id="sector_1"
-	xlink:href="" x="380" y="0" height="100px" width="100px"/>
-	<text id="sector_text_1" x="250" y="50" fill="#000000" style="font-size: 23px;font-weight:bold;">A</text>
+	<image id="sector_1" xlink:href="" x="380" y="0" height="100px" width="100px"/>
+	<text id="sector_text_1" x="240" y="50" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">A</text>
 
 	<!-- COMERCIO-->
 	<image
 	id="sector_2"
 	xlink:href="" x="300" y="65" height="100px" width="100px"/>
-	<text id="sector_text_2" x="250" y="110" fill=75"#000000" style="font-size: 23px;font-weight:bold;">B</text>
+	<text id="sector_text_2" x="70" y="110" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">B</text>
 
 	<!-- IRRIGACION-->
 	<image
 	id="sector_3"
 	xlink:href="" x="240" y="145" height="100px" width="100px"/>
-	<text id="sector_text_3" x="250" y="200" fill="#000000" style="font-size: 23px;font-weight:bold;">C</text>
+	<text id="sector_text_3" x="120" y="200" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">C</text>
 
 	<!-- ENERGIA-->
 	<image
 	id="sector_4"
 	xlink:href="" x="200" y="230" height="100px" width="100px"/>
-	<text id="sector_text_4" x="250" y="285" fill="#000000" style="font-size: 23px;font-weight:bold;">D</text>
+	<text id="sector_text_4" x="110" y="285" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">D</text>
 
 	<!-- SEGURIDAD-->
 	<image
 	id="sector_5"
 	xlink:href="" x="190" y="325" height="100px" width="100px"/>
-	<text id="sector_text_5" x="250" y="385" fill="#000000" style="font-size: 23px;font-weight:bold;">E</text>
+	<text id="sector_text_5" x="70" y="385" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">E</text>
 
 	<!-- EDUCACION-->
 	<image
 	id="sector_6"
 	xlink:href="" x="200" y="420" height="100px" width="100px"/>
-	<text id="sector_text_6" x="250" y="480" fill="#000000" style="font-size: 23px;font-weight:bold;">F</text>
+	<text id="sector_text_6" x="85" y="480" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">F</text>
 
 	<!-- SANEAMIENTO SALUD-->
 	<image
 	id="sector_7"
 	xlink:href="" x="230" y="515" height="100px" width="100px"/>
-	<text id="sector_text_7" x="250" y="575" fill="#000000" style="font-size: 23px;font-weight:bold;">G</text>
+	<text id="sector_text_7" x="0" y="575" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">G</text>
 
 	<!-- TELECOMUNICACIONES-->
 	<image
 	id="sector_8"
 	xlink:href="" x="280" y="600" height="100px" width="100px"/>
-	<text id="sector_text_8" x="250" y="665" fill="#000000" style="font-size: 23px;font-weight:bold;">H</text>
+	<text id="sector_text_8" x="40" y="665" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">H</text>
 
 	<!-- CULTURA-->
 	<image
 	id="sector_9"
 	xlink:href="" x="350" y="670" height="100px" width="100px"/>
-	<text id="sector_text_9" x="250" y="735" fill="#000000" style="font-size: 23px;font-weight:bold;">I</text>
+	<text id="sector_text_9" x="65" y="735" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">I</text>
 
 	<!-- OTROS-->
 	<image
 	id="sector_10"
 	xlink:href="" x="440" y="720" height="100px" width="100px"/>
-	<text id="sector_text_10" x="250" y="795" fill="#000000" style="font-size: 23px;font-weight:bold;">J</text>
+	<text id="sector_text_10" x="365" y="795" fill="#BBBDBF" style="font-size: 23px;font-weight:bold;">J</text>
 
 
 </svg>

@@ -1,10 +1,13 @@
 var sector = {};
 var curItem = {};
 var curIdSector = 0;
+var colorBlue = '#0079C0';
+var colorGray = '#BBBDBF';
+var colorPurple = '#E61499';
 var pathB = 'public/image/sectores/';
     sector = [
         {id: 1, name: 'Transporte', image: pathB+'ico_transporte.png', imageSelect: pathB+'ico_transporte_xx.png', imageOn: pathB+'ico_transporte_on.png'},
-        {id: 2, name: 'Comercio', image: pathB+'ico_comercio.png', imageSelect: pathB+'ico_comercio_xx.png', imageOn: pathB+'ico_comercio_on.png'},
+        {id: 2, name: 'Comercio y turismo', image: pathB+'ico_comercio.png', imageSelect: pathB+'ico_comercio_xx.png', imageOn: pathB+'ico_comercio_on.png'},
         {id: 3, name: 'Irrigación', image: pathB+'ico_irrigacion.png', imageSelect: pathB+'ico_irrigacion_xx.png', imageOn: pathB+'ico_irrigacion_on.png'},
         {id: 4, name: 'Energía', image: pathB+'ico_energia.png', imageSelect: pathB+'ico_energia_xx.png', imageOn: pathB+'ico_energia_on.png'},
         {id: 5, name: 'Seguridad', image: pathB+'ico_seguridad.png', imageSelect: pathB+'ico_seguridad_xx.png', imageOn: pathB+'ico_seguridad_on.png'},
@@ -64,36 +67,32 @@ function setText(data, flag) {
     }
 }
 
-function selectSector(el, dataArray, flagOVER) {
-    console.log('el', el);
-    // typeof(curItem.name) != 'undefined'
+function selectSector(el, sectores, flagOVER) {
     var json = readMetaData(el);
-    console.log('curItem.name', curItem.name);
-    //var id_departamento = json.id_departamento;
     if (curItem.id_departamento == json.id_departamento) {
         //
     } else {
         if (flagOVER == true) {
             el.style.fill = '#0079C0';
             el.style.fillOpacity = 1;
-
         } else {
             el.style.fillOpacity = 0;
         }
     }
 
-
-
-
     sector.forEach(function(item, i) {
         var img = document.getElementById('sector_'+item.id);
+        var imgText = document.getElementById('sector_text_'+item.id);
         var idlocal = item.id;
 
         if (flagOVER == true) {
-            if (typeof(dataArray[item.id]) != 'undefined') {
-                img.setAttribute('xlink:href', dataArray[idlocal].image);
+            if (typeof(sectores[item.id]) != 'undefined') {
+                img.setAttribute('xlink:href', sector[i].imageOn);
+                imgText.innerHTML = sector[i].name.toUpperCase();
+                imgText.setAttribute('fill', colorBlue);
             } else {
                 img.setAttribute('xlink:href', item.image);
+                imgText.innerHTML = sector[i].name.toUpperCase();
             }
         } else {
             //FUERA
@@ -105,6 +104,7 @@ function selectSector(el, dataArray, flagOVER) {
                 }
             } else {
                 img.setAttribute('xlink:href', '');
+                imgText.innerHTML = '';
             }
         }
     });
@@ -125,11 +125,14 @@ function setSector() {
             var data = Object.keys(curItem.sectores);
             data.forEach(function(i){
                 var img = document.getElementById('sector_'+i);
+                var imgText = document.getElementById('sector_text_'+i);
                 var indice = i-1;
                 if (curIdSector == i) {
                     img.setAttribute('xlink:href', sector[indice].imageSelect);
+                    imgText.setAttribute('fill', colorPurple);
                 } else {
                     img.setAttribute('xlink:href', sector[indice].imageOn);
+                    imgText.setAttribute('fill', colorBlue);
                 }
             });
         }
@@ -203,7 +206,7 @@ $(document).ready(function() {
         autoplaySlider.refresh()
     });
 
-    // acion event
+    // acion eventsector
     $('#slide a img').click(function(){
         var link = $(this).attr('src');
         $modalTop.find('img').attr('src', link);
