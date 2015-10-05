@@ -181,6 +181,24 @@ function modalHijo(event, show) {
     modalPadre(false);
 }
 
+function modalGallery(show) {
+    var $modal = $('#slide');
+    var $shadow = $('#shadow');
+    if (show == true) {
+        $modal.show(); $shadow.show();
+    } else {
+        $modal.hide(); $shadow.hide();
+    }
+}
+function modalGalleryPhoto(show) {
+    var $modal = $('#modalTop');
+    var $shadow = $('#shadow_modalTop');
+    if (show == true) {
+        $modal.show(); $shadow.show();
+    } else {
+        $modal.hide(); $shadow.hide();
+    }
+}
 
 //Load init
 $(function() {
@@ -188,7 +206,14 @@ $(function() {
         modalPadre(false);
         modalHijo(event, false);
         //$(this).parent().css('display', 'none')
-    })
+    });
+
+    $('.btn-close-blue').click(function(){
+        modalGallery(false);
+    });
+    $('.btn-close-blue-image').click(function(){
+        modalGalleryPhoto(false);
+    });
 });
 
 

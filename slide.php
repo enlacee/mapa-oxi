@@ -1,7 +1,8 @@
-<div id="shadow" style="display:none"></div>
-<div id="slide" style="display:none">
+<div id="shadow" style="display:block"></div>
+<div id="slide" style="display:block">
     <div style="width: 100vw; position: fixed; top:0; top:25%">
         <div class="marco-black">
+            <div class="btn-close-blue"></div>
             <div class="item">
                 <ul id="content-slider" class="content-slider">
                     <li>
@@ -42,6 +43,7 @@
 </div>
 <div id="modalTop" style="display:none">
     <div class="row">
+        <div class="btn-close-blue-image"></div>
         <img src="public/image/slide/01.jpg" width="500px" class="img-responsive" />
     </div>
     <div class="row">

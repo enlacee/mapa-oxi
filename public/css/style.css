@@ -233,6 +233,23 @@ div#modalPadre a:hover, a:focus {
     top: -8px;
     cursor: pointer;
 }
+.btn-close-blue {
+    background-image: url('../image/btn-close-blue.png');
+    width: 30px;
+    height: 30px;
+    position: absolute;right: 9vh;top: 0px;
+    cursor: pointer;
+}
+.btn-close-blue-image {
+    background-image: url('../image/btn-close-blue.png');
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: -17px;
+    top: -30px;
+    cursor: pointer;
+}
+
 .shadow-general {
     position: fixed;
     top: 0vh;

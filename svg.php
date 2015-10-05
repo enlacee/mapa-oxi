@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1000 850">
-	<rect width="1000" height="850" style="fill:#ffffff;stroke-width:3;stroke:#00ff00"></rect>
+	<rect width="1000" height="850" style="fill:#ffffff;stroke-width:0;stroke:#00ff00"></rect>
     <image xlink:href="public/image/peru-mapa.png" x="300" y="40" height="700" width="700"/>
 
 	<path
