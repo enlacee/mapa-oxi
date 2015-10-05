@@ -132,7 +132,7 @@
 }
 .link-purpura,  .link-purpura a, .link-purpura a:hover, a:focus{
     font-weight:bold;
-    color:purple;
+    color:#E61499;
     font-family:'BreePeru-Bold';
 }
 
@@ -150,10 +150,15 @@ body {
 
 }
 .content{
+
+}
+.content-scroll {
     overflow-y: auto;
     height: auto;
     max-height: 70vh;
+    margin: 20px 0;
 }
+
 #modalPadre{
     position: fixed;
     background-color: white;
@@ -172,14 +177,16 @@ body {
     color:white;
 }
 #modalPadre .franja-lila {
-    background-color: #90278E;
+    background-color: #E61499;
     display: inline-block;
     margin: 25px 0 12px 0;
     padding-right: 20px;
 }
 #modalPadre ol {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+}
+#modalPadre ol li {
+    margin: 5px 0 5px 0;
 }
 div#modalPadre a {
     color:black;
@@ -188,7 +195,8 @@ div#modalPadre a {
 div#modalPadre a:hover, a:focus {
     font-family: 'BreePeru-Bold';
     text-decoration: none;
-    color:#4A0D49;
+    color:#E61499;
+    font-weight: bold;
 }
 .bold-purple {
 
@@ -211,7 +219,7 @@ div#modalPadre a:hover, a:focus {
 }
 #modalHijo h2 {
     font-family: 'BreePeru-Regular';
-    color: purple;
+    color: #E61499;
     margin: 15px 0 0 25px;
     font-size: 23px;
     font-weight: bold;
@@ -225,6 +233,16 @@ div#modalPadre a:hover, a:focus {
     top: -8px;
     cursor: pointer;
 }
+.shadow-general {
+    position: fixed;
+    top: 0vh;
+    left: 0vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.2;
+}
+
 #shadow {
     position: fixed;
     top: 0vh;
@@ -233,7 +251,6 @@ div#modalPadre a:hover, a:focus {
     height: 100vh;
     background-color: black;
     opacity: 0.2;
-
     z-index:1;
 }
 

@@ -142,8 +142,9 @@ function setSector() {
 //========================================
 // buble
 function abrirVentanaBase(el) {
+    modalPadre(true);
+
     var $modal = $('#modalPadre');
-    $modal.css('display', 'block');
     var strid = el.getAttribute('id');
     var key = strid.split('_')[1];
     //console.log('el', key);
@@ -155,17 +156,38 @@ function abrirVentanaBase(el) {
     setSector();
 }
 
-function abrirVentanaHijo(e) {
-    e.preventDefault();
+function modalPadre(show) {
+    var $modal = $('#modalPadre');
+    var $shadow = $('#modalPadreShadow');
+    if (show == true) {
+        $modal.css('display', 'block');
+        $shadow.show();
+    } else {
+        $modal.css('display', 'none');
+        $shadow.hide();
+    }
+}
+function modalHijo(event, show) {
+    event.preventDefault();
     var $modal = $('#modalHijo');
-    $modal.css('display', 'block');
+    var $shadow = $('#modalHijoShadow');
+    if (show == true) {
+        $modal.css('display', 'block');
+        $shadow.show();
+    } else {
+        $modal.css('display', 'none');
+        $shadow.hide();
+    }
+    modalPadre(false);
 }
 
 
 //Load init
 $(function() {
-    $('.btn-close').click(function(){
-        $(this).parent().css('display', 'none')
+    $('.btn-close').click(function(event){
+        modalPadre(false);
+        modalHijo(event, false);
+        //$(this).parent().css('display', 'none')
     })
 });
 

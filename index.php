@@ -70,7 +70,7 @@
         </div>
 
 <!--modals-->
-
+<div id="modalPadreShadow" class="shadow-general" style="display:none"></div>
 <div id="modalPadre" class="modalshadow" style="display:none">
     <div class="btn-close"></div>
     <div>
@@ -79,30 +79,33 @@
         </span>
 
         <div class="content">
-            <ol>
-                <li>Mejoramiento Jr. Progreso Coischo – Santa</li>
-                <li>Mejoramiento calles Huarmey</li>
-                <li>Acceso vial Nuevo Chimbote – Santa</li>
-                <li>Construcción y mejoramiento calles Huarmey</li>
-                <li>Mejoramiento camino vecinal Huarmey -Ancash</li>
-                <li>Mejoramiento vías Caserío de Chora, Lacabamba</li>
-                <li>Mejoramiento pistas y veredas barrios de Huaraz</li>
-                <li>Mejoramiento infraestructura vial y peatonal distritos de Huaraz</li>
-                <li>Mejoramiento infraestructura vial barrio La Pradera, Huaraz</li>
-                <li>Mejoramiento Jr. Ladislao Meza, Huaraz</li>
-                <li>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon</li>
-                <li>Mejoramiento infraestructura vial y peatonal Pacllon</li>
-                <li>Mejoramiento carretera vecinal Culebras, Huarmey</li>
-                <li>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis</li>
-                <li>Pistas y veredas Chasquitambo - Colquioc</li>
-                <li>Pistas y veredas Llamarumi - Colquioc</li>
-                <li>Pistas y veredas Llampa - Colquioc</li>
-                <li>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey</li>
-            </ol>
+            <div class="content-scroll">
+                <ol>
+                    <li>Mejoramiento Jr. Progreso Coischo – Santa</li>
+                    <li>Mejoramiento calles Huarmey</li>
+                    <li>Acceso vial Nuevo Chimbote – Santa</li>
+                    <li>Construcción y mejoramiento calles Huarmey</li>
+                    <li>Mejoramiento camino vecinal Huarmey -Ancash</li>
+                    <li>Mejoramiento vías Caserío de Chora, Lacabamba</li>
+                    <li>Mejoramiento pistas y veredas barrios de Huaraz</li>
+                    <li>Mejoramiento infraestructura vial y peatonal distritos de Huaraz</li>
+                    <li>Mejoramiento infraestructura vial barrio La Pradera, Huaraz</li>
+                    <li>Mejoramiento Jr. Ladislao Meza, Huaraz</li>
+                    <li>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon</li>
+                    <li>Mejoramiento infraestructura vial y peatonal Pacllon</li>
+                    <li>Mejoramiento carretera vecinal Culebras, Huarmey</li>
+                    <li>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis</li>
+                    <li>Pistas y veredas Chasquitambo - Colquioc</li>
+                    <li>Pistas y veredas Llamarumi - Colquioc</li>
+                    <li>Pistas y veredas Llampa - Colquioc</li>
+                    <li>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey</li>
+                </ol>
+            </div>
         </div>
     </div>
 </div>
 
+<div id="modalHijoShadow" class="shadow-general" style="display:none"></div>
 <div id="modalHijo" class="modalshadow" style="display:none; padding: 0 0 0 10px; margin-top: 25px; margin-left: 20px;">
     <div class="btn-close"></div>
 
@@ -120,26 +123,28 @@
         </div>
 
         <div class="content">
-            <span class="link-purpura">DESCRIPCION</span>
-            <p>Mejoramiento de la Infraestructura vial y peatonal
-en los barrios emprendedores de Vista Alegre, Piedras
-Azules, 08 de diciembre del distrito de Huaraz,
-provincia de Huaraz, departamento de Ancash.</p>
+            <div class="content-scroll">
+                <span class="link-purpura">DESCRIPCION</span>
+                <p>Mejoramiento de la Infraestructura vial y peatonal
+    en los barrios emprendedores de Vista Alegre, Piedras
+    Azules, 08 de diciembre del distrito de Huaraz,
+    provincia de Huaraz, departamento de Ancash.</p>
 
-            <span class="link-purpura">FECHA DE ADJUDICACIÓN</span>
-            <p>
-            Julio, 2015
-            </p>
+                <span class="link-purpura">FECHA DE ADJUDICACIÓN</span>
+                <p>
+                Julio, 2015
+                </p>
 
-            <span class="link-purpura">STATUS</span>
-            <p>
-            Adjudicado
-            </p>
+                <span class="link-purpura">STATUS</span>
+                <p>
+                Adjudicado
+                </p>
 
-            <span class="link-purpura">ENTIDAD PUBLICA</span>
-            <p>
-            Municipalidad provincial de Huaraz
-            </p>
+                <span class="link-purpura">ENTIDAD PUBLICA</span>
+                <p>
+                Municipalidad provincial de Huaraz
+                </p>
+            </div>
         </div>
 
         <div class="pull-right">
