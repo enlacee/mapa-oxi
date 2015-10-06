@@ -1,101 +1,852 @@
+<!--
 <path
-     style="fill:none;"
-     d="m 538.12575,413.39164 c 0.72289,-2.00874 0.93732,-9.15054 4.53851,-5.04698 1.80903,2.06256 2.87919,7.97134 5.11699,8.37935 1.04539,-0.28516 0.92313,-1.03038 1.73637,-1.3819 1.0879,-0.4681 1.10651,-0.39279 2.2635,-0.56854 2.91109,-0.44928 2.30424,-2.31994 3.13078,-4.77885 0.78492,-2.337 2.9173,-4.29103 5.57505,-3.45613 1.607,0.50665 5.33579,2.24548 6.15703,3.7951 1.04272,1.97287 1.39885,4.33675 2.33172,6.32666 1.15521,2.46521 2.09781,4.8739 3.08206,7.32923 1.73724,4.32689 2.83668,9.76217 5.35531,13.47476 1.50337,2.22131 3.28672,3.30996 4.24705,5.86305 0.90983,2.42215 2.14921,3.89286 3.85104,5.72225 1.52463,1.63838 2.80033,2.81763 4.85919,3.80228 2.01189,0.96314 5.08687,3.24179 6.56368,5.31332 2.53104,3.54849 4.20893,7.9032 3.93073,12.72954 -0.26841,4.60846 -4.58277,8.99456 -9.13634,7.96776 -1.53879,-0.34614 -1.21103,-0.70217 -2.84816,0.0853 -0.99577,0.47707 -0.79733,1.21242 -1.79662,1.81056 -0.44033,0.26454 -0.83722,0.75149 -1.22167,1.1954 -0.44652,0.51561 -1.29609,1.41598 -1.61946,1.76122 -0.96472,1.0214 -2.52836,2.10023 -3.4807,3.2427 -5.32431,-2.18182 -6.94466,-9.61867 -10.04001,-13.91237 -2.66301,-3.69377 -4.51369,-7.79109 -7.31404,-11.46245 -1.43958,-1.88679 -2.32021,-4.02465 -3.63398,-5.9285 -1.34744,-1.94596 -3.09271,-2.39972 -3.63578,-4.88734 -0.49342,-2.27419 0.45271,-5.01383 -0.1506,-7.22613 -0.52887,-1.94506 -2.70999,-4.3744 -3.87495,-6.0101 -1.43161,-2.01234 -2.56824,-5.0721 -4.34893,-6.49704 -1.10471,-0.88243 -2.97841,-0.87167 -4.02464,-1.83747 -1.52999,-1.41509 -0.34285,-0.90484 -0.15772,-2.79074 0.18872,-1.91368 -0.37029,-0.98824 -0.94702,-2.44009 -0.67594,-1.69937 0.0922,-2.41139 -0.0559,-4.20761 -0.27817,-3.38797 -5.21533,-2.1298 -4.46495,-5.92224 l 0.0124,-0.44389 z"
+     style="color:#000000;fill:#51BDE9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.118644;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     d="m 751.43455,631.23819 c 5.81127,-3.05883 7.73201,-5.90663 7.7732,-11.52495 0.0191,-2.69647 2.19328,-5.41144 5.56044,-6.94562 4.20373,-1.91534 5.24337,-3.60729 4.33977,-7.06267 -0.82293,-3.14682 0.73448,-6.73386 5.06519,-11.66625 5.28704,-6.02159 7.0734,-10.48123 5.35561,-14.13855 -0.88488,-1.88397 0.2549,1.58467 3.02996,3.09269 1.48478,0.80685 4.51511,0.40992 5.34906,-0.41658 0.97613,-0.96742 2.68924,-4.57842 4.18483,-5.09175 1.7182,-2.77776 2.30698,-1.20833 2.56043,-3.19407 0.13206,-1.03464 0.84984,-2.11883 0.43469,-2.56601 -1.58237,-1.70443 -7.08483,0.47161 -7.17042,-0.24231 -0.1256,-1.04763 -0.78713,-3.12964 -1.79676,-3.56325 1.69561,2.07603 3.89955,1.35031 4.09313,-1.77665 0,0 0.65785,-1.26705 -2.08246,-2.67645 -0.73804,-0.37959 -3.39784,-1.4413 -5.27355,-2.8489 -1.84407,-1.38385 -2.89484,-3.10646 -4.71296,-4.33183 -3.41586,-2.3022 -5.73094,-3.14122 -5.15998,-3.51739 0.64418,-0.42441 1.33512,-1.31386 2.33662,-2.68348 2.63675,-3.60596 3.97163,-7.81688 2.81479,-10.06921 -0.38117,-0.74212 -1.74108,-0.56336 -2.47648,-1.01787 -3.59634,-2.22265 -1.83674,-6.19243 4.04097,-12.07015 5.16286,-5.16286 5.66777,-7.19932 6.08593,-24.54572 0.34992,-14.51599 1.5014,-20.92142 4.95049,-27.53866 l 4.49451,-8.62293 -12.05659,-20.31063 c -14.25828,-24.01964 -18.54767,-27.62536 -28.82752,-24.23271 -11.18782,3.69231 -13.52379,1.60553 -15.14458,-13.52905 -0.78849,-7.3629 -0.76921,-16.92871 0.0428,-21.25731 l 1.47646,-7.87021 -11.03383,7.75549 c -10.3296,7.2605 -11.74204,7.66701 -22.1299,6.36915 -9.58148,-1.19714 -11.39665,-2.18273 -13.29828,-7.22074 -2.20199,-5.83382 -8.95451,-8.60555 -20.96483,-8.60555 -5.84814,0 -8.69102,-3.6692 -5.39595,-6.96426 3.65985,-3.65985 2.77553,-8.1621 -3.50706,-17.85485 -16.97938,-26.19579 -17.90593,-28.14577 -16.17629,-34.0438 0.92837,-3.16565 1.75129,-6.87086 1.82873,-8.23379 0.13644,-2.40068 7.3611,-10.61905 15.94739,-18.14074 3.48555,-3.05337 3.82062,-4.63858 1.99532,-9.43951 -1.82905,-4.81072 -1.50538,-6.31384 1.94703,-9.04223 2.27742,-1.79979 4.76581,-6.27201 5.52975,-9.93826 1.51985,-7.29386 5.70849,-11.95049 13.86458,-15.4136 2.91099,-1.23602 7.68133,-4.17458 10.60074,-6.53012 2.91938,-2.35553 10.63906,-5.15045 17.15481,-6.21092 6.51576,-1.06046 15.25449,-3.35193 19.41942,-5.09214 6.97291,-2.91347 8.18128,-2.83779 15.25928,0.95579 8.02155,4.2993 11.71441,3.81901 11.71441,-1.52354 0,-4.74362 -10.52604,-13.54498 -16.19919,-13.54498 -2.74299,0 -4.98725,-0.51468 -4.98725,-1.14373 0,-2.28213 9.05023,-19.07661 12.22775,-22.69102 2.94653,-3.35165 2.89132,-4.11445 -0.57521,-7.94491 -2.10909,-2.33051 -4.96926,-4.23729 -6.35593,-4.23729 -1.38667,0 -4.33487,-2.00405 -6.55155,-4.45344 -3.31894,-3.66739 -5.61656,-4.23603 -13.0172,-3.22166 -4.9428,0.67749 -11.51407,0.27097 -14.60284,-0.90338 -4.26712,-1.62236 -6.43523,-1.39709 -9.02724,0.93794 -4.50477,4.05815 -15.06388,6.68228 -15.06388,3.74365 0,-1.23068 -5.0053,-2.52578 -11.12288,-2.87798 -10.8468,-0.62449 -11.13937,-0.81129 -11.78678,-7.52598 -0.48954,-5.07724 -1.70452,-6.88559 -4.62623,-6.88559 -2.74759,0 -4.16784,-1.78617 -4.63271,-5.82627 -0.47602,-4.137 -2.70922,-6.84445 -7.70227,-9.33793 -9.46405,-4.72625 -15.21388,-10.17504 -15.21388,-14.41734 -4.08681,-15.08429 -49.31439,-27.46382 -35.99218,-11.03213 3.48214,4.22444 6.33117,9.61719 6.33117,11.98389 0,6.0163 -21.70842,37.80918 -30.11875,44.11019 -3.82664,2.8669 -16.31255,9.2995 -27.74647,14.29465 -15.85902,6.92836 -21.52413,10.5038 -23.88915,15.07725 -1.70512,3.29733 -4.50581,5.99514 -6.22377,5.99514 -1.71796,0 -3.12356,1.49819 -3.12356,3.3293 0,1.83112 -1.43008,4.75939 -3.17797,6.50727 -1.74788,1.74788 -3.17796,6.7364 -3.17796,11.0856 0,6.19926 -1.54396,9.4041 -7.14656,14.83435 l -7.14655,6.92672 -4.67879,-7.57043 c -3.22638,-5.2204 -6.23051,-7.57043 -9.67756,-7.57043 -2.74932,0 -5.64464,-1.04503 -6.43403,-2.32229 -0.78938,-1.27725 -4.10511,-1.93043 -7.36827,-1.4515 -4.85609,0.71272 -6.1032,-0.0195 -6.87057,-4.03365 -0.76047,-3.97814 -0.0163,-4.90443 3.94024,-4.90443 5.82313,0 8.65568,-3.67555 5.36698,-6.96426 -1.29678,-1.29677 -2.35777,-4.55057 -2.35777,-7.23065 0,-6.33538 -4.31651,-6.18953 -11.41116,0.38557 -3.12068,2.89215 -7.42588,6.19605 -9.5671,7.342 -2.14123,1.14595 -5.47386,5.21503 -7.40585,9.04239 -1.93198,3.82737 -4.66484,8.61403 -6.07302,10.63704 -2.11256,3.03492 -1.76152,4.47699 2.00727,8.24578 3.60031,3.60031 4.08204,5.3451 2.27476,8.23902 -1.86853,2.99199 -0.96807,4.96642 4.86576,10.66917 3.93723,3.84875 6.13407,7.33926 4.88187,7.75666 -1.2522,0.41739 -4.04437,2.05144 -6.20483,3.6312 -3.29031,2.40594 -3.48002,3.41221 -1.16844,6.19748 1.51781,1.82886 4.80025,3.97284 7.2943,4.76443 11.02908,3.50049 27.89524,18.10481 33.5041,29.011 2.27426,4.4222 7.36547,11.61612 11.31382,15.98646 3.94834,4.37034 15.7754,25.21538 26.28235,46.32233 10.50696,21.10695 20.10597,38.9958 21.33113,39.75299 1.22517,0.7572 2.22758,3.30057 2.22758,5.65194 0,2.35138 2.78374,7.05897 6.18608,10.46132 3.40235,3.40235 6.85904,9.25002 7.68155,12.99485 0.8225,3.74483 3.186,9.22992 5.25224,12.18907 19.8985,28.49779 25.80216,42.45659 17.9564,42.45659 -4.80004,0 -3.74261,4.25531 3.78314,15.22404 7.67472,11.18585 31.07839,32.46301 40.70839,37.00954 3.49576,1.6504 10.74981,5.72025 16.12012,9.04411 5.3703,3.32383 12.04403,6.74373 14.83051,7.59974 2.78646,0.85604 6.10763,2.385 7.38032,3.39774 1.27271,1.01273 7.46975,4.56612 13.77119,7.89644 31.04502,16.40724 34.2593,18.7126 39.07517,28.02546 2.99027,5.78257 27.13103,23.15886 32.17442,23.15886 1.6424,0 5.06861,-1.09612 7.61382,-2.43581 l 0,0 z"
+     id="path4205"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccsssssscsssccsssssssssscsssscssssssscsssssssssssssssssssssssssccssssssssscssssssssssssssssssssssssssssssscssssccc" />
+-->
+
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		x:556,
+		y:450,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 535.99969,414.01889 c 0.72891,-2.00299 0.94513,-9.12431 4.57635,-5.03251 1.82411,2.05664 2.90319,7.94848 5.15965,8.35532 1.0541,-0.28434 0.93082,-1.02743 1.75084,-1.37793 1.09698,-0.46676 1.11574,-0.39167 2.28237,-0.56692 2.93536,-0.44799 2.32346,-2.31328 3.15688,-4.76515 0.79147,-2.33029 2.94163,-4.27872 5.62153,-3.44621 1.62041,0.50519 5.38028,2.23904 6.20836,3.78421 1.05142,1.96722 1.41052,4.32432 2.35116,6.30853 1.16485,2.45813 2.11531,4.85991 3.10776,7.3082 1.75172,4.31448 2.86033,9.73419 5.39995,13.43613 1.51591,2.21493 3.31412,3.30047 4.28247,5.84624 0.91741,2.4152 2.16712,3.88169 3.88314,5.70584 1.53734,1.63368 2.82368,2.80955 4.8997,3.79137 2.02866,0.96038 5.12928,3.2325 6.6184,5.29808 2.55214,3.53832 4.24402,7.88055 3.96351,12.69304 -0.27066,4.59525 -4.62098,8.96877 -9.21252,7.94492 -1.55161,-0.34515 -1.22112,-0.70016 -2.8719,0.0851 -1.00407,0.47569 -0.80398,1.20894 -1.8116,1.80536 -0.44401,0.26378 -0.8442,0.74934 -1.23186,1.19197 -0.45024,0.51413 -1.30689,1.41192 -1.63295,1.75617 -0.97277,1.01847 -2.54944,2.09421 -3.50973,3.2334 -5.3687,-2.17557 -7.00255,-9.59108 -10.12371,-13.87247 -2.68521,-3.68318 -4.55132,-7.76875 -7.37502,-11.42958 -1.45157,-1.88139 -2.33955,-4.01311 -3.66427,-5.9115 -1.35868,-1.94039 -3.11849,-2.39284 -3.66609,-4.87333 -0.49754,-2.26767 0.45648,-4.99945 -0.15185,-7.2054 -0.53329,-1.93949 -2.73259,-4.36186 -3.90726,-5.99287 -1.44354,-2.00658 -2.58966,-5.05756 -4.38519,-6.47842 -1.11392,-0.87989 -3.00324,-0.86916 -4.05819,-1.83219 -1.54274,-1.41103 -0.34571,-0.90225 -0.15904,-2.78274 0.19029,-1.9082 -0.37337,-0.98541 -0.95491,-2.4331 -0.68157,-1.69449 0.093,-2.40447 -0.0564,-4.19554 -0.28048,-3.37825 -5.25881,-2.12369 -4.50217,-5.90525 l 0.0125,-0.44262 z"
      id="path7"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 615.01272,548.87733 c 1.39529,-5.8424 6.12074,-12.45426 12.25652,-7.2575 2.9731,2.51901 5.0098,5.95451 8.22565,8.23137 3.21052,2.27062 7.1032,3.25707 10.99409,3.14586 6.14642,-0.17219 13.51364,-3.32071 18.67669,-6.64143 6.11808,-3.9359 4.26831,-14.88536 11.15179,-17.5362 3.58705,-1.38014 7.56563,1.11558 10.91614,2.15668 3.59944,1.11919 6.62572,0.5623 10.26147,0.27533 6.73023,-0.53448 6.99512,8.28609 13.44716,9.02234 3.61009,0.40983 7.37521,-0.31208 10.37044,2.29842 3.39126,2.95661 4.1726,8.16413 5.23573,12.31075 1.55208,6.05672 6.65047,13.49001 2.042,19.25261 -3.25749,4.07219 -6.31386,6.4845 -11.06763,10.24821 -1.5911,1.93071 -3.94761,3.89554 -3.64463,6.49346 0.29857,2.58717 1.53971,4.94924 1.78688,7.57942 0.14262,1.54244 0.094,3.10012 0.0408,4.64614 -3.34163,0.27263 -4.66873,2.25807 -8.89273,-2.13786 -1.44847,-1.47342 -2.17402,-3.96369 -3.91747,-5.21469 -1.4343,-1.0286 -3.31153,-0.70665 -4.8911,-1.23038 -1.39976,-0.46629 -2.53193,-1.20612 -3.8174,-1.91367 -1.62387,-0.89587 -3.17064,-1.30569 -4.70945,-2.41229 -2.78884,-2.00785 -5.29683,-4.75733 -8.13618,-6.57416 -3.68093,-2.35849 -8.48077,-3.44717 -12.37345,-5.18511 -2.10669,-0.9425 -4.39234,-1.63121 -6.38031,-2.78803 -2.12086,-1.23572 -3.2176,-3.57808 -5.32253,-4.80844 -2.05176,-1.20078 -3.37532,-1.3326 -5.70345,-1.38371 -2.29982,-0.052 -3.62515,-1.05728 -5.44481,-2.41137 -1.93127,-1.44111 -4.07603,-2.81766 -6.10741,-4.06057 -1.57429,-0.96401 -3.00856,-1.17745 -4.69797,-1.80159 -1.87812,-0.69142 -3.94672,-1.92447 -5.35708,-3.31623 -1.19333,-1.17745 -2.29891,-3.7395 -3.79522,-4.43183 -0.77251,-0.35867 -2.34588,-0.1892 -3.20611,-0.39365 -0.83099,-0.19998 -1.60348,-0.52371 -2.45132,-0.75061 -1.35364,-0.3605 -4.83261,-1.61147 -5.36593,-3.07229 l -0.12313,-0.33898 z"
+     inkscape:connector-curvature="0" />
+	<path
+		onmouseover="seleccionarDepa(this, true)"
+		onmouseout="seleccionarDepa(this, false)"
+		onclick="clickDepa(this)"
+		metadatajson="{
+			id_departamento: '1',
+			x:521,
+			y:380,
+			sectores: {
+				1: {
+					name: 'Transporte',
+					content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+				},
+				2: {
+					name: 'Comercio y Turismo',
+				},
+				6: {
+					name: 'Educación',
+				},
+				7: {
+					name: 'Salud',
+				},
+				9: {
+					name: 'Cultura y Esparcimiento',
+				}
+			}
+		}"
+	     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+	     d="m 560.65458,407.75237 c -1.96346,-1.63456 -2.44049,-2.83188 -1.00675,-5.23903 0.63601,-1.06858 1.61061,-2.18363 1.87949,-3.4981 0.48507,-2.37676 -1.81966,-2.08972 -2.25736,-3.40954 -0.81289,-2.45457 -0.79949,-8.13984 0.97548,-10.92434 2.17697,-3.41581 5.12929,-6.34341 4.97207,-10.72764 -0.12684,-3.52131 -5.49644,-7.65426 -7.9503,-10.04533 -3.06934,-2.99104 -4.77467,-7.15978 -7.34108,-10.49959 -2.66113,-3.46233 -4.52275,-7.98873 -7.75019,-10.79648 -3.66608,-3.19136 -9.47247,-1.03371 -13.69329,0.005 -2.26273,0.55706 -3.68573,0.66438 -5.41246,2.34186 -1.83305,1.77945 -3.05151,4.1723 -4.1708,6.58215 -0.66102,1.42445 -1.25415,4.45665 -2.54139,5.4626 -1.90541,1.48973 -4.57099,0.0982 -6.07798,1.87871 -3.16672,3.74309 1.62758,9.64029 3.20692,12.78875 1.97418,3.93711 4.077,7.64533 6.10121,11.48141 2.14387,4.06408 3.07203,8.49393 5.52768,12.49989 2.06439,3.36486 3.57498,6.38454 4.97206,10.03999 1.3328,3.48378 2.62362,6.87812 5.70903,9.18068 1.05321,-1.5836 1.32479,-9.17263 5.24362,-5.54221 2.81029,2.60301 0.37696,8.54221 5.19898,7.9762 0.78787,-2.13266 2.42798,-1.10881 3.91887,-1.78749 1.64991,-0.75025 1.61687,-1.64174 1.9965,-3.42476 0.73786,-3.45606 4.4102,-6.76994 8.27009,-4.33953"
+	     id="path37"
+	     inkscape:connector-curvature="0" />
+
+		<path
+			onmouseover="seleccionarDepa(this, true)"
+			onmouseout="seleccionarDepa(this, false)"
+			onclick="clickDepa(this)"
+			metadatajson="{
+				id_departamento: '11',
+				x:499,
+				y:343,
+				sectores: {
+					1: {
+						name: 'Transporte',
+						content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+					},
+					2: {
+						name: 'Comercio y Turismo',
+					},
+					6: {
+						name: 'Educación',
+					},
+					7: {
+						name: 'Salud',
+					},
+					9: {
+						name: 'Cultura y Esparcimiento',
+					}
+				}
+			}"
+		     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+		     d="m 509.45818,359.94892 c 1.05946,-0.0188 1.36585,-1.60241 2.22878,-2.16397 1.01834,-0.66171 2.01527,-0.24501 3.17656,-0.46228 2.49674,-0.46498 2.87819,-3.45962 3.71789,-5.40985 0.99421,-2.30524 1.92147,-4.15173 3.51687,-6.0689 2.06532,-2.48406 4.19667,-3.10015 7.1419,-3.84144 2.5682,-0.64739 4.9515,-0.98539 7.65907,-0.98539 1.05319,0 2.2127,-0.11983 3.09079,0.2468 1.06926,0.44709 2.13588,1.5219 2.97556,2.35439 1.88037,1.86171 3.78042,3.66977 5.15249,5.93745 0.65393,1.08375 1.30065,2.35083 2.00455,3.3398 0.8263,1.16064 2.03672,2.34457 2.70133,3.58123 0.31623,0.5857 0.16793,1.60598 0.98618,1.72492 1.13717,-1.20629 1.27922,-1.32074 2.86839,-1.92789 1.30243,-0.49986 1.87771,-1.9404 2.99877,-2.38929 0.98709,-0.39436 2.1859,0.0842 2.6888,-1.11148 0.43863,-1.0471 -0.32245,-2.43042 -0.82094,-3.26023 -1.71868,-2.85335 -4.52005,-5.95888 -7.57956,-7.47008 -2.38151,-1.17675 -5.902,-2.56005 -7.67787,-4.60688 -1.64813,-1.89923 -2.27073,-4.86081 -3.23638,-7.02745 -1.09696,-2.45722 -2.91662,-4.76959 -3.06043,-7.58184 -0.12862,-2.47155 -0.46093,-5.19347 -1.2372,-7.53893 -0.48417,-1.4638 -1.33547,-2.80328 -2.31542,-3.96752 -0.86291,-1.02475 -1.68921,-2.42149 -2.84067,-3.10287 -3.50618,-2.07273 -3.6616,3.20303 -2.88803,5.19973 0.91205,2.36247 1.75446,4.11062 1.61779,6.90496 -0.30819,6.24058 -7.12849,6.02508 -10.87141,9.49721 -0.96295,0.89332 -2.09207,1.79822 -2.75401,2.9875 -1.28812,-0.76991 -2.30557,-2.04859 -3.55619,-2.92491 -1.15949,-0.81282 -2.3556,-1.39492 -3.58746,-1.91269 -1.11125,-0.46675 -2.27256,-1.13916 -3.46152,-1.5657 -0.65568,-0.23519 -2.92464,-0.95766 -3.57137,-0.85576 -1.39531,0.22177 -2.13053,2.81224 -3.12386,3.81731 -1.40336,1.41819 -2.52176,0.72878 -3.70805,-0.56334 -2.38417,-2.5994 -3.38378,-6.12968 -6.30844,-8.13177 -2.41544,-1.65427 -3.00236,-4.76783 -5.42497,-6.37915 -2.48602,-1.65427 -4.72284,1.48522 -5.05959,3.80209 -0.48596,3.34964 2.38152,5.64324 4.30476,7.89481 2.22429,2.60656 4.22263,5.35533 6.38526,7.98426 1.6258,1.97523 3.76257,3.86379 5.65187,5.6799 2.30469,2.21311 2.99521,4.91981 4.3003,7.80539 0.62173,1.37435 1.2238,2.73174 2.0403,3.98451 0.82183,1.25811 2.48869,2.22834 3.16313,3.45157 0.53953,0.97824 0.33587,2.89987 0.65121,3.96845 0.47435,1.61222 0.81916,1.45931 2.43066,1.45931"
+		     id="path39"
+		     inkscape:connector-curvature="0" />
+
+
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 613.52767,549.11607 c 1.40691,-5.82565 6.17176,-12.41855 12.35869,-7.23669 2.99789,2.51178 5.05157,5.93743 8.29423,8.20776 3.23729,2.26411 7.16242,3.24773 11.08575,3.13684 6.19766,-0.1717 13.6263,-3.31119 18.83239,-6.62238 6.16909,-3.92461 4.3039,-14.84268 11.24476,-17.48592 3.61696,-1.37618 7.62871,1.11238 11.00715,2.1505 3.62945,1.11598 6.68096,0.56068 10.34702,0.27454 6.78634,-0.53295 7.05343,8.26233 13.55927,8.99647 3.64019,0.40865 7.43669,-0.31119 10.45689,2.29183 3.41954,2.94812 4.20739,8.14072 5.27938,12.27545 1.56503,6.03935 6.70592,13.45132 2.05903,19.1974 -3.28465,4.06051 -6.3665,6.46591 -11.1599,10.21882 -1.60436,1.92518 -3.98052,3.88437 -3.67501,6.47484 0.30106,2.57976 1.55254,4.93505 1.80177,7.55769 0.14381,1.53801 0.0948,3.09123 0.0411,4.63282 -3.36949,0.27185 -4.70765,2.25159 -8.96687,-2.13174 -1.46054,-1.46919 -2.19214,-3.95232 -3.95012,-5.19973 -1.44627,-1.02565 -3.33914,-0.70463 -4.93188,-1.22685 -1.41143,-0.46496 -2.55304,-1.20266 -3.84922,-1.90819 -1.63742,-0.8933 -3.19708,-1.30194 -4.74872,-2.40537 -2.81209,-2.0021 -5.34099,-4.74369 -8.20401,-6.55531 -3.71162,-2.35173 -8.55148,-3.43728 -12.4766,-5.17024 -2.12426,-0.9398 -4.42897,-1.62654 -6.4335,-2.78004 -2.13855,-1.23217 -3.24444,-3.56781 -5.36691,-4.79464 -2.06887,-1.19735 -3.40347,-1.32879 -5.751,-1.37974 -2.31899,-0.0519 -3.65538,-1.05426 -5.4902,-2.40447 -1.94737,-1.43697 -4.11002,-2.80958 -6.15834,-4.04892 -1.58741,-0.96124 -3.03364,-1.17407 -4.73713,-1.79643 -1.89378,-0.68943 -3.97963,-1.91894 -5.40174,-3.30671 -1.20328,-1.17407 -2.31808,-3.72879 -3.82686,-4.41913 -0.77895,-0.35764 -2.36543,-0.18865 -3.23284,-0.39252 -0.83792,-0.19941 -1.61685,-0.52221 -2.47175,-0.74845 -1.36493,-0.35947 -4.8729,-1.60685 -5.41067,-3.06348 l -0.12415,-0.33801 z"
      id="path9"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 711.40381,603.78074 c 7.63475,0.77034 3.82446,-6.11322 3.73764,-7.93814 -1.5725,-4.7134 -0.94794,-8.92101 3.4134,-12.36547 2.62315,-2.03655 6.25095,-4.38336 10.03555,-9.34515 1.35719,-1.7783 1.38022,-4.55467 3.30887,-5.98053 1.92506,-1.42225 5.81242,-2.28853 7.83847,-1.1353 2.23338,1.27432 3.26193,3.81572 4.29401,6.05762 1.42541,3.09477 3.4143,6.49617 5.39605,9.25641 2.37689,1.53437 3.02539,7.55524 0.44472,9.07255 -0.0301,0.0484 -2.38926,-1.74959 -5.7008,-1.25815 -2.0615,0.30398 -1.98001,6.05493 -2.03848,8.44751 -0.047,2.02399 -0.90628,1.31734 -1.68586,3.31802 -0.86199,2.21231 -3.19194,1.23214 -5.17195,2.11098 -2.27499,1.00794 -3.8767,1.76664 -5.60071,3.64892 -2.59038,2.82929 -3.85544,7.46555 -7.1776,11.30281 -4.52522,0.63758 -9.27277,-7.92468 -9.92301,-11.33867 -0.14973,-0.78108 -1.28637,-2.46073 -1.35281,-3.25526 l 0.18251,-0.59815 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 710.72236,603.86204 c 7.6984,0.76813 3.85634,-6.09569 3.7688,-7.91538 -1.58561,-4.69988 -0.95584,-8.89543 3.44185,-12.33001 2.64502,-2.03071 6.30307,-4.37079 10.11922,-9.31835 1.36851,-1.77321 1.39173,-4.54162 3.33645,-5.96339 1.94112,-1.41817 5.86088,-2.28196 7.90383,-1.13204 2.252,1.27066 3.28912,3.80479 4.32981,6.04025 1.43729,3.0859 3.44276,6.47754 5.44103,9.22986 2.3967,1.52998 3.05062,7.53358 0.44843,9.04654 -0.0303,0.0483 -2.40918,-1.74457 -5.74832,-1.25454 -2.07869,0.30311 -1.99653,6.03757 -2.05548,8.42329 -0.0474,2.01818 -0.91383,1.31356 -1.69992,3.30851 -0.86917,2.20596 -3.21855,1.2286 -5.21507,2.10492 -2.29395,1.00505 -3.90902,1.76158 -5.6474,3.63845 -2.61198,2.82118 -3.88758,7.44415 -7.23744,11.2704 -4.56295,0.63576 -9.35007,-7.90195 -10.00574,-11.30616 -0.15098,-0.77883 -1.29709,-2.45367 -1.36408,-3.24591 l 0.18403,-0.59644 z"
      id="path11"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;stroke:#000000;stroke-width:0.87586248;stroke-miterlimit:10"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#000000;stroke-width:0.87586248;stroke-miterlimit:10"
      d="M 647.84542,690.81104"
      id="path13"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 722.27654,618.97282 c 2.50358,-3.08666 3.59942,-4.50892 4.53761,-6.17332 0.96119,-1.70026 1.63363,-3.58974 2.86057,-5.12859 2.71355,-3.40501 6.65053,-3.6839 10.26501,-5.45948 4.70683,-2.30649 -0.85578,-11.23734 4.23199,-12.06597 9.09826,-0.11389 6.04631,4.96717 11.18192,9.01519 3.88647,3.06872 8.68631,2.128 12.2512,5.89619 4.0787,4.31342 -3.97949,7.07545 -6.72225,8.30852 -4.28868,1.92804 -2.16251,5.57519 -2.9235,9.35144 -0.91778,4.55198 -5.55198,7.56689 -9.55717,9.12905 -4.72011,1.83837 -8.85731,-0.18292 -12.84565,-2.82121 -3.98923,-2.63559 -8.81654,-7.75072 -13.05915,-10.05182 h -0.22058 l 0,0 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 721.68573,619.01055 c 2.52446,-3.0778 3.62943,-4.49598 4.57544,-6.15561 0.96921,-1.69539 1.64725,-3.57945 2.88442,-5.11389 2.73617,-3.39524 6.70598,-3.67333 10.35059,-5.44382 4.74607,-2.29988 -0.86291,-11.20512 4.26728,-12.03137 9.1741,-0.11356 6.09671,4.95292 11.27514,8.98933 3.91887,3.05992 8.75872,2.1219 12.35333,5.87929 4.1127,4.30105 -4.01266,7.05516 -6.77829,8.28469 -4.32444,1.92251 -2.18054,5.5592 -2.94788,9.32463 -0.92543,4.53893 -5.59826,7.54519 -9.63684,9.10287 -4.75947,1.8331 -8.93115,-0.1824 -12.95274,-2.81312 -4.02249,-2.62803 -8.89005,-7.72849 -13.16803,-10.023 h -0.22242 l 0,0 z"
      id="path15"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 765.5779,603.43369 c -2.64887,-1.63658 -6.46624,-2.41496 -9.31445,-3.77627 -1.61056,-0.7694 -3.13167,-2.03653 -3.99897,-3.46957 -0.8611,-1.42226 -0.75656,-3.59781 -2.39374,-4.78333 0.95768,-1.43929 2.40348,-1.82669 2.09963,-3.85161 -0.17187,-1.16039 -1.40329,-2.59251 -1.85068,-3.72604 -1.16939,-2.96916 -3.25658,-5.10078 -4.72189,-8.04216 -1.41478,-2.83647 -3.2371,-6.71675 -5.66182,-8.76677 -3.87408,-3.27946 -5.1108,1.26983 -9.26659,1.34876 -0.0709,-1.37208 -0.4775,-5.60838 -0.79997,-6.94096 -0.35171,-1.45455 -1.55033,-2.47866 -2.08364,-4.02648 -0.96031,-2.79341 -2.1058,-7.52923 -1.60527,-10.30561 0.33399,-1.84732 1.19687,-3.37092 1.46175,-5.21734 0.20462,-1.41869 -0.0132,-3.03018 -0.0107,-4.46501 0.002,-1.5774 0.13288,-3.25346 -0.52623,-4.70262 -0.69986,-1.53345 -2.21035,-2.34412 -1.71688,-4.24795 0.27019,-1.03668 1.22343,-1.8052 1.41037,-3.13149 0.10362,-0.72997 -0.26225,-1.77652 -0.0183,-2.45894 0.46686,-1.31018 1.68143,-2.545 2.8322,-3.89017 1.05779,-1.29222 2.9235,-6.56609 3.05462,-8.77392 0.16036,-2.62395 -1.78157,-6.47642 0.93819,-7.63955 1.65576,-0.70843 2.15983,0.65469 2.98903,-1.36397 0.44473,-1.08508 0.003,-2.92071 0.34995,-4.16276 0.64581,-2.31812 1.56627,-1.92445 3.01208,-3.19517 1.02324,-0.90215 1.07106,-2.28137 1.81346,-3.42026 -0.24009,-0.0107 0.2383,0.017 0,0 1.88166,-3.78882 1.62385,-6.02895 4.51191,-8.92368 2.93677,-2.94768 7.75082,0.11566 10.59192,1.66977 3.38769,1.8563 7.05182,5.81551 10.98965,6.19124 4.36399,0.4161 6.83744,-3.87222 10.60431,-5.21288 4.66961,-1.66261 6.97295,1.06176 7.28747,5.54826 0.1453,2.09398 0.0222,4.1906 -0.78049,6.14643 -0.68304,1.66619 -2.20148,3.13688 -2.40345,4.986 -0.44564,4.13767 3.41516,6.63068 2.19348,11.18802 -0.8673,3.23641 -0.4527,8.33453 -2.74098,10.83919 -1.34304,1.47337 -3.40454,2.07601 -4.80251,3.51621 -1.421,1.45812 -2.37243,3.48662 -3.16357,5.3465 -2.14921,5.03174 -0.92223,8.57039 4.07782,10.78 -0.76895,1.64645 -2.04111,2.80417 -2.91729,4.32688 -0.76367,1.32631 -0.42345,3.59511 -1.46263,4.63086 -1.78421,1.77292 -3.26187,-0.24478 -4.22135,-1.61148 -1.26064,-1.79261 -1.90114,-2.88486 -4.16906,-3.49379 -1.53173,-0.4116 -3.99365,-0.73444 -5.4076,0.16591 -2.22802,1.41867 -1.44046,3.82828 -1.53173,5.99486 -0.12579,2.93869 -1.16849,2.03656 -3.00852,3.61484 -1.3457,1.15414 -1.38377,2.8015 -0.76632,4.68114 1.01881,3.12162 3.27964,1.60787 5.66981,2.90549 2.12174,1.14965 2.41763,3.17994 5.24459,3.0795 0.36234,3.45792 1.66106,7.55521 5.35972,7.96055 2.0571,0.2269 2.43268,-0.0565 4.12035,1.43843 1.28367,1.13797 3.67297,2.59879 4.57482,4.05156 1.42544,2.29571 -1.01614,6.48004 -2.30248,8.46814 -1.67966,2.59702 -4.27183,4.11526 -5.96036,6.71318 -1.2385,1.90919 -2.60103,1.66528 -4.14429,2.91535 -1.22343,0.99002 0.82301,4.28745 -0.0788,5.44514 l -1.35631,-0.35243 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 765.34809,603.51598 c -2.67095,-1.63188 -6.52014,-2.40803 -9.3921,-3.76544 -1.62399,-0.76719 -3.15778,-2.03068 -4.03232,-3.45961 -0.86827,-1.41819 -0.76286,-3.5875 -2.41368,-4.76962 0.96566,-1.43516 2.42351,-1.82146 2.11712,-3.84056 -0.1733,-1.15707 -1.41498,-2.58508 -1.8661,-3.71537 -1.17914,-2.96064 -3.28373,-5.08615 -4.76126,-8.01909 -1.42657,-2.82834 -3.26408,-6.69749 -5.70902,-8.74164 -3.90637,-3.27004 -5.15341,1.26619 -9.34384,1.3449 -0.0715,-1.36815 -0.48148,-5.5923 -0.80665,-6.92106 -0.35464,-1.45038 -1.56325,-2.47155 -2.101,-4.01493 -0.96832,-2.7854 -2.12336,-7.50764 -1.61866,-10.27606 0.33677,-1.84202 1.20686,-3.36125 1.47394,-5.20238 0.20633,-1.41462 -0.0133,-3.02149 -0.0108,-4.45221 0.002,-1.57287 0.13399,-3.24413 -0.53062,-4.68912 -0.70569,-1.52906 -2.22877,-2.33741 -1.73119,-4.23577 0.27244,-1.03372 1.23363,-1.80003 1.42212,-3.12252 0.10449,-0.72788 -0.26443,-1.77142 -0.0185,-2.45189 0.47075,-1.30642 1.69545,-2.5377 2.85581,-3.87902 1.06662,-1.28851 2.94788,-6.54725 3.08009,-8.74876 0.16169,-2.61642 -1.79642,-6.45784 0.94602,-7.61763 1.66955,-0.70641 2.17784,0.6528 3.01395,-1.36006 0.44843,-1.08197 0.003,-2.91234 0.35286,-4.15083 0.65119,-2.31148 1.57932,-1.91893 3.03719,-3.18601 1.03177,-0.89956 1.07999,-2.27482 1.82858,-3.41045 -0.24209,-0.0107 0.24029,0.017 0,0 1.89734,-3.77796 1.63739,-6.01166 4.54952,-8.89809 2.96126,-2.93923 7.81544,0.11533 10.68023,1.66499 3.41593,1.85097 7.11062,5.79882 11.08127,6.17348 4.40038,0.41491 6.89444,-3.86112 10.69272,-5.19793 4.70853,-1.65785 7.03108,1.05871 7.34822,5.53235 0.14651,2.08797 0.0224,4.17858 -0.78699,6.12881 -0.68874,1.6614 -2.21984,3.12787 -2.42349,4.97169 -0.44936,4.12581 3.44363,6.61167 2.21177,11.15594 -0.87453,3.22713 -0.45648,8.31063 -2.76384,10.80811 -1.35423,1.46914 -3.43292,2.07006 -4.84255,3.50613 -1.43284,1.45394 -2.39221,3.47662 -3.18994,5.33116 -2.16713,5.01732 -0.92992,8.54582 4.11182,10.7491 -0.77537,1.64172 -2.05813,2.79613 -2.94161,4.31447 -0.77004,1.32251 -0.42699,3.5848 -1.47483,4.61758 -1.79909,1.76783 -3.28906,-0.24408 -4.25654,-1.60687 -1.27115,-1.78746 -1.91699,-2.87658 -4.20382,-3.48376 -1.54449,-0.41042 -4.02694,-0.73234 -5.45268,0.16543 -2.2466,1.41461 -1.45247,3.8173 -1.5445,5.97767 -0.12683,2.93026 -1.17823,2.03072 -3.0336,3.60448 -1.35692,1.15082 -1.39531,2.79346 -0.77271,4.66772 1.02731,3.11266 3.30698,1.60325 5.71708,2.89715 2.13943,1.14636 2.43778,3.17082 5.28831,3.07067 0.36536,3.448 1.67491,7.53354 5.40441,7.93773 2.07425,0.22625 2.45296,-0.0563 4.1547,1.4343 1.29437,1.13471 3.70359,2.59134 4.61296,4.03994 1.43732,2.28912 -1.02461,6.46146 -2.32168,8.44386 -1.69366,2.58957 -4.30744,4.10346 -6.01005,6.69393 -1.24882,1.90371 -2.62272,1.6605 -4.17884,2.90699 -1.23363,0.98717 0.82987,4.27515 -0.0795,5.42952 l -1.36763,-0.35142 z"
      id="path17"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 660.97447,432.92403 c 2.35117,-2.3728 4.16638,-3.23999 7.51157,-3.56375 3.61008,-0.34702 5.53074,1.26897 8.31249,3.24541 2.64974,1.88321 5.73,1.93613 8.49848,0.20535 2.30246,-1.43839 3.72436,-3.47942 6.42459,-4.29816 2.57091,-0.7784 7.45315,-1.47606 8.5552,1.87601 0.8939,2.71539 -0.9045,4.9071 -3.04575,6.14641 -2.67186,1.55051 -4.62887,2.87324 -5.51916,5.99485 -0.79114,2.76922 -1.26598,5.83706 -1.17387,8.72373 0.11607,3.68928 1.84713,5.78503 5.09396,7.31669 2.6994,1.27161 4.86984,3.04183 7.96522,2.40333 0.0656,1.67963 0.031,3.15032 0.46155,4.7932 0.39512,1.52001 0.0841,3.65251 1.00461,4.91695 0.80528,1.1039 2.62495,2.27418 3.69426,3.19069 1.08699,0.92546 2.23335,1.51642 3.64283,1.69579 1.87813,0.23494 3.26546,0.26183 4.96462,1.28684 0.83097,0.50129 1.55568,1.19449 2.44867,1.58818 1.07369,0.47348 1.97113,0.21701 3.04748,0.39994 1.85864,0.31478 2.48851,2.13878 4.07873,3.00686 1.60614,0.87525 3.59234,1.4393 5.37125,1.72715 1.73194,0.2807 3.42935,0.21523 5.15152,0.39098 2.70825,0.27173 4.86633,-0.11028 7.2813,-1.34693 0.13377,1.74958 -1.40418,3.44895 -1.98088,5.11425 -0.54573,1.57832 -1.6478,2.33158 -2.41057,3.60768 -0.458,0.76582 -0.54747,1.48506 -1.0622,2.22307 -0.55902,0.80351 -1.50781,1.25187 -2.10314,1.92984 -1.27392,1.44917 -0.75833,3.20592 -1.42097,5.03085 -0.35087,0.97299 -0.31542,1.26085 -1.23586,1.77738 -0.95768,0.54074 -1.67967,0.0322 -2.18998,1.22768 -0.55633,1.29941 -0.10185,3.81931 -0.26754,5.2649 -0.18868,1.67603 -0.42346,3.42204 -0.5351,5.10615 -0.15589,2.33159 -1.30138,2.90283 -2.43623,4.68917 -0.92575,1.45636 -1.33064,3.45613 -2.20854,5.13668 -0.46513,0.89048 -0.43056,1.78994 -0.68039,2.75844 -0.2525,0.98105 -0.77606,2.20782 -0.83896,3.22477 1.75941,3.58703 1.53174,3.25434 1.8728,4.02378 0.74685,1.68859 -0.37739,3.15212 -0.36853,5.05594 0.0115,3.8229 -0.1701,6.17332 -1.67435,10.76295 -1.51224,-7.53281 -8.39663,-9.33979 -14.22591,-9.98278 -6.28549,-0.69229 -9.26128,-9.69667 -14.99661,-8.77752 -4.15316,0.66361 -15.80105,0.71383 -10.45991,-8.68783 1.46794,-2.58628 3.85813,-3.17364 6.14732,-4.63897 2.32104,-1.48412 2.91995,-3.51261 3.13344,-6.13564 0.19136,-2.3567 1.69118,-5.66846 0.69187,-7.91481 -1.07901,-2.41771 -4.70945,-2.7827 -6.75502,-4.0543 -5.22507,-3.25344 -9.46324,-7.39022 -15.41921,-9.42947 -3.24595,-1.10658 -6.17654,-0.63759 -9.50223,-0.76493 -3.26192,-0.12378 -4.41092,-2.05807 -5.746,-4.8004 -1.25444,-2.56829 -1.8409,-5.06937 -2.71351,-7.75071 -0.79379,-2.43561 -2.86236,-3.85517 -4.38703,-5.79845 -1.86573,-2.38361 -4.18945,-5.02008 -5.55197,-7.72474 -1.6726,-3.31712 0.6095,-4.14035 3.53919,-4.04261 3.51352,0.11749 6.28285,-0.34794 7.50983,-4.10627 0.80262,-2.45623 1.57959,-5.1223 2.2449,-7.6225 0.38182,-1.4303 0.39865,-2.91716 0.38538,-4.39055 -2.62761,-0.8277 -3.6092,-3.07498 -0.88593,-4.41029 1.40596,-0.69139 2.04026,-0.47077 2.59751,-2.06073 0.36942,-1.05372 0.77959,-1.82405 -0.21972,-2.6329 l 0.3845,-0.90665 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 659.87259,433.49526 c 2.37078,-2.36599 4.20111,-3.2307 7.5742,-3.55352 3.64017,-0.34603 5.57685,1.26533 8.38179,3.2361 2.67183,1.87781 5.77777,1.93058 8.56933,0.20476 2.32165,-1.43427 3.75541,-3.46944 6.47815,-4.28584 2.59234,-0.77616 7.51529,-1.47182 8.62652,1.87064 0.90135,2.7076 -0.91203,4.89302 -3.07114,6.12878 -2.69413,1.54606 -4.66746,2.86501 -5.56517,5.97766 -0.79773,2.76128 -1.27654,5.82032 -1.18366,8.69871 0.11704,3.67871 1.86253,5.76845 5.13643,7.29571 2.7219,1.26797 4.91044,3.03311 8.03162,2.39644 0.0661,1.67481 0.0313,3.14129 0.4654,4.77946 0.39841,1.51565 0.0848,3.64203 1.01299,4.90284 0.81199,1.10075 2.64684,2.26767 3.72506,3.18155 1.09604,0.9228 2.25197,1.51207 3.67319,1.69093 1.89379,0.23426 3.29269,0.26108 5.00602,1.28315 0.83789,0.49985 1.56865,1.19106 2.46908,1.58362 1.08264,0.47213 1.98757,0.21639 3.07289,0.3988 1.87414,0.31387 2.50925,2.13264 4.11273,2.99823 1.61953,0.87274 3.62229,1.43517 5.41603,1.7222 1.74638,0.27989 3.45795,0.21461 5.19447,0.38986 2.73083,0.27095 4.9069,-0.10997 7.342,-1.34307 0.13489,1.74457 -1.41589,3.43907 -1.99739,5.09958 -0.55028,1.5738 -1.66154,2.3249 -2.43067,3.59734 -0.46182,0.76362 -0.55203,1.4808 -1.07105,2.21669 -0.56368,0.80122 -1.52039,1.24828 -2.12068,1.92431 -1.28454,1.44502 -0.76465,3.19673 -1.43281,5.01642 -0.3538,0.97021 -0.31806,1.25724 -1.24617,1.77229 -0.96566,0.53919 -1.69367,0.0321 -2.20824,1.22416 -0.56097,1.29568 -0.1027,3.80835 -0.26977,5.2498 -0.19025,1.67122 -0.42699,3.41223 -0.53956,5.09151 -0.15719,2.3249 -1.31222,2.89451 -2.45654,4.67572 -0.93346,1.45218 -1.34173,3.44622 -2.22695,5.12195 -0.46901,0.88793 -0.43415,1.78481 -0.68606,2.75053 -0.25461,0.97824 -0.78253,2.20149 -0.84596,3.21553 1.77409,3.57674 1.54451,3.245 1.88842,4.01224 0.75307,1.68375 -0.38054,3.14308 -0.37161,5.04144 0.0116,3.81193 -0.17152,6.15562 -1.6883,10.73209 -1.52486,-7.51121 -8.46664,-9.31301 -14.34451,-9.95415 -6.33789,-0.69031 -9.3385,-9.66887 -15.12165,-8.75236 -4.18777,0.66171 -15.93277,0.71178 -10.5471,-8.66291 1.48017,-2.57887 3.89029,-3.16455 6.19857,-4.62568 2.34039,-1.47986 2.94429,-3.50253 3.15956,-6.11803 0.19295,-2.34995 1.70528,-5.65221 0.69763,-7.89212 -1.088,-2.41078 -4.7487,-2.77472 -6.81133,-4.04268 -5.26863,-3.24411 -9.54214,-7.36903 -15.54776,-9.40242 -3.27301,-1.10341 -6.22803,-0.63577 -9.58145,-0.76275 -3.28911,-0.12342 -4.4477,-2.05216 -5.7939,-4.78663 -1.2649,-2.56092 -1.85625,-5.05483 -2.73613,-7.72848 -0.80041,-2.42863 -2.88623,-3.84412 -4.42361,-5.78183 -1.88128,-2.37677 -4.22437,-5.00568 -5.59826,-7.70258 -1.68654,-3.30761 0.61459,-4.12848 3.5687,-4.03102 3.54281,0.11716 6.33523,-0.34694 7.57244,-4.09449 0.80932,-2.4492 1.59276,-5.10762 2.26361,-7.60065 0.38501,-1.4262 0.40198,-2.90879 0.3886,-4.37796 -2.64952,-0.82532 -3.63929,-3.06616 -0.89332,-4.39764 1.41768,-0.68941 2.05728,-0.46943 2.61917,-2.05482 0.3725,-1.05071 0.78609,-1.81882 -0.22155,-2.62536 l 0.3877,-0.90405 z"
      id="path19"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 701.44178,422.0203 c 2.65064,-1.29583 5.62995,-1.75766 8.30096,-3.04451 2.54166,-1.2205 4.60406,-3.08666 6.92158,-4.66676 2.57356,-1.75587 5.46695,-2.88309 8.32312,-4.07129 2.21917,-0.92098 4.87954,-1.83838 6.48922,-3.73771 1.38026,-1.62494 1.81348,-3.91885 2.44868,-5.90338 0.24804,-0.782 1.16317,-4.65241 2.48228,-4.17625 1.4981,0.54166 1.46974,5.5716 1.56363,6.76427 0.4403,5.48192 0.72465,11.07594 0.2773,16.56685 -0.0558,0.67342 -0.11783,1.34693 -0.17896,2.01949 1.40238,0.0484 2.74456,0.1381 3.95822,0.90752 1.23231,0.78288 2.23958,1.65989 3.665,2.10019 1.58136,0.49505 3.37798,0.65377 4.98856,0.19819 1.46176,-0.41698 2.67013,-1.40163 4.01581,-2.07599 2.78707,-1.39177 5.92495,-1.2788 8.93702,-0.8896 4.08579,0.52909 6.17567,3.43551 8.22299,6.74905 1.65309,2.67237 2.80655,5.43262 4.2311,8.21346 0.62898,1.22766 1.45908,2.3289 2.12971,3.53235 0.8354,1.51284 1.42101,3.14942 2.14301,4.71788 1.44136,3.11983 3.75799,5.61641 5.58473,8.49683 1.8427,2.9055 3.44091,5.94551 5.40139,8.77392 0.69102,0.99809 1.61943,2.09663 1.64955,3.379 0.031,1.2994 -0.76008,2.6903 -1.38907,3.7727 -0.68304,1.17745 -1.42011,1.93699 -2.61078,2.54679 -1.3962,0.71293 -1.75143,1.68859 -1.91621,3.26512 -0.18693,1.77379 0.18427,3.3512 -0.89654,4.84881 -0.80707,1.12092 -2.00127,1.78096 -3.19457,2.39884 -0.83277,0.42955 -1.47328,1.05996 -2.44247,1.15591 -0.84959,0.0861 -1.51048,-0.0116 -2.34411,0.26097 -0.68302,0.22149 -1.52021,0.34972 -2.11021,0.77658 -0.57586,0.41879 -0.95147,1.13442 -1.41301,1.66618 -1.02149,1.18015 -2.46727,1.74869 -3.98126,1.95854 -0.74329,0.0985 -1.39977,0.34975 -2.12443,0.48606 -0.93641,0.17486 -1.78865,-0.17847 -2.65948,-0.48785 -1.69121,-0.59815 -3.27877,-1.39088 -4.79984,-2.3522 -1.67439,-1.06089 -3.39569,-2.29391 -4.87249,-3.61217 -1.30673,-1.17206 -2.70645,-1.58278 -4.39676,-1.96659 -0.84428,-0.19102 -1.75143,-0.40266 -2.61166,-0.49143 -0.99222,-0.10138 -1.42365,0.28068 -2.19352,0.8546 -1.61676,1.20436 -2.44066,2.78445 -3.53477,4.47305 -0.0752,-0.92365 1.71955,-1.97017 1.65933,-2.89652 -1.50605,0.33448 -4.66343,0.95596 -6.21376,1.04473 -1.78952,0.10304 -3.6969,0.0188 -5.48466,-0.087 -1.8471,-0.10762 -3.30352,-0.98645 -4.97967,-1.66261 -1.58134,-0.63761 -2.97222,-1.17655 -4.39408,-2.15134 -1.39177,-0.95593 -2.78708,-1.129 -4.33121,-1.70025 -1.61236,-0.59634 -2.90666,-1.78276 -4.54468,-2.33249 -1.74436,-0.57929 -3.4843,-1.00705 -5.18612,-1.71818 -1.67438,-0.69859 -3.73677,-1.30212 -4.95222,-2.7441 -1.25979,-1.49312 -0.7982,-3.52786 -1.13574,-5.3196 -0.33929,-1.80788 -0.68302,-3.28843 -0.41635,-5.14294 -3.41431,0.37304 -5.95066,-1.37474 -8.88479,-2.89296 -2.66215,-1.37832 -3.54627,-3.62472 -4.03087,-6.50692 -0.43853,-2.61494 -0.28526,-5.47474 0.37918,-8.04485 0.83629,-3.23193 3.14318,-4.09822 5.65738,-5.7653 1.63627,-1.0815 2.82693,-2.70554 3.30355,-4.6273 0.22946,-0.93531 0.37386,-1.96928 0.16745,-2.92435 -0.79466,-3.6552 -8.60837,-1.09316 -13.98316,-5.14383 -2.10314,-1.57649 13.85825,-2.08675 15.3067,-2.79162 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 700.67727,422.6228 c 2.67274,-1.29211 5.67689,-1.75262 8.37017,-3.03578 2.56285,-1.217 4.64244,-3.07781 6.97929,-4.65338 2.59501,-1.75083 5.51252,-2.87482 8.39251,-4.05961 2.23767,-0.91834 4.92021,-1.83311 6.54331,-3.72699 1.39177,-1.62028 1.8286,-3.90761 2.4691,-5.88645 0.25011,-0.77976 1.17286,-4.63908 2.50297,-4.16428 1.51059,0.54011 1.48199,5.55562 1.57666,6.74487 0.44398,5.4662 0.7307,11.04418 0.27962,16.51934 -0.0563,0.6715 -0.11882,1.34307 -0.18046,2.01371 1.41408,0.0483 2.76745,0.1377 3.99123,0.90491 1.24258,0.78064 2.25825,1.65513 3.69555,2.09417 1.59455,0.49364 3.40614,0.65189 5.03015,0.19763 1.47394,-0.41579 2.69239,-1.39761 4.04929,-2.07004 2.8103,-1.38778 5.97434,-1.27514 9.01153,-0.88705 4.11985,0.52757 6.22716,3.42565 8.29154,6.72969 1.66687,2.66471 2.82995,5.41705 4.26638,8.18991 0.63422,1.22414 1.47124,2.32223 2.14747,3.52223 0.84236,1.5085 1.43285,3.14039 2.16086,4.70434 1.45338,3.11089 3.78933,5.60031 5.63129,8.47247 1.85807,2.89717 3.46961,5.92846 5.44642,8.74876 0.69679,0.99522 1.63294,2.09062 1.66331,3.36931 0.0313,1.29568 -0.76641,2.68259 -1.40065,3.76188 -0.68874,1.17407 -1.43195,1.93144 -2.63254,2.53949 -1.40785,0.71089 -1.76604,1.68375 -1.93219,3.25576 -0.18849,1.7687 0.18581,3.34159 -0.90401,4.83491 -0.81381,1.1177 -2.01796,1.77584 -3.22121,2.39196 -0.83971,0.42832 -1.48556,1.05691 -2.46283,1.15259 -0.85668,0.0858 -1.52307,-0.0116 -2.36365,0.26022 -0.68872,0.22086 -1.53289,0.34872 -2.12781,0.77435 -0.58065,0.41759 -0.95939,1.13118 -1.42479,1.66141 -1.03,1.17676 -2.48783,1.74367 -4.01445,1.95292 -0.74948,0.0982 -1.41143,0.34875 -2.14214,0.48466 -0.94422,0.17436 -1.80356,-0.17795 -2.68165,-0.48644 -1.70531,-0.59644 -3.30611,-1.38689 -4.83985,-2.34546 -1.68836,-1.05785 -3.42401,-2.28733 -4.91312,-3.60181 -1.31763,-1.1687 -2.72901,-1.57824 -4.43342,-1.96096 -0.85131,-0.19046 -1.76602,-0.40149 -2.63343,-0.49001 -1.00049,-0.10109 -1.43551,0.27988 -2.2118,0.85215 -1.63024,1.2009 -2.46101,2.77646 -3.56425,4.46022 -0.0758,-0.921 1.73389,-1.96452 1.67317,-2.88821 -1.51861,0.33352 -4.70231,0.95321 -6.26556,1.04173 -1.80444,0.10274 -3.72773,0.0187 -5.53039,-0.0867 -1.8625,-0.10732 -3.33106,-0.98362 -5.02118,-1.65784 -1.59453,-0.63578 -2.997,-1.17318 -4.43072,-2.14517 -1.40337,-0.95319 -2.81032,-1.12576 -4.36731,-1.69538 -1.62581,-0.59462 -2.9309,-1.77764 -4.58258,-2.3258 -1.75889,-0.57763 -3.51334,-1.00416 -5.22935,-1.71325 -1.68834,-0.69659 -3.76792,-1.29839 -4.9935,-2.73623 -1.2703,-1.48884 -0.80487,-3.51774 -1.14522,-5.30435 -0.34212,-1.8027 -0.68871,-3.279 -0.41982,-5.1282 -3.44277,0.37198 -6.00027,-1.37079 -8.95886,-2.88466 -2.68434,-1.37437 -3.57583,-3.61432 -4.06448,-6.48826 -0.44218,-2.60744 -0.28764,-5.45904 0.38235,-8.02178 0.84326,-3.22266 3.16938,-4.08646 5.70455,-5.74877 1.6499,-1.07839 2.85049,-2.69778 3.33109,-4.61403 0.23137,-0.93262 0.37697,-1.96363 0.16884,-2.91596 -0.80128,-3.64472 -8.68014,-1.09003 -14.09974,-5.12908 -2.12067,-1.57197 13.97379,-2.08077 15.43431,-2.78362 z"
      id="path21"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 582.80027,496.17544 c 0,-2.37015 0.15236,-4.14481 -0.83188,-6.10425 -1.39618,-2.77908 -2.13236,-2.83019 0.38893,-4.64524 3.10864,-2.23654 4.91145,-6.76877 9.5235,-6.46386 5.50947,0.36318 4.40826,5.23258 4.65097,9.36487 0.11432,1.9406 0.4173,5.19406 2.20858,6.29799 0.81502,0.50396 2.00127,-0.20803 2.83934,0.747 0.37829,0.42956 0.59358,2.66787 0.72025,3.31712 1.01526,5.17253 1.72749,9.05104 6.98272,11.4445 2.3441,1.06714 3.52767,1.69848 4.51723,3.97445 0.9931,2.28675 1.43074,4.75553 2.83047,6.94993 2.46195,3.86146 6.56015,7.76507 7.37429,12.45066 0.38092,2.18629 0.28082,5.0165 -1.73992,6.1751 -0.8478,0.48604 -1.79042,0.31028 -2.69492,0.87525 -0.88769,0.55507 -1.25002,1.44197 -1.81523,2.23653 -1.20394,1.69575 -2.17491,3.96546 -4.22133,3.88925 -2.18025,-0.0808 -5.22953,-3.02748 -6.82769,-4.38159 -3.78813,-3.2131 -5.33762,-7.696 -9.26836,-10.84096 -1.86306,-1.49041 -3.20345,-1.48234 -5.32075,-2.15582 -2.36713,-0.7533 -1.90293,-3.04003 -3.34428,-5.10081 -1.04537,-1.49579 -2.03321,-3.5404 -3.25661,-4.77434 -0.82036,-0.82772 -2.20857,-1.09408 -2.93678,-2.00516 -0.76807,-0.95866 -0.73087,-2.18183 -1.23319,-3.31892 -1.11624,-2.53336 -6.00202,-7.69873 -5.15774,-10.89478 1.8914,-0.25917 4.82906,0.94519 5.89566,-0.62684 1.01529,-1.49581 0.12583,-5.0972 0.49351,-6.85577"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 581.04666,496.5653 c 0,-2.36335 0.15363,-4.13293 -0.83881,-6.08674 -1.40783,-2.77111 -2.15014,-2.82208 0.39217,-4.63192 3.13455,-2.23013 4.9524,-6.74936 9.60289,-6.44533 5.5554,0.36214 4.44502,5.21758 4.68975,9.33802 0.11527,1.93504 0.42078,5.17916 2.22699,6.27992 0.82181,0.50252 2.01795,-0.20742 2.86301,0.74487 0.38145,0.42833 0.59853,2.66021 0.72626,3.30761 1.02372,5.15769 1.74189,9.02508 7.04094,11.41167 2.36363,1.06409 3.55707,1.69361 4.55488,3.96306 1.00138,2.28019 1.44267,4.74189 2.85407,6.93 2.48247,3.85039 6.61484,7.7428 7.43577,12.41496 0.38409,2.18001 0.28316,5.00211 -1.75443,6.15739 -0.85486,0.48464 -1.80534,0.30939 -2.71739,0.87274 -0.89509,0.55348 -1.26043,1.43783 -1.83035,2.23011 -1.21399,1.69089 -2.19305,3.9541 -4.25653,3.87811 -2.19843,-0.0806 -5.27313,-3.0188 -6.88461,-4.36903 -3.81972,-3.20389 -5.38212,-7.67394 -9.34564,-10.80988 -1.87858,-1.48614 -3.23015,-1.47809 -5.36511,-2.14963 -2.38685,-0.75115 -1.91878,-3.03132 -3.37216,-5.08618 -1.05408,-1.4915 -2.05016,-3.53025 -3.28375,-4.76066 -0.8272,-0.82535 -2.22699,-1.09094 -2.96127,-1.99941 -0.77447,-0.95591 -0.73696,-2.17557 -1.24346,-3.3094 -1.12556,-2.5261 -6.05207,-7.67665 -5.20075,-10.86354 1.90717,-0.25842 4.86932,0.94248 5.94482,-0.62504 1.02375,-1.49152 0.12687,-5.08259 0.49762,-6.83611"
      id="path23"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 596.16681,482.4164 c -0.17098,-0.97746 -1.24204,-2.50735 -0.54925,-3.3745 0.33308,-0.41701 1.65576,-0.70396 2.2325,-1.32723 0.95322,-1.03037 1.71244,-2.72794 2.11552,-4.05783 1.00371,-3.31714 4.0052,-4.64794 7.15815,-5.67654 2.89513,-0.94518 6.88438,-2.40689 8.45951,-5.41914 0.79467,-1.52267 0.59269,-3.16197 0.59624,-4.85595 0.002,-0.89139 0.0984,-1.84823 -0.14707,-2.67327 -0.34642,-1.16221 -1.38204,-1.69219 -1.23408,-2.98443 4.14163,-1.32182 8.40992,-0.42954 12.38675,0.74074 1.49541,0.43941 5.01248,1.00439 5.56174,2.93331 0.59618,2.09034 -2.61612,3.03376 -3.72792,4.06682 -3.83864,3.56823 1.38645,8.24933 3.81915,10.82751 3.31151,3.51172 5.29593,7.22613 3.95556,12.0552 -0.58558,2.10828 -1.45109,4.13586 -3.56223,4.81113 -1.6841,0.53984 -3.5569,0.19641 -5.24809,0.76046 -2.36006,0.78646 -2.8482,1.66975 -5.6069,1.66975 -1.98712,0 -4.22224,-0.58288 -3.75182,2.17739 0.264,1.55227 1.64953,3.02746 2.20592,4.45421 0.71403,1.83208 1.55475,3.83545 2.00035,5.72044 0.33754,1.42944 0.79378,3.84441 0.14973,5.28284 -0.88415,1.9702 -3.40541,1.65272 -5.15155,2.41407 -1.32886,0.57932 -2.13061,1.39178 -3.24595,2.03655 -1.76917,1.02322 -1.94725,0.37755 -3.61807,-0.56226 -2.3441,-1.31914 -4.70769,-2.43472 -6.47951,-4.91248 -1.16319,-1.62315 -1.77445,-5.00035 -2.05442,-7.18218 -0.46243,-3.59959 -0.84782,-3.96639 -4.77591,-5.30794 -0.51208,-1.77918 -1.12602,-3.63369 -1.30766,-5.5438 -0.17538,-1.83924 0.0195,-3.81573 0.0195,-5.66663"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 594.52464,482.84571 c -0.17241,-0.97465 -1.2524,-2.50015 -0.55383,-3.36482 0.33586,-0.41581 1.66956,-0.70194 2.2511,-1.32343 0.96118,-1.02741 1.72672,-2.72011 2.13316,-4.04619 1.01209,-3.30762 4.0386,-4.6346 7.21783,-5.66026 2.91927,-0.94247 6.94177,-2.39999 8.53004,-5.4036 0.80129,-1.51831 0.59763,-3.15291 0.60121,-4.84202 0.002,-0.88884 0.0992,-1.84293 -0.1483,-2.66561 -0.3493,-1.15888 -1.39356,-1.68733 -1.24437,-2.97587 4.17616,-1.31803 8.48003,-0.42831 12.49002,0.73861 1.50787,0.43816 5.05427,1.00151 5.60811,2.9249 0.60115,2.08435 -2.63793,3.02507 -3.759,4.05516 -3.87064,3.558 1.39801,8.22567 3.85099,10.79646 3.33912,3.50165 5.34008,7.20541 3.98853,12.02064 -0.59046,2.10222 -1.46318,4.124 -3.59192,4.79733 -1.69815,0.53829 -3.58655,0.19584 -5.29185,0.75828 -2.37973,0.7842 -2.87194,1.66496 -5.65364,1.66496 -2.00369,0 -4.25743,-0.58121 -3.78309,2.17114 0.2662,1.54782 1.66327,3.01878 2.22431,4.44144 0.71998,1.82683 1.5677,3.82445 2.01702,5.70404 0.34035,1.42534 0.8004,3.83338 0.15098,5.26769 -0.89152,1.96455 -3.4338,1.64798 -5.19449,2.40715 -1.33995,0.57766 -2.14838,1.38779 -3.27302,2.03071 -1.78392,1.02028 -1.96348,0.37647 -3.64823,-0.56064 -2.36365,-1.31537 -4.74695,-2.42775 -6.53353,-4.8984 -1.17289,-1.6185 -1.78925,-4.98601 -2.07155,-7.16159 -0.46628,-3.58926 -0.85489,-3.95501 -4.81573,-5.29271 -0.51635,-1.77409 -1.1354,-3.62328 -1.31856,-5.52791 -0.17684,-1.83397 0.0197,-3.80479 0.0197,-5.65038"
      id="path25"
-     inkscape:connector-curvature="0" /><path
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
      style="fill:none"
-     d="m 649.50371,486.17832 c 1.54326,0.64568 2.92881,1.6671 4.55888,2.26523 1.57782,0.57932 2.89782,1.93253 4.58547,2.23293 3.4621,0.61698 6.15706,-1.23573 9.40125,-1.26174 6.82148,-0.0565 12.92005,4.03543 18.05921,7.76778 1.33859,0.97298 2.70732,1.97646 4.13451,2.80059 1.30405,0.75237 3.27345,1.03037 4.34715,1.88767 0.69453,0.556 2.14211,3.15843 2.09516,4.05068 -0.0603,1.15862 -1.51223,2.59345 -1.76738,3.88479 -0.55547,2.81854 -0.29589,5.1241 -2.64623,7.40008 -1.05775,1.02768 -2.4052,2.03566 -3.46919,2.83199 -1.06752,0.79993 -3.15118,1.73972 -3.68892,2.97723 -0.42434,0.97751 -0.28615,3.03824 -0.2764,4.1072 0.0223,2.20515 1.4272,1.85989 2.03051,3.3754 -3.07411,0.13363 -5.48555,-1.75405 -8.71024,-1.43303 -1.92596,0.19195 -2.40523,0.7865 -3.86875,1.95049 -1.5149,1.20523 -2.62229,0.9129 -4.3551,0.0726 -1.98443,-0.96312 -3.73058,-2.44367 -5.76459,-3.32161 -1.6673,-0.721 -2.50271,0.017 -4.06989,0.48963 -1.07992,0.32553 -3.22469,1.31018 -3.89,0.21344 -0.62456,-1.02858 0.295,-3.66329 0.48637,-4.57977 0.61037,-2.92522 1.08876,-6.32844 0.60507,-9.4214 -0.69279,-4.42464 -3.36823,-7.20551 -5.47047,-10.8849 -1.55832,-2.72437 -2.32907,-5.86484 -2.48854,-8.99097 -0.0709,-1.38907 -0.0275,-2.81761 0,-4.20671 0.024,-1.12183 0.98867,-3.46778 0.16212,-4.20762"
+     d="m 648.3062,486.59684 c 1.55612,0.64384 2.95323,1.66232 4.59688,2.25874 1.59098,0.57766 2.92199,1.92699 4.62371,2.22653 3.49096,0.61521 6.20838,-1.23219 9.47962,-1.25812 6.87836,-0.0563 13.02777,4.02385 18.20977,7.74551 1.34975,0.97018 2.72989,1.97078 4.16898,2.79256 1.31492,0.7502 3.30075,1.02741 4.38339,1.88225 0.70032,0.55441 2.15998,3.14937 2.11263,4.03906 -0.0608,1.1553 -1.52484,2.58602 -1.78211,3.87366 -0.5601,2.81045 -0.29836,5.1094 -2.6683,7.37885 -1.06656,1.02474 -2.42525,2.02983 -3.49811,2.82387 -1.07642,0.79764 -3.17745,1.73473 -3.71967,2.96869 -0.42788,0.97472 -0.28854,3.02953 -0.27871,4.09542 0.0225,2.19884 1.4391,1.85456 2.04744,3.36573 -3.09974,0.13325 -5.53128,-1.74902 -8.78286,-1.42892 -1.94202,0.1914 -2.42528,0.78425 -3.901,1.9449 -1.52753,1.20177 -2.64415,0.91028 -4.39141,0.0724 -2.00097,-0.96036 -3.76168,-2.43667 -5.81265,-3.31209 -1.6812,-0.71893 -2.52357,0.0169 -4.10381,0.48823 -1.08893,0.32459 -3.25158,1.30642 -3.92244,0.21283 -0.62976,-1.02564 0.29746,-3.65279 0.49042,-4.56664 0.61547,-2.91683 1.09785,-6.3103 0.61013,-9.39439 -0.69858,-4.41194 -3.39632,-7.18484 -5.51608,-10.85368 -1.57132,-2.71656 -2.34849,-5.84803 -2.50929,-8.9652 -0.0715,-1.38508 -0.0277,-2.80953 0,-4.19464 0.0242,-1.11861 0.99691,-3.45783 0.16347,-4.19556"
      id="path27"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 632.55455,457.20929 c 2.67902,-0.57931 5.4067,3.08846 7.83231,4.0157 1.80369,0.68872 2.99172,0.5273 4.26742,1.87424 1.19065,1.25636 1.71865,2.76114 3.08381,3.97624 1.26865,1.12724 2.5594,2.77191 3.6969,4.04261 0.90895,1.01604 1.69299,1.26893 2.38043,2.43561 0.69813,1.18553 1.9375,2.72077 2.2077,4.09732 0.29502,1.49491 -0.0691,2.06433 0.86464,3.82291 0.5971,1.12543 1.20394,1.7675 1.87903,2.80236 0.75742,1.16491 0.91248,2.52261 2.21742,3.4104 1.45819,0.99361 4.41358,1.09764 6.11186,1.69757 -0.85668,0.0646 -1.86484,-0.13091 -2.7162,0.027 -1.04537,0.19457 -1.73549,0.96132 -2.6028,1.26623 -1.08524,0.38381 -2.78704,0.38737 -3.9609,0.35959 -1.65838,-0.0377 -2.1607,-0.94787 -3.4054,-1.911 -1.47238,-1.13979 -3.25306,-1.4653 -4.93096,-1.99978 0.24628,1.51463 -0.38361,2.7647 -0.4589,4.2363 -0.0761,1.5048 0.21084,3.21762 0.46422,4.67663 0.5395,3.10908 1.9286,6.51498 3.75623,9.11649 1.17296,1.66887 1.88611,3.10639 2.65861,4.96809 0.7043,1.69756 0.62191,3.33685 0.79379,5.15995 0.12843,1.3362 0.48458,3.19428 0.16742,4.56273 -0.1692,0.73088 -1.00817,1.37836 -1.17383,2.1047 -0.25868,1.12636 0.3411,1.35413 0.53066,2.30202 0.24895,1.25276 0.18428,3.4821 -0.11162,4.67213 0.69277,-0.17756 1.31025,-1.01783 1.85065,-1.164 0.83718,-0.22867 1.7417,0.33448 2.58332,0.34883 0.65203,0.0107 1.11534,-0.37306 1.82319,-0.30489 0.91957,0.0888 1.77093,0.79005 2.65773,0.95146 0.70254,0.12824 1.47767,-0.18744 2.10137,0.14348 0.72199,0.3847 0.94969,1.38104 1.60704,1.92443 0.98158,0.80892 2.45483,0.71116 3.61716,1.31468 -0.31984,1.36759 -1.07817,2.441 -1.42103,3.73054 -0.47393,1.7711 -0.96295,2.90104 -1.92328,4.49547 -1.60794,2.66697 -2.53549,5.10526 -5.43238,6.72035 -0.62812,0.35061 -1.64692,0.39097 -2.21034,0.78916 -0.65646,0.4654 -1.33684,1.68232 -1.9667,2.25804 -1.42721,1.30479 -2.80834,1.44019 -4.76974,1.59802 -3.29202,0.26544 -6.65051,0.93263 -9.95582,1.09855 -4.84326,0.24211 -7.73308,-1.85361 -11.11813,-5.0147 -1.83117,-1.70922 -3.63576,-3.5207 -5.35089,-5.33574 -0.83804,-0.88779 -1.55296,-1.65097 -2.72591,-2.07333 -0.9816,-0.35333 -2.24667,-0.16321 -3.14498,-0.84473 0.40133,-1.04381 1.62652,-1.73793 1.99948,-2.88131 0.29147,-0.90127 0.45802,-2.62751 0.24187,-3.58794 -0.34285,-1.53168 -1.77446,-2.70467 -2.57358,-4.03096 -0.70603,-1.17208 -1.42275,-2.31545 -2.12263,-3.55747 -1.26771,-2.2482 -2.66922,-4.38426 -3.97948,-6.44147 -0.57496,-0.90212 -1.23407,-1.80336 -1.53172,-2.93687 -0.34819,-1.32273 -0.12137,-2.62037 -0.78671,-3.86414 1.90117,-0.43494 2.81278,-0.91561 4.44724,-1.97019 1.20222,-0.77842 2.66396,-0.95686 3.83688,-1.73793 1.80371,-1.20078 1.46707,-6.46927 0.94972,-8.46096 -0.34818,-1.33619 -1.35457,-2.66433 -1.9189,-4.02826 -0.497,-1.20347 -1.78065,-2.82125 -1.9428,-4.05427 -0.40485,-3.04543 5.44124,-2.0805 7.38937,-2.88402 2.7463,-1.13352 6.51141,-1.10482 8.54101,-2.97366 2.29095,-2.11007 2.00659,-5.36982 2.15453,-8.37576 0.0992,-2.03835 -0.16743,-3.08487 -1.43781,-4.67482 -0.92225,-1.15326 -1.98179,-2.24461 -2.98995,-3.29561 -1.06664,-1.11199 -2.08364,-2.22309 -3.12548,-3.33773 -1.31645,-1.40436 -1.20039,-1.71465 -1.39619,-3.74941 -0.12933,-1.35767 -0.68214,-2.0195 0.38804,-3.2364 0.78047,-0.886 2.84552,-1.10305 3.71018,-1.81235 l 0.37383,-0.46005 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 631.21574,457.71089 c 2.70135,-0.57765 5.45177,3.0796 7.89761,4.00418 1.81872,0.68675 3.01666,0.52579 4.30299,1.86887 1.20058,1.25276 1.73298,2.75322 3.10952,3.96484 1.27923,1.124 2.58074,2.76396 3.72773,4.03101 0.91652,1.01313 1.70709,1.26529 2.40026,2.42863 0.70396,1.18213 1.95366,2.71296 2.22611,4.08557 0.29748,1.49062 -0.0697,2.05841 0.87185,3.81195 0.60208,1.1222 1.21398,1.76243 1.89469,2.79432 0.76374,1.16157 0.92009,2.51538 2.23591,3.40062 1.47035,0.99077 4.45038,1.0945 6.16282,1.6927 -0.86382,0.0644 -1.88039,-0.13053 -2.73885,0.0269 -1.05408,0.19401 -1.74995,0.95856 -2.6245,1.26259 -1.09428,0.38272 -2.81027,0.38627 -3.99392,0.35856 -1.67221,-0.0376 -2.17871,-0.94514 -3.43379,-1.90552 -1.48466,-1.13652 -3.28018,-1.4611 -4.97207,-1.99404 0.24834,1.51029 -0.3868,2.75677 -0.46272,4.22415 -0.0767,1.50049 0.2126,3.20839 0.46809,4.66322 0.54399,3.10016 1.94468,6.4963 3.78754,9.09035 1.18274,1.66409 1.90184,3.09748 2.68077,4.95384 0.71017,1.69269 0.6271,3.32728 0.80041,5.14516 0.1295,1.33237 0.48863,3.18512 0.16881,4.54965 -0.17061,0.72878 -1.01657,1.3744 -1.18361,2.09866 -0.26083,1.12312 0.34395,1.35024 0.53508,2.29541 0.25103,1.24918 0.18582,3.47212 -0.11255,4.65874 0.69855,-0.17705 1.32118,-1.01491 1.86609,-1.16066 0.84415,-0.22802 1.75621,0.33352 2.60485,0.34783 0.65747,0.0107 1.12464,-0.37199 1.83839,-0.30402 0.92724,0.0886 1.7857,0.78778 2.67989,0.94873 0.7084,0.12787 1.48999,-0.1869 2.11889,0.14307 0.728,0.3836 0.9576,1.37708 1.62044,1.91891 0.98976,0.8066 2.4753,0.70912 3.64731,1.31091 -0.3225,1.36367 -1.08715,2.434 -1.43288,3.71984 -0.47788,1.76603 -0.97097,2.89272 -1.93931,4.48258 -1.62135,2.65932 -2.55663,5.09062 -5.47767,6.70108 -0.63335,0.34961 -1.66065,0.38985 -2.22877,0.7869 -0.66193,0.46406 -1.34798,1.6775 -1.9831,2.25156 -1.4391,1.30105 -2.83175,1.43606 -4.80949,1.59344 -3.31948,0.26468 -6.70596,0.92996 -10.03883,1.0954 -4.88364,0.24142 -7.79755,-1.84829 -11.21082,-5.00032 -1.84643,-1.70432 -3.66607,-3.5106 -5.3955,-5.32043 -0.84503,-0.88525 -1.5659,-1.64624 -2.74864,-2.06739 -0.98978,-0.35232 -2.2654,-0.16275 -3.1712,-0.84231 0.40468,-1.04082 1.64009,-1.73294 2.01616,-2.87304 0.2939,-0.8987 0.46183,-2.61998 0.24388,-3.57766 -0.3457,-1.52729 -1.78925,-2.69691 -2.59503,-4.0194 -0.71192,-1.16872 -1.43461,-2.30881 -2.14033,-3.54726 -1.27828,-2.24176 -2.69148,-4.37169 -4.01266,-6.42301 -0.57975,-0.89953 -1.24436,-1.79819 -1.54449,-2.92845 -0.35109,-1.31893 -0.12238,-2.61285 -0.79327,-3.85305 1.91703,-0.4337 2.83623,-0.91299 4.48432,-1.96455 1.21224,-0.77618 2.68617,-0.95411 3.86887,-1.73294 1.81875,-1.19734 1.4793,-6.45072 0.95763,-8.4367 -0.35108,-1.33235 -1.36585,-2.65669 -1.93489,-4.01671 -0.50115,-1.20002 -1.7955,-2.81316 -1.959,-4.04265 -0.40822,-3.03669 5.48661,-2.07452 7.45098,-2.87575 2.7692,-1.13026 6.56569,-1.10165 8.61222,-2.96513 2.31004,-2.10401 2.02331,-5.35442 2.17248,-8.35174 0.10003,-2.0325 -0.16882,-3.07602 -1.44979,-4.66141 -0.92994,-1.14995 -1.99832,-2.23818 -3.01488,-3.28616 -1.07554,-1.1088 -2.10101,-2.21671 -3.15153,-3.32817 -1.32743,-1.40033 -1.21041,-1.70972 -1.40784,-3.73865 -0.13041,-1.35378 -0.68782,-2.01371 0.39128,-3.22712 0.78698,-0.88346 2.86924,-1.09989 3.74111,-1.80715 l 0.37695,-0.45873 z"
      id="path29"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;;stroke-miterlimit:10"
-     d="m 601.43443,471.18713 c 4.03883,-3.60321 12.60291,-3.21849 14.43141,-8.72103 0.79023,-2.37192 1.27306,-5.58592 0.031,-7.82424 -0.86997,-1.56931 -1.37758,-2.58804 0.90185,-2.81762 1.44492,-0.14528 2.97132,0 4.42511,0 1.19597,0 2.51153,-0.16501 3.69244,0 1.19157,0.16587 1.88256,0.69139 3.00323,1.11019 1.24028,0.46631 2.85708,0.75597 3.93345,1.4599 1.32264,0.8645 0.85401,1.5514 1.27835,2.9692 1.81434,-0.14078 4.12123,1.63391 5.59095,2.55487 1.97646,1.23934 4.558,1.84108 6.42725,3.1611 0.0248,-4.08206 2.57797,-4.00137 5.98874,-3.47049 2.89423,0.45018 3.82447,-2.54858 5.17459,-4.92322 1.23937,-2.18182 1.97998,-5.07928 2.19081,-7.62158 0.0887,-1.05729 0.272,-2.78895 0,-3.80945 -0.32422,-1.22498 -1.40148,-0.79811 -1.5574,-2.28945 0.12313,-3.2938 3.87763,-2.06074 4.06543,-4.21658 0.0752,-0.86627 -0.17982,-1.85 0,-2.69747 0.20023,-0.938 0.72112,-1.3523 1.24647,-2.16208 -0.92842,-1.00167 -1.04714,-3.46869 -1.56894,-4.82547 -0.559,-1.45278 -1.27836,-2.79791 -1.56806,-4.40402 -0.68127,-3.79062 -1.73285,-5.8702 -5.79295,-6.06751 -2.92527,-0.14078 -5.29681,2.59705 -8.02277,3.2185 -3.47628,0.79272 -6.86756,0.46093 -10.47673,0.74966 -2.74719,0.21885 -7.0084,1.12906 -9.75561,0.12826 -1.40061,-0.51025 -2.76401,-1.90022 -4.03085,-2.65978 -1.34482,-0.80531 -2.52752,-1.3362 -3.92726,-1.94242 -1.29964,-0.56314 -3.18568,-0.96579 -4.71656,-0.61247 -1.62919,0.37842 -2.97754,2.00605 -4.46318,2.70911 -3.20345,1.51463 -7.07576,0.0716 -10.50776,0.63223 -1.62739,0.26544 -3.02625,1.41779 -4.43218,2.06255 -1.36963,0.62594 -3.02093,0.53984 -4.57395,0.47619 -1.76119,-0.0699 -3.27696,-0.75777 -5.14976,-0.47619 -1.89406,0.2843 -2.25108,1.64286 -3.19015,3.33236 -0.88236,1.58818 -1.76473,3.00238 -3.06702,4.31974 -1.53173,1.55139 -2.16071,2.32887 -1.85066,4.3744 0.47927,3.1629 2.39374,5.35275 4.24972,8.05741 1.75497,2.56117 3.30709,4.59143 4.84237,7.2871 1.64778,2.89653 4.84414,4.70891 7.73483,6.38316 2.26968,1.31374 4.41445,2.83199 6.14732,4.73758 2.21209,2.43384 2.81716,5.35099 2.97664,8.64124 0.053,1.08148 0.16033,2.20335 0.16033,3.33325"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197;stroke-miterlimit:10"
+     d="m 599.83617,471.64864 c 4.0725,-3.59287 12.70798,-3.20926 14.55173,-8.69602 0.79681,-2.36511 1.28366,-5.5699 0.0312,-7.8018 -0.87722,-1.56481 -1.38907,-2.58062 0.90937,-2.80954 1.45697,-0.14486 2.99609,0 4.46201,0 1.20593,0 2.53247,-0.16454 3.72322,0 1.20151,0.1654 1.89825,0.6894 3.02826,1.10701 1.25063,0.46497 2.8809,0.75379 3.96625,1.45571 1.33366,0.86202 0.86113,1.54695 1.289,2.96069 1.82947,-0.14038 4.15559,1.62922 5.63757,2.54754 1.99294,1.23578 4.596,1.8358 6.48083,3.15204 0.025,-4.07036 2.59946,-3.9899 6.03866,-3.46055 2.91836,0.4489 3.85636,-2.54127 5.21773,-4.90909 1.24971,-2.17557 1.99649,-5.06472 2.20908,-7.59973 0.0894,-1.05426 0.27427,-2.78095 0,-3.79853 -0.32692,-1.22146 -1.41316,-0.79582 -1.57039,-2.28289 0.12417,-3.28435 3.90997,-2.05482 4.09933,-4.20449 0.0758,-0.86378 -0.18132,-1.84468 0,-2.68973 0.2019,-0.93531 0.72713,-1.34842 1.25686,-2.15587 -0.93616,-0.9988 -1.05587,-3.45875 -1.58202,-4.81164 -0.56365,-1.44862 -1.28902,-2.78989 -1.58113,-4.39139 -0.68695,-3.77975 -1.74729,-5.85336 -5.84125,-6.05011 -2.94965,-0.14038 -5.34097,2.5896 -8.08965,3.20927 -3.50526,0.79045 -6.92481,0.45961 -10.56407,0.74751 -2.77009,0.21822 -7.06683,1.12582 -9.83695,0.12789 -1.41228,-0.50879 -2.78705,-1.89477 -4.06445,-2.65215 -1.35603,-0.803 -2.54859,-1.33237 -3.96001,-1.93685 -1.31047,-0.56153 -3.21223,-0.96302 -4.75587,-0.61072 -1.64278,0.37734 -3.00236,2.0003 -4.50039,2.70135 -3.23016,1.51028 -7.13475,0.0714 -10.59537,0.63041 -1.64095,0.26468 -3.05148,1.41373 -4.46912,2.05664 -1.38106,0.62414 -3.04612,0.53829 -4.61209,0.47482 -1.77588,-0.0697 -3.30428,-0.75559 -5.19269,-0.47482 -1.90985,0.28348 -2.26985,1.63814 -3.21675,3.3228 -0.88971,1.58363 -1.77945,2.99377 -3.09259,4.30735 -1.5445,1.54695 -2.17872,2.3222 -1.86609,4.36186 0.48327,3.15383 2.4137,5.3374 4.28515,8.0343 1.7696,2.55384 3.33466,4.57827 4.88275,7.26621 1.66151,2.88822 4.88452,4.69541 7.79931,6.36486 2.2886,1.30997 4.45125,2.82387 6.19857,4.72399 2.23053,2.42687 2.84065,5.33565 3.00146,8.61646 0.0534,1.07839 0.16166,2.19704 0.16166,3.3237"
      id="path31"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 574.99808,431.31615 c 1.06929,-2.24728 2.29715,-3.28843 3.79257,-5.12321 0.93904,-1.15054 1.37492,-2.75844 2.51864,-3.81483 2.58153,-2.3836 7.3743,-0.55688 10.64948,-0.86717 2.34322,-0.22241 3.05727,-1.95945 5.23039,-2.61495 1.62475,-0.48963 3.97328,-0.35064 5.64411,-0.44929 0.92399,-0.0556 2.14392,0.26366 3.03157,0.004 1.12689,-0.32823 2.31045,-0.3937 3.27519,-1.01158 1.75943,-1.12361 2.93945,-1.85718 5.00362,-1.85091 2.22628,0.006 3.62159,0.17487 5.4439,1.37922 1.79219,1.18375 3.36732,2.85979 5.49792,3.48211 1.77712,0.51657 3.93699,0.24395 5.80715,0.24395 1.23671,0 4.12299,0.28517 5.21443,-0.24752 2.30245,-1.1308 1.0418,-8.38563 1.0418,-10.78086 0,-1.71821 0.25782,-3.65253 -0.002,-5.34652 -0.34019,-2.22397 -1.97468,-4.13945 -3.07587,-6.02981 -2.59748,-4.45335 -1.93834,-8.97126 -2.19881,-14.0792 -1.91357,-0.10407 -4.09999,1.3595 -5.98517,1.80698 -2.27858,0.54165 -4.68734,0.71204 -6.90567,1.22497 -4.20274,0.97121 -8.01482,2.67776 -11.73205,4.81383 -4.50218,2.58716 -5.52806,6.38676 -7.83498,10.60873 -0.83805,1.53345 -1.91708,3.45792 -3.67298,4.13406 -2.01366,0.77571 -5.37919,0.27888 -7.37692,-0.23137 -4.54825,-1.1595 -8.18756,-4.2363 -13.17522,-3.84711 -2.13236,0.16767 -3.59854,1.1371 -4.84326,2.86425 -0.77337,1.07164 -2.94917,3.06965 -3.23886,4.2408 -0.39776,1.60252 0.34374,1.56935 0.63076,2.69569 0.20643,0.81422 0.46157,2.01411 0.70875,2.823 0.71313,2.33515 1.44048,3.24539 2.53012,5.35547 0.78846,1.52092 1.19954,3.20502 1.73463,4.86583 0.54394,1.68054 1.68587,3.31803 2.25728,4.94207 0.0505,0.13094 0.0585,0.26545 0.0293,0.40264"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 573.17942,431.89199 c 1.07821,-2.24083 2.3163,-3.27899 3.82419,-5.10851 0.94687,-1.14724 1.38638,-2.75053 2.53964,-3.80389 2.60305,-2.37677 7.43578,-0.55529 10.73826,-0.86469 2.36276,-0.22177 3.08276,-1.95382 5.274,-2.60745 1.6383,-0.48823 4.00641,-0.34964 5.69116,-0.448 0.9317,-0.0554 2.1618,0.2629 3.05684,0.004 1.13629,-0.32729 2.32972,-0.39257 3.3025,-1.00868 1.7741,-1.12039 2.96396,-1.85186 5.04533,-1.84561 2.24485,0.006 3.65179,0.17437 5.48929,1.37527 1.80714,1.18036 3.39539,2.85159 5.54376,3.47213 1.79194,0.51509 3.96981,0.24325 5.85556,0.24325 1.24703,0 4.15737,0.28435 5.2579,-0.24681 2.32165,-1.12756 1.05048,-8.36159 1.05048,-10.74994 0,-1.71329 0.25998,-3.64207 -0.002,-5.3312 -0.34303,-2.21759 -1.99114,-4.12758 -3.10151,-6.01251 -2.61914,-4.44058 -1.9545,-8.94554 -2.21714,-14.03883 -1.92952,-0.10377 -4.13417,1.3556 -6.03507,1.80179 -2.29757,0.5401 -4.72642,0.71 -6.96324,1.22146 -4.23778,0.96843 -8.08164,2.67009 -11.82986,4.80003 -4.53972,2.57974 -5.57415,6.36845 -7.9003,10.57831 -0.84503,1.52905 -1.93307,3.448 -3.7036,4.12221 -2.03045,0.77348 -5.42404,0.27807 -7.43842,-0.23071 -4.58618,-1.15617 -8.25582,-4.22415 -13.28507,-3.83609 -2.15013,0.16719 -3.62854,1.13385 -4.88363,2.85604 -0.77982,1.06857 -2.97375,3.06085 -3.26587,4.22864 -0.40107,1.59793 0.34662,1.56485 0.63603,2.68797 0.20815,0.81188 0.46541,2.00833 0.71465,2.8149 0.71908,2.32845 1.45249,3.23608 2.55122,5.34011 0.79503,1.51656 1.20953,3.19584 1.74908,4.85188 0.54849,1.67572 1.69993,3.30851 2.2761,4.9279 0.0509,0.13056 0.059,0.26469 0.0296,0.40149"
      id="path33"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 567.02316,409.74184 c -2.4584,-2.21234 -7.80752,-3.39964 -5.4448,-7.88883 0.82921,-1.57562 2.67456,-3.18442 1.54593,-5.29719 -0.42437,-0.79455 -1.67351,-1.08239 -2.07306,-1.85003 -0.25866,-0.49861 -0.27018,-2.00157 -0.31977,-2.53337 -0.14442,-1.50835 -0.0922,-3.15748 -0.0373,-4.68199 0.0666,-1.87691 0.89917,-2.77817 1.86394,-4.33853 1.56538,-2.52708 4.18234,-5.96796 4.63772,-9.13803 0.27904,-1.95134 -0.0107,-3.09382 -1.42012,-4.34482 -1.39173,-1.23752 -2.89428,-2.30738 -4.16731,-3.71439 -1.04979,-1.15859 -6.94549,-8.09954 -6.04452,-9.44828 0.30827,-0.46095 3.07851,-0.81873 3.83685,-1.34067 1.30937,-0.90125 2.00389,-2.22487 3.52235,-2.69297 2.63557,-0.80978 7.79065,-0.65914 10.33767,0.0861 2.92791,0.85639 4.92476,3.03467 7.81811,4.12242 -0.14705,0.12822 1.05158,0.26903 0.8992,0.40443 1.12599,1.06805 2.58152,2.54056 4.15668,2.89746 1.94456,0.44299 2.77821,1.04203 4.51987,2.39077 1.30319,1.00976 2.71,1.75676 3.50467,3.16826 0.99132,1.75766 1.82318,2.54502 2.80035,4.27665 1.70802,3.01852 2.52837,5.85499 6.36612,3.69377 1.62476,-0.91558 2.63026,-3.59781 3.79168,-4.96982 1.09587,-1.29137 2.97577,-2.45807 4.1115,-3.6651 2.64442,-2.81316 4.72722,-5.24965 8.5862,-6.38317 3.93964,-1.15682 7.41506,-2.0742 11.62841,-1.8276 0.18961,3.82019 -0.6458,6.24506 -2.81541,9.1138 -1.85597,2.45445 -2.50888,6.9248 -1.53173,9.99264 0.71229,2.23293 2.33348,2.88578 3.53745,4.61833 1.0799,1.5523 1.01435,2.84723 -0.4988,3.55836 -2.9084,1.36757 -6.43964,2.13967 -9.32149,3.03731 -3.05638,0.9515 -6.20314,2.41321 -9.20456,3.3252 -2.85884,0.86898 -5.81599,2.9692 -7.67375,5.23084 -1.85507,2.25894 -3.16181,4.72953 -4.60848,7.29426 -0.85224,1.51374 -1.66108,2.36388 -2.95983,3.56823 -1.20836,1.12186 -1.92152,1.09315 -3.69245,1.17925 -2.84995,0.14079 -5.2481,-0.17936 -7.84026,-1.58815 -2.54434,-1.38284 -4.11592,-3.00509 -6.97741,-3.51084 -2.85795,-0.50578 -5.43682,-0.85104 -7.00132,1.68591 -0.64407,1.04115 -1.16673,1.72897 -1.9676,2.69297 -0.6848,0.82594 -1.16143,2.35402 -2.03492,2.87326"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 565.13801,410.37956 c -2.47888,-2.20601 -7.8726,-3.3899 -5.49018,-7.86622 0.83612,-1.5711 2.69685,-3.17529 1.55881,-5.282 -0.42791,-0.79227 -1.68746,-1.07928 -2.09034,-1.84472 -0.26082,-0.49718 -0.27244,-1.99583 -0.32244,-2.52611 -0.14562,-1.50402 -0.093,-3.14842 -0.0376,-4.66856 0.0672,-1.87153 0.90667,-2.77021 1.87948,-4.32609 1.57843,-2.51984 4.21721,-5.95084 4.67639,-9.11183 0.28137,-1.94574 -0.0108,-3.08495 -1.43196,-4.33236 -1.40333,-1.23397 -2.91841,-2.30076 -4.20205,-3.70373 -1.05855,-1.15528 -7.0034,-8.07632 -6.09492,-9.4212 0.31084,-0.45962 3.10417,-0.81637 3.86884,-1.33682 1.32028,-0.89866 2.02059,-2.21849 3.55171,-2.68525 2.65755,-0.80745 7.85561,-0.65724 10.42386,0.0859 2.95232,0.85393 4.96581,3.02597 7.88328,4.11059 -0.14827,0.12786 1.06036,0.26826 0.90671,0.40328 1.13537,1.06498 2.60304,2.53327 4.19133,2.88915 1.96077,0.44171 2.80137,1.03904 4.55755,2.38391 1.31405,1.00686 2.73259,1.75173 3.53389,3.15918 0.99958,1.75262 1.83838,2.53772 2.82369,4.26438 1.72227,3.00987 2.54945,5.83821 6.41919,3.68318 1.63831,-0.91295 2.65219,-3.58749 3.8233,-4.95557 1.105,-1.28766 3.00058,-2.45102 4.14577,-3.65459 2.66647,-2.80509 4.76664,-5.23459 8.65779,-6.36486 3.97249,-1.1535 7.47688,-2.06826 11.72535,-1.82236 0.19119,3.80923 -0.65118,6.22715 -2.83888,9.08767 -1.87144,2.4474 -2.52979,6.90494 -1.5445,9.96398 0.71823,2.22652 2.35294,2.87751 3.56694,4.60508 1.08891,1.54785 1.02281,2.83907 -0.50295,3.54816 -2.93265,1.36365 -6.49333,2.13353 -9.3992,3.0286 -3.08186,0.94877 -6.25487,2.40629 -9.28131,3.31566 -2.88267,0.8665 -5.86447,2.96069 -7.73772,5.21585 -1.87054,2.25246 -3.18817,4.71596 -4.6469,7.27334 -0.85934,1.5094 -1.67493,2.3571 -2.98451,3.558 -1.21844,1.11864 -1.93754,1.09001 -3.72323,1.17587 -2.87371,0.14038 -5.29185,-0.17885 -7.90562,-1.5836 -2.56555,-1.37888 -4.15024,-2.99648 -7.03559,-3.50077 -2.88177,-0.50433 -5.48214,-0.8486 -7.05968,1.68107 -0.64944,1.03817 -1.17646,1.72401 -1.98401,2.68526 -0.69051,0.82356 -1.17111,2.34726 -2.05189,2.86502"
      id="path35"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 562.57679,407.10711 c -1.94722,-1.63927 -2.42031,-2.84003 -0.99843,-5.2541 0.63076,-1.07166 1.5973,-2.18992 1.86396,-3.50817 0.48106,-2.38359 -1.80462,-2.09572 -2.2387,-3.41934 -0.80617,-2.46163 -0.79288,-8.16325 0.96741,-10.95576 2.15897,-3.42563 5.08688,-6.36164 4.93097,-10.75848 -0.12579,-3.53144 -5.451,-7.67628 -7.88457,-10.07423 -3.04397,-2.99964 -4.73519,-7.18037 -7.28038,-10.52978 -2.63913,-3.47228 -4.48536,-8.0117 -7.68611,-10.82753 -3.63577,-3.20053 -9.39416,-1.03667 -13.58009,0.005 -2.24401,0.55867 -3.65524,0.6663 -5.3677,2.3486 -1.81789,1.78457 -3.02628,4.1843 -4.13631,6.60109 -0.65556,1.42854 -1.24379,4.46946 -2.52038,5.47831 -1.88966,1.49401 -4.5332,0.0985 -6.02773,1.88411 -3.14054,3.75385 1.61412,9.66801 3.18041,12.82552 1.95785,3.94844 4.04328,7.66731 6.05076,11.51443 2.12615,4.07577 3.04663,8.51835 5.48198,12.53584 2.04732,3.37453 3.54541,6.4029 4.93095,10.06886 1.32177,3.4938 2.60193,6.8979 5.66183,9.20708 1.0445,-1.58815 1.31383,-9.19901 5.20026,-5.55814 2.78706,2.61049 0.37385,8.56677 5.15599,7.99913 0.78136,-2.13879 2.40791,-1.11199 3.88648,-1.79263 1.63626,-0.7524 1.60349,-1.64646 1.97999,-3.43461 0.73176,-3.466 4.37374,-6.78941 8.20171,-4.352"
-     id="path37"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 511.80368,359.16618 c 1.05071,-0.0188 1.35456,-1.60701 2.21035,-2.17019 1.00993,-0.66361 1.99862,-0.24572 3.1503,-0.46361 2.4761,-0.46632 2.85439,-3.46957 3.68715,-5.42541 0.986,-2.31187 1.90558,-4.16367 3.4878,-6.08635 2.04824,-2.4912 4.16197,-3.10907 7.08284,-3.85249 2.54697,-0.64926 4.91056,-0.98823 7.59576,-0.98823 1.04447,0 2.1944,-0.12017 3.06522,0.24751 1.06043,0.44838 2.11823,1.52629 2.95096,2.36117 1.86483,1.86706 3.74917,3.68032 5.1099,5.95452 0.64851,1.08687 1.28989,2.35759 1.98797,3.34941 0.81947,1.16398 2.01988,2.35131 2.679,3.59152 0.31361,0.58739 0.16654,1.6106 0.97803,1.72988 1.12776,-1.20975 1.26863,-1.32453 2.84467,-1.93343 1.29166,-0.50129 1.86218,-1.94598 2.97397,-2.39616 0.97893,-0.39549 2.16783,0.0844 2.66658,-1.11467 0.43499,-1.05012 -0.31979,-2.43741 -0.81416,-3.26961 -1.70448,-2.86156 -4.48268,-5.97602 -7.5169,-7.49156 -2.36182,-1.18014 -5.85319,-2.56742 -7.61438,-4.62013 -1.6345,-1.9047 -2.25196,-4.87479 -3.20963,-7.04766 -1.08788,-2.46429 -2.8925,-4.78331 -3.03512,-7.60365 -0.12756,-2.47865 -0.45712,-5.2084 -1.22697,-7.56061 -0.48017,-1.468 -1.32443,-2.81134 -2.29627,-3.97893 -0.85578,-1.0277 -1.67525,-2.42845 -2.81719,-3.11179 -3.47719,-2.07868 -3.63133,3.21224 -2.86415,5.21469 0.9045,2.36926 1.73995,4.12244 1.60441,6.92482 -0.30564,6.25852 -7.06955,6.0424 -10.78152,9.52451 -0.955,0.89589 -2.07477,1.8034 -2.73124,2.99609 -1.27748,-0.77212 -2.28651,-2.05448 -3.52679,-2.93332 -1.1499,-0.81515 -2.33613,-1.39893 -3.5578,-1.91819 -1.10206,-0.46809 -2.25377,-1.14243 -3.4329,-1.5702 -0.65026,-0.23586 -2.90046,-0.96042 -3.54184,-0.85822 -1.38378,0.2224 -2.11291,2.82032 -3.09803,3.82829 -1.39176,1.42227 -2.50091,0.73087 -3.6774,-0.56496 -2.36446,-2.60688 -3.35579,-6.14731 -6.25627,-8.15516 -2.39548,-1.65902 -2.97754,-4.78154 -5.38012,-6.3975 -2.46547,-1.65902 -4.6838,1.4895 -5.01776,3.81303 -0.48195,3.35927 2.36182,5.65947 4.26917,7.91752 2.2059,2.61405 4.18771,5.37072 6.33247,8.00721 1.61235,1.98092 3.73145,3.87491 5.60514,5.69624 2.28563,2.21948 2.97043,4.93396 4.26474,7.82784 0.61659,1.3783 1.21368,2.7396 2.02343,3.99597 0.81503,1.26173 2.46811,2.23474 3.13698,3.46149 0.53507,0.98106 0.33309,2.90821 0.64582,3.97986 0.47043,1.61686 0.81239,1.46351 2.41057,1.46351"
-     id="path39"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 521.3653,331.49745 c 1.35631,-2.18991 3.72966,-3.64356 5.85406,-4.87035 1.95429,-1.12989 4.83528,-1.56036 6.05696,-3.45163 2.67719,-4.14393 -0.0283,-8.23317 -0.66002,-12.526 -0.19577,-1.33257 8.9e-4,-1.97105 0.48371,-3.12969 0.48459,-1.16219 0.59003,-1.95944 -0.32777,-3.01223 -0.90541,-1.04295 -1.85509,-1.76572 -2.33172,-3.04092 -0.54482,-1.45726 -0.70075,-2.61586 -1.71334,-3.84712 -1.61146,-1.95674 -2.81898,-4.24081 -4.78125,-5.85945 -0.64405,-0.53179 -1.42629,-0.94699 -1.99239,-1.51553 -0.83897,-0.84475 -1.43605,-2.06077 -2.15808,-3.02388 -1.18267,-1.57921 -2.13592,-2.69926 -3.73587,-3.87043 -1.92242,-1.40793 -4.85476,-3.24359 -5.73978,-5.55276 -0.75745,-1.97558 -1.01348,-4.98868 -0.21351,-7.09428 1.00107,-2.64187 3.71197,-5.03983 1.67082,-8.01978 -0.8053,-1.17653 -1.75765,-1.77825 -1.93483,-3.28393 -0.15149,-1.29582 0.56255,-2.43291 1.07374,-3.56465 0.93019,-2.06075 2.22008,-4.98152 1.51046,-7.35165 -0.31627,-1.05461 -1.45819,-2.00428 -2.21919,-2.82482 -0.89743,-0.96668 -1.24469,-1.95135 -1.93304,-3.03015 -1.03919,-1.63121 -1.75233,-0.10581 -2.69671,0.98284 -0.99843,1.15058 -2.07923,2.18361 -2.72948,3.55657 -1.01435,2.13878 -2.97397,4.54301 -5.26051,5.28104 -1.42807,0.46185 -2.95892,-0.1632 -4.04504,1.00259 -0.72821,0.78197 -1.08791,1.71191 -2.08453,2.44995 -0.91076,0.67436 -2.06418,1.03575 -2.57803,2.16568 -0.79818,1.75586 1.16587,1.63211 2.18819,2.57282 0.9125,0.83758 1.04806,2.45981 0.99932,3.62831 -0.0665,1.659 -0.90361,2.0787 -1.96229,3.27047 -0.85753,0.96585 -1.87367,1.90114 -1.59906,3.31177 0.28969,1.49131 1.14993,2.32171 1.10916,3.96817 -0.0328,1.35679 -0.93729,2.32172 -0.73532,3.69736 0.20909,1.42855 1.2704,2.14864 2.46106,2.85081 0.97804,0.57753 3.08474,1.29133 3.54806,2.41317 0.35436,0.86091 -0.72025,2.11099 -1.10296,3.04991 -0.30031,0.73177 -0.28258,2.39168 -0.79377,2.95124 -0.75656,0.82681 -2.92258,0.34256 -3.9972,0.39547 -1.86306,0.0932 -5.78852,1.42316 -5.14624,4.09462 0.21971,0.91292 2.43979,2.59613 3.28318,3.00595 1.42455,0.69319 3.15117,1.04562 4.69086,1.46173 2.30335,0.62236 4.98591,2.01055 4.2878,4.96 -0.39422,1.66259 -2.00215,0.68424 -3.18394,1.36218 -1.34392,0.76942 -0.77162,2.46787 0.0478,3.47137 1.76031,2.15852 2.40346,3.72068 -0.63698,4.75644 -2.76667,0.9416 -1.61323,3.162 -0.30652,4.9304 0.85402,1.15237 1.84889,2.31904 3.09448,3.08129 1.4095,0.8609 1.62209,1.50837 2.48498,2.90551 0.78136,1.26533 3.41515,5.58503 5.36767,4.79319 0.5165,-0.20894 1.78864,-2.18451 2.21566,-2.71003 0.93465,-1.14873 1.03831,-1.65092 2.68785,-1.61414 1.60349,0.0358 2.33349,0.93083 3.79698,1.46081 1.227,0.44478 2.35653,0.87167 3.52683,1.51644 2.03935,1.12543 4.022,3.68568 6.27841,4.09461"
+     inkscape:connector-curvature="0" />
+
+
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 519.09951,332.35953 c 1.36762,-2.18363 3.76076,-3.63312 5.90286,-4.85639 1.97059,-1.12665 4.8756,-1.55588 6.10746,-3.44172 2.69951,-4.13205 -0.0285,-8.20956 -0.66552,-12.49008 -0.1974,-1.32875 8.9e-4,-1.96541 0.48774,-3.12072 0.48864,-1.15886 0.59496,-1.95383 -0.3305,-3.0036 -0.91296,-1.03995 -1.87055,-1.76065 -2.35116,-3.0322 -0.54936,-1.45308 -0.70659,-2.60835 -1.72762,-3.83608 -1.6249,-1.95113 -2.84248,-4.22865 -4.82112,-5.84265 -0.64941,-0.53027 -1.43817,-0.94427 -2.009,-1.51119 -0.84596,-0.84232 -1.44802,-2.05485 -2.17606,-3.01521 -1.19254,-1.57468 -2.15373,-2.69152 -3.76703,-3.85933 -1.93844,-1.40389 -4.89522,-3.23429 -5.78763,-5.53683 -0.76376,-1.96992 -1.02192,-4.97438 -0.21529,-7.07394 1.00943,-2.63429 3.74293,-5.02538 1.68476,-7.99678 -0.81202,-1.17316 -1.77231,-1.77315 -1.95097,-3.27452 -0.15275,-1.2921 0.56724,-2.42593 1.08269,-3.55443 0.93795,-2.05483 2.23859,-4.96723 1.52306,-7.33056 -0.31891,-1.05159 -1.47035,-1.99854 -2.2377,-2.81672 -0.9049,-0.96391 -1.25506,-1.94576 -1.94914,-3.02146 -1.04786,-1.62654 -1.76695,-0.10551 -2.7192,0.98002 -1.00676,1.14728 -2.09656,2.17735 -2.75223,3.54637 -1.02282,2.13265 -2.99877,4.52998 -5.30437,5.2659 -1.43998,0.46053 -2.98359,-0.16274 -4.07877,0.99971 -0.73428,0.77973 -1.09697,1.707 -2.1019,2.44292 -0.91836,0.67243 -2.08139,1.03279 -2.59952,2.15948 -0.80485,1.75082 1.17558,1.62743 2.20642,2.56544 0.92012,0.83517 1.05681,2.45275 1.00766,3.6179 -0.0671,1.65424 -0.91115,2.07274 -1.97865,3.26109 -0.86468,0.96308 -1.8893,1.8957 -1.6124,3.30228 0.29212,1.48703 1.15952,2.31505 1.11841,3.95679 -0.0331,1.3529 -0.9451,2.31506 -0.74144,3.68675 0.21083,1.42446 1.28098,2.14249 2.48157,2.84264 0.9862,0.57588 3.11046,1.28762 3.57764,2.40626 0.35732,0.85843 -0.72625,2.10493 -1.11216,3.04116 -0.30281,0.72967 -0.28493,2.38482 -0.80038,2.94277 -0.76287,0.82444 -2.94695,0.34158 -4.03052,0.39434 -1.8786,0.0929 -5.83678,1.41908 -5.18915,4.08288 0.22154,0.9103 2.46013,2.58868 3.31055,2.99733 1.43643,0.6912 3.17744,1.04262 4.72997,1.45754 2.32255,0.62058 5.02747,2.00479 4.32354,4.94578 -0.3975,1.65781 -2.01884,0.68227 -3.21048,1.35827 -1.35512,0.76721 -0.77805,2.46079 0.0482,3.46141 1.77499,2.15234 2.4235,3.71002 -0.64229,4.74281 -2.78974,0.93889 -1.62668,3.15293 -0.30907,4.91625 0.86113,1.14907 1.86429,2.3124 3.12027,3.07246 1.42125,0.85843 1.63561,1.50405 2.5057,2.89718 0.78787,1.2617 3.44362,5.56901 5.41242,4.77945 0.52081,-0.20834 1.80355,-2.17825 2.23413,-2.70226 0.94245,-1.14544 1.04697,-1.64619 2.71026,-1.60951 1.61686,0.0357 2.35294,0.92815 3.82864,1.45662 1.23722,0.4435 2.37617,0.86917 3.55623,1.51209 2.05635,1.1222 4.05552,3.67511 6.33075,4.08287"
      id="path41"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 493.53189,286.57768 c 1.32796,-0.0915 1.53968,-1.76038 1.34834,-2.8329 -0.17629,-0.9936 -0.12668,-0.67794 -0.85224,-1.13529 -0.51473,-0.32374 -1.1632,-0.87793 -1.72133,-1.15683 -1.08256,-0.54164 -2.17843,-0.1668 -3.3381,-0.32912 -1.43605,-0.20446 -2.86946,-0.93979 -4.23197,-1.40163 -1.817,-0.61698 -2.26082,-0.87523 -3.22114,-2.44728 -0.7114,-1.1631 -1.64779,-2.14323 -2.41765,-3.25972 -1.38733,-2.01502 -2.69402,-5.52136 -5.81864,-5.2093 -0.95855,0.0959 -0.80619,0 -0.95233,1.04743 -0.0975,0.70306 -0.0886,1.64018 0.24096,2.2159 0.27639,0.47886 0.79466,0.61607 1.03738,1.20434 0.19668,0.47528 0.19136,1.00887 0.19136,1.64378 0,1.14247 0.28791,2.7692 -0.33399,3.75027 -0.47041,0.74252 -1.94723,1.6016 -2.72682,1.9594 -1.37402,0.62595 -3.09446,0.39549 -4.5518,0.61699 -1.15523,0.17487 -2.22005,0.48604 -3.29822,0.95864 -2.17225,0.95146 -5.59718,2.62752 -6.12872,5.24608 -0.63609,3.13507 1.06665,4.3502 3.6464,5.24246 2.4708,0.8555 5.26053,2.48135 7.47617,3.93677 2.27412,1.49493 4.16111,3.60589 5.33849,5.92492 1.32884,2.61677 3.75004,4.15472 5.20559,6.63786 0.90184,1.53885 1.91,3.01405 2.81187,4.55734 0.72199,1.23755 1.16229,2.74861 2.12618,3.81126 -0.0922,-1.93162 2.3255,-4.90171 4.47473,-3.92963 0.8026,0.3632 2.32371,2.54054 3.1281,1.61598 0.29503,-0.33898 0.0248,-1.31287 0.29858,-1.73882 0.4837,-0.75599 0.81945,-0.51027 1.5335,-0.74521 2.88183,-0.94518 0.13909,-3.42116 -0.25782,-5.33575 -0.0797,-0.3856 -0.0557,-1.10124 0.0106,-1.48953 0.16393,-0.95595 -0.0505,-0.78199 0.85137,-0.99271 1.30938,-0.3067 2.02075,0.55867 2.33613,-0.99182 1.27128,-6.27018 -8.2274,-4.3735 -10.68756,-7.94083 -1.31558,-1.90831 -1.63628,-4.239 1.00461,-5.12141 1.99507,-0.6672 4.65188,-0.85552 6.9393,-1.10574 0.91604,-0.10032 0.27552,-2.30737 0.90451,-3.20232"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 491.03405,287.56857 c 1.33904,-0.0912 1.55252,-1.75533 1.35959,-2.82477 -0.17776,-0.99076 -0.12774,-0.676 -0.85935,-1.13205 -0.51902,-0.3228 -1.1729,-0.87541 -1.73568,-1.15351 -1.09159,-0.54008 -2.19659,-0.16632 -3.36593,-0.32817 -1.44802,-0.20387 -2.89338,-0.9371 -4.26725,-1.39761 -1.83215,-0.61521 -2.27967,-0.87272 -3.24799,-2.44027 -0.71733,-1.15976 -1.66154,-2.13708 -2.43781,-3.25036 -1.39889,-2.00925 -2.71648,-5.50554 -5.86715,-5.19437 -0.96654,0.0956 -0.81291,0 -0.96027,1.04443 -0.0983,0.70104 -0.0893,1.63547 0.24297,2.20954 0.27869,0.47749 0.80128,0.61431 1.04603,1.20089 0.19832,0.47392 0.19295,1.00597 0.19295,1.63907 0,1.13919 0.29031,2.76126 -0.33677,3.73951 -0.47433,0.7404 -1.96347,1.59701 -2.74956,1.95379 -1.38547,0.62414 -3.12025,0.39435 -4.58974,0.61521 -1.16486,0.17437 -2.23856,0.48465 -3.32572,0.9559 -2.19036,0.94873 -5.64385,2.61998 -6.17982,5.23103 -0.64139,3.12608 1.07555,4.33773 3.6768,5.22743 2.4914,0.85305 5.30439,2.47424 7.5385,3.92548 2.29308,1.49065 4.19581,3.59555 5.383,5.90793 1.33992,2.60927 3.7813,4.1428 5.24899,6.61883 0.90936,1.53444 1.92593,3.00541 2.83531,4.54426 0.72801,1.23401 1.17198,2.74074 2.14391,3.80034 -0.093,-1.92608 2.34488,-4.88766 4.51203,-3.91836 0.8093,0.36215 2.34308,2.53326 3.15418,1.61134 0.29749,-0.338 0.025,-1.3091 0.30107,-1.73383 0.48774,-0.75382 0.82628,-0.50881 1.54629,-0.74307 2.90585,-0.94247 0.14024,-3.41135 -0.25997,-5.32045 -0.0804,-0.3845 -0.0562,-1.09808 0.0107,-1.48526 0.1653,-0.95321 -0.0509,-0.77974 0.85847,-0.98986 1.3203,-0.30582 2.0376,0.55706 2.35561,-0.98898 1.28188,-6.2522 -8.29599,-4.36096 -10.77667,-7.91806 -1.32654,-1.90284 -1.64991,-4.22684 1.013,-5.10672 2.01169,-0.66529 4.69065,-0.85307 6.99714,-1.10258 0.92368,-0.10003 0.27782,-2.30075 0.91205,-3.19313"
      id="path43"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 456.38847,288.564 c -1.92508,-0.95147 -4.78922,-1.57112 -7.07486,-2.51274 -1.63891,-0.67525 -3.20521,-1.77379 -4.82022,-2.55038 -1.58666,-0.76496 -3.01738,-0.57213 -3.94583,-2.14687 -0.54393,-0.92276 -1.41478,-2.1863 -0.71669,-3.34401 0.74415,-1.23216 2.70289,-1.28149 3.85988,-1.48325 0.73973,-0.13004 1.37404,-0.37127 2.03581,-0.71025 0.27731,-0.14259 0.37387,-0.51386 0.63522,-0.63578 0.37473,-0.17399 0.9293,-0.0574 1.33682,-0.26724 1.0179,-0.52282 1.50162,-1.82313 1.8294,-2.8553 0.37299,-1.17297 0.63076,-2.20067 -0.0922,-3.20144 -0.75923,-1.05282 -2.13149,-1.51375 -3.13081,-2.28137 -1.06929,-0.82143 -1.94102,-2.0787 -2.6701,-3.20415 -0.80175,-1.2411 -1.71337,-2.24731 -2.80036,-3.25253 -1.02236,-0.94521 -2.8287,-1.43844 -3.6898,-2.3361 -0.6538,-0.68243 0.0718,-1.75497 0.85135,-2.6266 1.52021,-1.69936 4.78037,-4.44078 3.35848,-7.2037 -0.41816,-0.81067 -2.23423,-1.40165 -2.95803,-1.85811 -0.98871,-0.62324 -2.1262,-1.42494 -2.99351,-2.18631 -1.18532,-1.04382 -1.44843,-1.52898 -1.44666,-3.12431 8.9e-4,-1.02858 -0.24008,-2.47867 0.24539,-3.34403 0.62633,-1.11378 1.93215,-1.70294 2.88009,-2.50735 1.44757,-1.22767 1.64247,-3.01491 2.09071,-4.73402 0.34463,-1.32542 0.63962,-3.20413 2.38133,-2.93689 1.23673,0.1901 2.35385,1.66169 3.45061,2.26699 1.98798,1.10037 4.9921,1.31737 7.34062,0.87257 1.2943,-0.24392 2.6657,-0.63671 3.94229,-1.05459 1.13128,-0.37037 2.43889,-1.14067 3.63841,-0.94609 -0.0283,1.27251 0.8806,2.77459 0.51737,4.07579 -0.40838,1.45725 -1.29607,2.14865 -1.21368,3.82559 2.37244,1.59175 4.83883,-0.7999 6.406,-2.20872 1.08965,-0.97838 2.52837,-1.18822 3.95554,-1.24382 2.04913,-0.0808 2.41057,0.18294 3.28761,2.01862 0.84694,1.772 1.32975,2.34951 3.36911,2.44727 1.44668,0.0698 2.85617,0.11299 4.30727,0.12553 3.44265,0.0269 6.05341,2.884 7.33621,5.89801 0.83098,1.95407 1.8852,3.51622 3.21937,5.14563 1.05335,1.28956 2.58243,2.61856 3.38772,4.0758 -1.07903,-0.0224 -1.73283,1.11556 -2.31841,1.87693 -0.77785,1.00706 -1.53265,1.6886 -2.42032,2.54233 -0.89918,0.86537 -0.99664,1.60249 -0.27371,2.57637 1.03294,1.39001 2.05262,1.18733 2.08452,3.07144 0.0222,1.42763 0.45004,2.16836 -0.34375,3.3817 -0.61571,0.94249 -1.23936,1.74957 -1.89406,2.66875 -1.38376,1.94597 0.18872,4.17534 0.0275,6.36254 -0.16213,2.20781 -0.88591,3.75116 0.7539,5.58772 -1.16319,1.55948 -4.6705,-0.67883 -5.83812,-1.21062 -1.28457,-0.58559 -2.11111,-0.89766 -3.13521,-1.963 -0.79378,-0.82594 -1.53619,-1.73617 -2.1953,-2.6284 -1.32708,-1.80342 -2.4132,-4.49997 -4.65014,-5.47028 -1.34745,-0.5838 -1.96315,-0.17218 -2.09425,1.21062 -0.0469,0.49054 -0.14884,1.40344 -0.016,1.87066 0.13997,0.49143 0.77518,0.91469 0.99843,1.41689 0.86556,1.95494 0.43941,4.04438 -0.98599,5.47383 -1.56897,1.57382 -3.23006,1.41512 -5.27382,1.79353 -1.9942,0.36946 -4.09466,1.69667 -6.00203,2.57552 -1.99594,0.91648 -4.75556,2.54052 -4.53318,5.11782"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 453.58097,289.54919 c -1.94113,-0.94874 -4.82915,-1.56662 -7.13383,-2.50553 -1.65258,-0.67331 -3.23194,-1.76871 -4.86041,-2.54307 -1.5999,-0.76277 -3.04254,-0.57049 -3.97873,-2.14072 -0.54847,-0.92011 -1.42657,-2.18002 -0.72267,-3.33441 0.75035,-1.22863 2.72543,-1.27781 3.89207,-1.479 0.74589,-0.12967 1.38549,-0.37021 2.05277,-0.70822 0.27962,-0.14218 0.37699,-0.51238 0.64052,-0.63395 0.37786,-0.17349 0.93705,-0.0572 1.34797,-0.26647 1.02638,-0.52133 1.51413,-1.81791 1.84465,-2.84712 0.3761,-1.1696 0.63602,-2.19435 -0.093,-3.19226 -0.76556,-1.0498 -2.14926,-1.50941 -3.15692,-2.27482 -1.0782,-0.81908 -1.95719,-2.07275 -2.69236,-3.19497 -0.80843,-1.23754 -1.72765,-2.24086 -2.82369,-3.2432 -1.03089,-0.9425 -2.8523,-1.43432 -3.72057,-2.3294 -0.65925,-0.68047 0.0724,-1.74994 0.85844,-2.61907 1.53289,-1.69449 4.82023,-4.42804 3.38649,-7.18304 -0.42164,-0.80834 -2.25286,-1.39763 -2.98269,-1.85279 -0.99696,-0.62144 -2.14393,-1.42085 -3.01847,-2.18003 -1.1952,-1.04083 -1.46051,-1.5246 -1.45872,-3.11536 9e-4,-1.02562 -0.24208,-2.47156 0.24743,-3.33444 0.63155,-1.11058 1.94826,-1.69805 2.9041,-2.50016 1.45965,-1.22415 1.65617,-3.00626 2.10815,-4.72044 0.3475,-1.32161 0.64495,-3.19494 2.40118,-2.92847 1.24704,0.18956 2.37348,1.65692 3.47938,2.26049 2.00455,1.09721 5.03372,1.31359 7.40182,0.87006 1.30508,-0.24321 2.68792,-0.63487 3.97515,-1.05156 1.14071,-0.36931 2.45922,-1.1374 3.66874,-0.94337 -0.0285,1.26886 0.88795,2.76663 0.52168,4.0641 -0.41178,1.45307 -1.30687,2.14248 -1.22379,3.81462 2.39222,1.58718 4.87917,-0.79761 6.4594,-2.20239 1.09874,-0.97557 2.54945,-1.18481 3.98852,-1.24025 2.06621,-0.0806 2.43067,0.18242 3.31502,2.01283 0.854,1.76692 1.34083,2.34278 3.3972,2.44026 1.45874,0.0696 2.87998,0.11265 4.34318,0.12516 3.47135,0.0268 6.10388,2.87573 7.39737,5.8811 0.83791,1.94847 1.90092,3.50614 3.24621,5.13088 1.06213,1.28586 2.60396,2.61105 3.41597,4.06411 -1.08804,-0.0223 -1.74728,1.11236 -2.33774,1.87154 -0.78434,1.00418 -1.54544,1.68376 -2.4405,2.53505 -0.90668,0.86288 -1.00495,1.59788 -0.27599,2.56898 1.04154,1.38602 2.06973,1.18392 2.1019,3.06263 0.0224,1.42354 0.45379,2.16214 -0.34663,3.372 -0.62084,0.93979 -1.24969,1.74455 -1.90984,2.6611 -1.3953,1.94039 0.19029,4.16336 0.0277,6.3443 -0.16348,2.20147 -0.8933,3.7404 0.76018,5.57169 -1.17288,1.55501 -4.70944,-0.67689 -5.88679,-1.20714 -1.29528,-0.58392 -2.12871,-0.8951 -3.16135,-1.95738 -0.80039,-0.82357 -1.549,-1.73119 -2.2136,-2.62086 -1.33814,-1.79825 -2.43332,-4.48707 -4.68891,-5.45459 -1.35868,-0.58213 -1.97951,-0.17169 -2.11171,1.20714 -0.0473,0.48914 -0.15008,1.39942 -0.0161,1.8653 0.14114,0.49002 0.78164,0.91207 1.00675,1.41283 0.87277,1.94933 0.44307,4.03278 -0.99421,5.45813 -1.58205,1.56931 -3.25698,1.41106 -5.31778,1.78839 -2.01083,0.36839 -4.12881,1.6918 -6.05207,2.56813 -2.01258,0.91385 -4.79521,2.53324 -4.57098,5.10315"
      id="path45"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 441.06581,226.8945 c 0.77606,0.0984 1.90561,0.64297 2.22719,1.34423 1.4396,0.68513 2.69315,1.53705 4.24351,2.10649 1.5193,0.5587 3.03155,0.58918 4.68464,0.52103 1.33684,-0.0565 7.5692,-1.69668 6.94462,-3.45612 -1.9924,-0.2161 -3.76243,-0.55688 -2.41143,-2.86875 1.07726,-1.84642 2.17136,-1.86437 4.16553,-1.86437 0.97182,0 1.97734,0.0808 2.94563,0 0.93819,-0.0781 1.29253,-0.38829 2.08187,-0.74431 1.4538,-0.65734 3.93965,-0.26364 4.65192,-2.20245 -1.01703,-0.85192 -1.99949,-1.72538 -3.04574,-2.53695 -1.27305,-0.98735 -1.11272,-1.64734 -1.11272,-3.23015 0,-2.16837 0.72469,-4.98958 -0.82122,-6.6728 -0.56346,-0.61339 -1.04981,-0.89676 -1.88877,-0.99005 -0.98068,-0.10668 -0.91159,-0.0493 -1.66992,0.71028 -0.87706,0.87969 -1.65223,1.73071 -2.61431,2.48491 -1.91976,1.50657 -4.22223,2.47684 -5.29594,4.71967 -1.76916,3.69644 -6.39803,2.70911 -9.04068,5.36264 -1.02588,1.03125 -1.26864,2.7387 -2.11819,3.97447 -0.79911,1.16131 -2.22542,1.81055 -2.04911,3.46776"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 438.13057,228.05653 c 0.78253,0.0981 1.92149,0.64112 2.24575,1.34038 1.45161,0.68316 2.71561,1.53264 4.2789,2.10044 1.53196,0.55711 3.05682,0.5875 4.7237,0.51954 1.34798,-0.0563 7.63229,-1.69181 7.00251,-3.4462 -2.00902,-0.21548 -3.7938,-0.55529 -2.43154,-2.86053 1.08625,-1.84112 2.18947,-1.85902 4.20026,-1.85902 0.97992,0 1.99382,0.0806 2.97019,0 0.94601,-0.0779 1.3033,-0.38718 2.09922,-0.74218 1.46593,-0.65545 3.9725,-0.26288 4.69071,-2.19613 -1.02551,-0.84948 -2.01617,-1.72044 -3.07113,-2.52968 -1.28366,-0.98452 -1.122,-1.64261 -1.122,-3.22089 0,-2.16214 0.73073,-4.97526 -0.82807,-6.65366 -0.56816,-0.61163 -1.05856,-0.89419 -1.90451,-0.98722 -0.98886,-0.10636 -0.9192,-0.0492 -1.68385,0.70825 -0.88437,0.87716 -1.666,1.72575 -2.6361,2.47778 -1.93577,1.50225 -4.25743,2.46974 -5.3401,4.70614 -1.7839,3.68584 -6.45136,2.70134 -9.11604,5.34726 -1.03443,1.02829 -1.27922,2.73085 -2.13586,3.96307 -0.80577,1.15798 -2.24397,1.80537 -2.06618,3.45782"
      id="path47"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 738.75615,383.17433 c -0.68302,2.80327 -0.4137,3.41216 -1.50424,6.04954 -1.30227,3.14583 -2.14214,6.02358 -2.87568,9.35594 -0.53507,2.42574 -1.49539,5.97335 -2.89957,7.92202 -2.14035,2.96827 -5.03283,2.01949 -8.03605,3.45074 -5.48819,2.61226 -9.4402,6.77503 -14.76983,9.0268 -5.69284,2.40872 -10.35536,3.23195 -16.33701,4.12512 -2.32107,0.34617 -4.10352,-0.60352 -5.65563,1.44737 2.14213,1.27699 3.8094,1.41689 5.62903,3.17635 -3.88644,0.33358 -4.04059,3.22654 -7.01282,4.74029 -1.61411,0.82322 -2.95362,1.48235 -4.76969,1.56574 -3.50643,0.16143 -6.1119,-3.41487 -9.07083,-4.47215 -3.02272,-1.08152 -7.23163,1.44288 -9.96468,2.47148 0.58469,-3.56375 -0.84158,-5.05866 -2.02163,-8.04488 -1.24294,-3.14494 -1.51404,-7.38486 -6.13581,-7.3947 -3.3363,-0.007 -5.22331,3.51978 -8.70932,3.58257 -2.93148,0.0556 -5.88157,0.0151 -8.7067,0.2672 1.57869,-1.32359 2.23423,-11.30097 0.88857,-17.40436 -0.63432,-2.87232 -4.28425,-5.28013 -4.68733,-8.20448 -0.39334,-2.85617 0.87704,-6.62887 -0.0496,-9.34607 -0.22679,-0.66717 -0.2773,-0.57839 -0.59447,-1.27789 -0.27549,-0.60979 0.13911,-1.54422 -0.11691,-2.16478 -0.68482,-1.66439 -2.82694,-3.31981 -3.54364,-4.92053 -0.99667,-2.22667 -2.54168,-4.62012 -1.55209,-7.46646 1.12329,-3.22654 10.38988,-14.36075 1.77534,-13.42813 -6.36171,0.68869 -11.04461,2.20066 -15.38999,7.21178 -1.84269,2.12443 -4.5243,3.83904 -6.18272,5.82896 -2.03938,2.44548 -1.87638,5.08374 -5.94003,4.68738 -3.7704,-0.36767 -3.42312,-3.34221 -5.06826,-6.26837 -1.38645,-2.47149 -4.86274,-4.24258 -5.50591,-6.78133 -1.33596,-5.28732 9.15051,-9.96663 11.82334,-13.22636 2.76667,-3.37542 2.17753,-5.06761 7.21479,-6.01189 3.47896,-0.65285 6.79223,-1.51105 10.32969,-2.45358 2.70555,-0.72277 5.50411,-1.22496 8.09274,-1.99887 4.11593,-1.22945 4.59522,-2.09124 4.98679,-6.31321 0.40575,-4.37171 -0.26489,-14.12043 5.34818,-15.20281 6.80822,-1.31197 8.1034,9.15414 10.96134,13.22366 3.74385,5.33214 8.23008,10.20156 9.92215,16.30315 1.848,6.66742 9.44734,9.99713 10.7009,16.70043 0.71669,3.83276 -0.72824,5.95092 -2.74544,8.62328 -1.75675,2.33338 -3.23269,4.74566 0.4713,6.57865 2.40968,1.19179 6.53712,0.87702 9.16204,1.26621 3.19991,0.4744 6.6806,1.12186 9.77954,1.43484 2.7153,0.27441 3.72433,-0.1632 5.52714,2.02398 0.83897,1.01783 2.45487,3.19518 2.83847,4.45065 0.57317,1.87782 -0.56433,3.79956 0.52623,5.63436 1.28368,2.1612 3.75269,1.96661 5.74421,2.96738 1.55388,-3.18351 7.84559,-0.63131 10.27385,-0.0458 3.23091,0.77929 8.16543,1.38551 11.27408,-0.31744 1.73016,-0.94788 2.78174,-2.77907 4.1354,-4.05337 1.95695,-1.84015 2.42029,-1.6895 4.93273,-2.28764 1.67083,-0.39725 3.16179,-0.84027 4.37814,-2.20783 1.23053,-1.38281 1.19598,-3.71799 3.08207,-4.31883 0.0691,0.37666 0.0166,0.75419 0.0469,1.14612 l 8.9e-4,0.3497 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 738.30274,383.88822 c -0.68873,2.79523 -0.41716,3.40238 -1.51679,6.0322 -1.31312,3.13681 -2.16,6.00631 -2.89965,9.32911 -0.53953,2.41879 -1.50786,5.95622 -2.92375,7.8993 -2.15819,2.95976 -5.07479,2.0137 -8.10304,3.44084 -5.53395,2.60478 -9.5189,6.75561 -14.89297,9.00092 -5.7403,2.40181 -10.44169,3.22269 -16.47321,4.11329 -2.34042,0.34518 -4.13773,-0.60179 -5.70278,1.44322 2.15999,1.27333 3.84116,1.41283 5.67596,3.16725 -3.91884,0.33262 -4.07427,3.21729 -7.07128,4.72669 -1.62757,0.82086 -2.97824,1.4781 -4.80946,1.56125 -3.53566,0.16097 -6.16285,-3.40507 -9.14645,-4.45933 -3.04792,-1.07841 -7.29192,1.43874 -10.04776,2.4644 0.58956,-3.55353 -0.84859,-5.04416 -2.03849,-8.02182 -1.25329,-3.13591 -1.52665,-7.36367 -6.18696,-7.37348 -3.36411,-0.007 -5.26686,3.50968 -8.78193,3.57229 -2.95591,0.0554 -5.9306,0.0151 -8.77928,0.26643 1.59185,-1.31979 2.25286,-11.26856 0.89597,-17.35445 -0.6396,-2.86409 -4.31996,-5.26499 -4.7264,-8.18095 -0.39662,-2.84798 0.88435,-6.60986 -0.05,-9.31927 -0.22868,-0.66526 -0.27961,-0.57673 -0.59944,-1.27422 -0.27778,-0.60805 0.14027,-1.5398 -0.11788,-2.15858 -0.69053,-1.65962 -2.85051,-3.31029 -3.57318,-4.90642 -1.00498,-2.22029 -2.56287,-4.60687 -1.56502,-7.44505 1.13265,-3.21729 10.47649,-14.31957 1.79013,-13.38963 -6.41474,0.68672 -11.13669,2.19436 -15.51829,7.1911 -1.85806,2.11835 -4.56202,3.82804 -6.23426,5.81225 -2.05639,2.43846 -1.89203,5.06917 -5.98956,4.67394 -3.80183,-0.36662 -3.45166,-3.33263 -5.11051,-6.2504 -1.39801,-2.4644 -4.90328,-4.23041 -5.55181,-6.76188 -1.3471,-5.27216 9.22679,-9.93805 11.92191,-13.18844 2.78973,-3.36573 2.19568,-5.05307 7.27493,-5.99464 3.50797,-0.65098 6.84886,-1.50672 10.41581,-2.44655 2.72811,-0.72069 5.55,-1.22145 8.16021,-1.99313 4.15024,-1.22593 4.63353,-2.08525 5.02837,-6.29512 0.40913,-4.35917 -0.2671,-14.07993 5.39277,-15.15921 6.86497,-1.30821 8.17095,9.1279 11.05272,13.18575 3.77506,5.31684 8.29868,10.17229 10.00487,16.25639 1.86341,6.6483 9.52609,9.96846 10.79011,16.65254 0.72266,3.82178 -0.73431,5.93386 -2.76833,8.59855 -1.7714,2.3267 -3.25964,4.73206 0.47523,6.5598 2.42977,1.18837 6.59161,0.8745 9.23842,1.26257 3.2266,0.47304 6.7363,1.11864 9.86108,1.43073 2.73793,0.27361 3.75537,-0.16273 5.57322,2.01817 0.84596,1.01492 2.47533,3.18602 2.86213,4.43789 0.57795,1.87244 -0.56903,3.78866 0.53061,5.6182 1.29438,2.15501 3.78398,1.96098 5.7921,2.95887 1.56684,-3.17438 7.911,-0.6295 10.35951,-0.0457 3.25784,0.77706 8.2335,1.38153 11.36807,-0.31654 1.74458,-0.94516 2.80493,-2.7711 4.16987,-4.04174 1.97327,-1.83488 2.44047,-1.68466 4.97386,-2.28108 1.68476,-0.39611 3.18815,-0.83786 4.41464,-2.2015 1.24079,-1.37885 1.20595,-3.70733 3.10777,-4.30645 0.0697,0.37558 0.0167,0.75203 0.0473,1.14284 l 8.9e-4,0.34869 z"
      id="path49"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 589.13185,359.54284 c 0,-3.17635 -0.47749,-4.51701 -0.76452,-7.51041 -0.36148,-3.76374 0.99043,-5.70791 3.55777,-8.00452 1.93304,-1.72895 3.1742,-5.44065 2.25108,-8.08343 -1.18623,-3.39425 -5.13558,-5.04607 -5.64675,-8.71563 -0.27552,-1.97108 0.5723,-1.34692 1.19156,-2.98264 0.47395,-1.25009 0.0992,-3.7682 0.0231,-5.04338 -0.0691,-1.15776 -0.005,-2.33966 -0.57141,-3.10192 -0.65291,-0.87972 -2.25733,-1.05997 -2.72683,-2.1316 -0.77251,-1.76213 1.84799,-2.50825 2.07392,-4.36277 0.26399,-2.15671 -1.18715,-3.97712 -0.70608,-5.97873 2.98904,-0.15512 5.62638,0.99003 8.65617,0.59548 3.31773,-0.43047 3.44176,-5.0506 3.82094,-7.73189 0.41193,-2.89748 1.188,-5.54379 -0.64938,-8.19734 -1.04804,-1.51104 -2.5585,-1.3532 -4.08492,-2.0455 -1.52552,-0.69141 -2.84553,-1.46891 -4.40296,-2.02581 -2.90131,-1.03755 -6.30145,1.37924 -8.90776,-0.12644 -2.67458,-1.54421 -1.91004,-4.9537 -6.10922,-4.78332 -1.77273,0.0726 -3.29912,0.77032 -5.03995,0.93172 -1.54235,0.1435 -3.21319,0.0449 -4.72543,0.1175 -2.43622,0.11747 -2.29449,-0.63403 -3.37617,-2.66521 -0.69544,-1.30747 -1.51047,-2.74495 -2.56381,-3.84083 -1.1127,-1.15591 -2.47348,-2.27148 -3.81474,-3.09381 -1.55828,-0.95686 -3.24329,-0.81964 -4.93096,-1.31646 -3.19192,-0.93712 -4.42243,-4.66675 -7.33704,-5.75813 -1.66994,-0.62415 -3.30177,-0.31385 -4.79188,0.66542 -1.6797,1.10303 -1.83915,2.11188 -1.93307,4.01031 -0.19135,3.89824 0.0496,6.52218 3.02983,9.30212 2.54342,2.37283 5.83723,3.87584 8.59415,6.14464 1.2952,1.06533 2.51687,2.01052 2.74367,3.66685 0.14352,1.04743 0.36056,3.49918 0.007,4.491 -0.75656,2.11815 -5.58032,3.04449 -7.38139,4.37085 -2.61784,1.9289 -2.62226,5.69891 -5.31631,7.84755 -0.96476,0.76854 -2.10226,1.39806 -2.43715,2.66518 -0.43053,1.63481 0.86379,2.54589 1.70716,3.82649 1.82763,2.7701 2.23072,5.10528 2.9846,8.2574 0.68217,2.83646 0.90631,5.54559 2.06862,8.34257 1.16053,2.79166 2.53723,5.7151 4.19918,8.2009 1.97556,2.95396 4.69796,4.39147 7.69501,6.15003 2.54431,1.49219 5.72648,2.64903 7.36452,5.44871 0.73974,1.26444 0.52269,3.14496 1.55478,4.33675 1.07104,1.23574 2.54077,0.78288 4.06277,1.11738 1.40414,0.30848 2.578,0.48424 4.11857,0.58468 1.98444,0.12913 3.02536,0.88601 4.66961,1.8545 2.07304,1.22138 4.10177,2.35579 6.19073,3.67764 0.86642,0.54702 1.78776,1.42047 2.74718,1.74957 1.08969,0.37397 2.48942,0.0286 3.36822,0.76405 l -0.46242,-1.61952 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 587.43102,360.3245 c 0,-3.16725 -0.48147,-4.50406 -0.77089,-7.48888 -0.36449,-3.75294 0.99868,-5.69154 3.58743,-7.98156 1.94916,-1.724 3.20066,-5.42505 2.26985,-8.06025 -1.19612,-3.38452 -5.1784,-5.03161 -5.69383,-8.69064 -0.27781,-1.96543 0.57707,-1.34306 1.2015,-2.97409 0.4779,-1.2465 0.10003,-3.75739 0.0233,-5.02891 -0.0697,-1.15445 -0.005,-2.33296 -0.57618,-3.09303 -0.65835,-0.8772 -2.27614,-1.05693 -2.74956,-2.12549 -0.77895,-1.75707 1.8634,-2.50106 2.09121,-4.35026 0.26619,-2.15052 -1.19704,-3.96571 -0.71196,-5.96158 3.01396,-0.15467 5.67328,0.98719 8.72833,0.59377 3.34539,-0.42924 3.47045,-5.03611 3.85279,-7.70972 0.41537,-2.88917 1.19791,-5.52789 -0.65479,-8.17384 -1.05677,-1.50669 -2.57983,-1.34932 -4.11897,-2.03963 -1.53824,-0.68943 -2.86925,-1.46469 -4.43967,-2.02 -2.9255,-1.03457 -6.35398,1.37528 -8.98202,-0.12608 -2.69688,-1.53977 -1.92597,-4.93949 -6.16015,-4.7696 -1.78752,0.0724 -3.32663,0.76811 -5.08197,0.92905 -1.55522,0.14309 -3.23998,0.0448 -4.76483,0.11716 -2.45653,0.11714 -2.31362,-0.6322 -3.40432,-2.65756 -0.70123,-1.30372 -1.52306,-2.73708 -2.58518,-3.82982 -1.12197,-1.1526 -2.4941,-2.26497 -3.84654,-3.08494 -1.57128,-0.95411 -3.27033,-0.81729 -4.97207,-1.31268 -3.21853,-0.93444 -4.45931,-4.65337 -7.39821,-5.74162 -1.68386,-0.62237 -3.3293,-0.31295 -4.83183,0.6635 -1.6937,1.09988 -1.85448,2.10583 -1.94919,3.99882 -0.19294,3.88706 0.05,6.50348 3.05509,9.27545 2.56463,2.36602 5.8859,3.86472 8.6658,6.12702 1.306,1.06227 2.53785,2.00475 2.76654,3.65633 0.14472,1.04442 0.36357,3.48915 0.007,4.47812 -0.76286,2.11207 -5.62684,3.03576 -7.44293,4.35832 -2.63965,1.92336 -2.64411,5.68257 -5.36062,7.82504 -0.97281,0.76634 -2.11979,1.39405 -2.45747,2.65754 -0.43412,1.63012 0.87099,2.5386 1.72139,3.81552 1.84287,2.76216 2.24931,5.09064 3.00948,8.23372 0.68786,2.82833 0.91387,5.52969 2.08587,8.31865 1.17021,2.78366 2.55838,5.69871 4.23419,8.17738 1.99202,2.94549 4.73712,4.37888 7.75915,6.1324 2.56553,1.48791 5.77423,2.64143 7.42593,5.43308 0.7459,1.26082 0.52704,3.13595 1.56774,4.32432 1.07997,1.23219 2.56195,0.78063 4.09664,1.11417 1.41584,0.3076 2.59949,0.48286 4.1529,0.58301 2.00099,0.12876 3.05059,0.88347 4.70854,1.84918 2.09033,1.21787 4.13598,2.34904 6.24234,3.6671 0.87365,0.54544 1.80267,1.41639 2.77009,1.74454 1.09878,0.3729 2.51017,0.0285 3.39631,0.76187 l -0.46629,-1.61488 z"
      id="path51"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 509.80508,239.39806 c 0,2.36744 0.57587,5.02009 1.72665,6.9544 1.15343,1.93881 1.5583,3.67401 0.84161,5.99755 -0.60774,1.96391 -1.45821,3.66417 -1.8037,5.77066 -0.16655,1.00886 -0.4155,2.02222 -0.0345,2.94409 0.38182,0.92545 1.43517,1.80247 2.00923,2.59074 -0.75302,0.39548 -0.51559,3.11088 -0.87086,4.09552 -0.52355,1.44558 -1.28984,2.90104 -1.59992,4.4838 -0.57852,2.96742 0.094,5.29273 1.94367,7.42699 1.84623,2.12894 5.16484,3.82023 6.0357,6.30424 1.343,3.82382 5.52272,4.92954 8.06616,7.61981 2.13947,2.26254 3.45506,5.06672 4.76973,8.01527 0.49876,1.11917 1.75765,1.91639 2.34412,3.04005 0.92575,1.78097 1.70536,2.5163 3.76598,2.93869 -0.0557,-1.33889 1.54945,-2.47597 2.18113,-3.47316 0.72553,-1.14608 0.68745,-2.19619 1.83912,-3.09026 1.31025,-1.01783 1.4954,-1.58908 2.28829,-2.91358 0.6671,-1.11559 1.65841,-1.9621 2.87297,-2.39706 2.98022,-1.06447 6.20755,-1.60071 6.72672,-5.55005 0.19575,-1.48683 0.14704,-3.23192 -0.61482,-4.34125 -0.87176,-1.2689 -2.36893,-1.84374 -3.5764,-2.61763 -1.50163,-0.96224 -2.63912,-2.07422 -4.224,-2.91718 -1.32266,-0.70395 -2.49207,-1.15861 -3.6216,-2.23921 -2.32108,-2.21771 -3.55957,-5.10798 -3.71371,-8.31567 -0.0832,-1.70119 -0.15063,-2.98537 0.80085,-3.98881 0.91337,-0.96404 2.03228,-1.37924 3.13432,-1.92986 3.65437,-1.82401 1.26509,-4.80573 -0.0656,-7.37497 -1.18535,-2.29034 -0.29502,-4.96628 -0.96211,-7.48886 -0.51825,-1.95674 -1.76563,-3.48842 -1.83029,-5.52766 -0.0557,-1.75676 -0.10542,-2.76201 1.07374,-4.01481 1.09408,-1.16131 2.1988,-2.06883 2.93147,-3.52608 3.97858,-7.93006 -3.01385,-15.07458 -4.18948,-22.55358 -0.47838,-3.04004 -0.29765,-6.52484 -0.15326,-9.616 0.10456,-2.24458 0.81593,-9.42138 -2.8278,-8.09508 -1.42632,0.52013 -2.74367,1.78635 -4.13098,2.51004 -1.36252,0.71024 -3.01652,1.43123 -3.82358,2.72078 -1.85421,2.96561 -0.6724,8.43497 -5.07538,9.31827 -1.66992,0.33449 -3.94493,-1.10391 -5.32871,0.49143 -1.41303,1.62761 0.9364,2.23204 1.35455,3.36644 1.53084,4.14215 -3.66765,4.326 -5.43504,6.50512 -1.70181,2.09843 -1.44845,5.88367 -1.44757,8.50401 8.9e-4,3.09115 0.55102,6.07199 0.44295,9.27699 -2.01544,0.0932 -1.19686,-0.73802 -1.94723,0.79456 l 0.12757,0.30131 z"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 507.44291,240.52424 c 0,2.36065 0.58067,5.0057 1.74105,6.93446 1.16304,1.93325 1.57129,3.66348 0.84863,5.98035 -0.61281,1.95828 -1.47038,3.65366 -1.81875,5.75411 -0.16793,1.00597 -0.41896,2.01642 -0.0348,2.93565 0.385,0.92279 1.44714,1.7973 2.02598,2.58331 -0.75929,0.39435 -0.51989,3.10196 -0.87812,4.08378 -0.52791,1.44143 -1.3006,2.89272 -1.61326,4.47094 -0.58334,2.95891 0.0948,5.27755 1.95988,7.4057 1.86162,2.12283 5.2079,3.80927 6.08602,6.28615 1.35419,3.81285 5.56876,4.91541 8.1334,7.59797 2.15731,2.25604 3.48387,5.05218 4.8095,7.99228 0.50292,1.11596 1.7723,1.9109 2.36366,3.03133 0.93347,1.77587 1.71958,2.50908 3.79738,2.93027 -0.0562,-1.33505 1.56236,-2.46887 2.19932,-3.46321 0.73157,-1.14279 0.69317,-2.18989 1.85444,-3.0814 1.32118,-1.01491 1.50787,-1.58451 2.30737,-2.90521 0.67266,-1.1124 1.67224,-1.95648 2.89692,-2.3902 3.00507,-1.06141 6.2593,-1.59612 6.7828,-5.53413 0.19738,-1.48257 0.14826,-3.22266 -0.61995,-4.3288 -0.87902,-1.26526 -2.38868,-1.83845 -3.60621,-2.61013 -1.51415,-0.95947 -2.66112,-2.06826 -4.25922,-2.90881 -1.33368,-0.70193 -2.51284,-1.15529 -3.65179,-2.23279 -2.34043,-2.21135 -3.58924,-5.09334 -3.74467,-8.29182 -0.0839,-1.69631 -0.15188,-2.97681 0.80753,-3.97738 0.92098,-0.96127 2.04922,-1.37529 3.16045,-1.92432 3.68484,-1.81878 1.27564,-4.79195 -0.0661,-7.35382 -1.19523,-2.28377 -0.29748,-4.95204 -0.97013,-7.46739 -0.52257,-1.95113 -1.78035,-3.47841 -1.84555,-5.51181 -0.0562,-1.75173 -0.1063,-2.75409 1.0827,-4.0033 1.1032,-1.15798 2.21712,-2.06289 2.95591,-3.51596 4.01174,-7.90733 -3.03898,-15.03136 -4.22442,-22.48891 -0.48236,-3.03132 -0.30013,-6.50613 -0.15453,-9.58843 0.10543,-2.23814 0.82273,-9.39436 -2.85138,-8.07187 -1.4382,0.51865 -2.76654,1.78123 -4.16541,2.50284 -1.37389,0.70821 -3.04167,1.42713 -3.85547,2.71298 -1.86966,2.95711 -0.678,8.41078 -5.11769,9.29156 -1.68384,0.33353 -3.97782,-1.10075 -5.37313,0.49001 -1.42481,1.62295 0.94421,2.22565 1.36584,3.35679 1.54361,4.13027 -3.69822,4.3136 -5.48035,6.48646 -1.716,2.09242 -1.46052,5.8668 -1.45963,8.47963 8.9e-4,3.08229 0.55561,6.05458 0.44664,9.25039 -2.03225,0.0929 -1.20685,-0.73591 -1.96347,0.79228 l 0.12863,0.30045 z"
      id="path53"
-     inkscape:connector-curvature="0" /><path
-     style="fill:none;"
-     d="m 739.76079,216.44001 c 1.06308,0.42686 2.31751,0.30493 3.45858,0.35781 1.71688,0.0825 3.46036,0.0745 5.19052,0.0663 2.35209,-0.0108 4.28425,1.50748 6.14908,2.75937 2.55764,1.71549 4.60138,2.97544 5.99407,5.87918 0.87793,1.83207 2.08539,5.82894 -0.11518,7.35345 -0.70431,0.48782 -1.54855,0.19819 -2.26262,-0.19549 -1.95166,-1.07704 -3.50375,-2.9459 -5.33935,-4.2166 -4.41094,-3.05168 -11.09068,-4.57975 -15.61768,-0.92904 -1.03027,0.8304 -1.1738,1.50926 -2.50974,1.86435 -2.38044,0.63492 -4.77593,1.14968 -7.10587,1.67696 -1.37846,0.31209 -2.74364,0.88062 -4.11325,1.36937 -1.46794,0.52371 -3.04044,0.62771 -4.59963,0.76582 -1.8099,0.16054 -3.53389,-0.007 -5.30039,0.42058 -1.50338,0.36411 -3.04484,0.62774 -4.57128,1.04204 -3.16978,0.8591 -6.14639,1.79711 -9.10536,3.23014 -2.25549,1.09228 -3.53918,2.78896 -5.14357,4.64435 -0.72998,0.84384 -1.46792,1.95945 -2.47258,2.50736 -2.53278,1.3828 -5.56523,1.54601 -8.13968,2.95212 -0.99312,0.54254 -1.92863,1.28956 -2.68783,2.14328 -0.50587,0.57124 -0.83365,1.103 -0.924,1.8536 -0.10186,0.86269 0.19135,0.85463 -0.7362,1.3039 -1.26952,0.61608 -3.08916,0.34526 -3.21231,2.00874 -0.0399,0.54164 0.11783,0.93982 0.16657,1.44738 0.0993,0.99811 0.2126,2.57282 -0.31187,3.44179 -0.81058,1.34066 -2.05971,1.7128 -2.20765,3.37002 -0.10897,1.21691 0.12048,2.4688 0,3.68479 -0.24895,2.51723 -2.86149,3.58797 -4.93362,4.53852 -2.03227,0.93086 -3.02449,1.98901 -3.21496,4.40133 -0.22235,2.81313 0.23121,5.30345 1.23762,7.86639 0.40219,1.02234 1.36872,1.74512 1.5335,2.8867 0.12137,0.83578 0.092,2.01862 -0.33488,2.70373 -0.56608,0.90485 -2.11822,1.67785 -2.99789,2.25088 -0.97982,0.63759 -2.13505,1.01243 -3.13613,1.58816 -0.52002,0.29864 -0.99664,0.5847 -1.57248,0.75777 -0.42436,0.12735 -1.00107,0.0744 -1.39529,0.33183 -0.84251,0.54968 -1.23143,1.64375 -1.84623,2.41317 -0.52535,0.65643 -1.39353,1.06534 -1.78157,1.8249 -0.26576,0.52191 -0.24008,1.17746 -0.49965,1.76215 -0.79642,1.79531 -2.66303,2.84006 -4.2054,3.83007 -2.74277,1.75496 -2.0119,3.75474 -1.10561,6.37152 0.6219,1.7998 -0.38802,3.50725 -1.43253,4.8237 -0.66264,0.83488 -1.1065,1.56934 -1.53437,2.55038 -0.2826,0.64655 -0.77518,2.59614 -1.84801,1.98543 -0.40925,-0.23406 -0.56698,-1.06535 -0.81947,-1.47608 -0.25957,-0.42058 -0.57583,-0.78198 -0.90361,-1.1631 -0.48727,-0.56673 -0.89477,-1.74508 -1.60614,-2.04729 -0.66624,-0.2816 -2.01104,0.0126 -2.71799,0.10581 -5.49172,0.72906 -6.10211,6.56609 -6.99775,10.98176 -0.46156,2.26523 -0.085,4.68109 -0.54395,6.96068 -0.53686,2.66876 -2.60016,3.44626 -5.03108,4.02826 -2.54521,0.60981 -4.9212,1.66259 -7.5054,2.1863 -2.46369,0.5004 -4.66959,1.09404 -7.34061,1.36219 -2.16339,0.21703 -5.117,1.4922 -6.78164,2.84272 -0.99486,0.80798 -1.41125,2.22309 -2.24576,3.06248 -1.017,1.02677 -1.93661,2.00246 -2.92086,3.11266 -1.79925,2.02845 -4.08312,3.20951 -6.10299,4.8999 -0.9559,0.7999 -2.21391,1.34335 -3.00678,2.20245 -0.89384,0.9712 -0.753,2.50735 -1.40591,3.55388 -0.58823,-0.62324 -0.27816,-1.56933 -0.36323,-2.37731 -0.0922,-0.88962 -0.31715,-1.67607 -0.36676,-2.60511 -0.12048,-2.28675 -0.37474,-5.21648 0.30299,-7.35704 0.35436,-1.12364 0.79377,-2.17645 1.57071,-3.16289 0.75742,-0.96312 1.79041,-1.73703 2.31485,-2.89923 0.80266,-1.77381 2.46283,-4.80757 1.28457,-6.83874 -0.68304,-1.17744 -2.01188,-1.56842 -2.87919,-2.53692 -0.80527,-0.89857 -1.12421,-2.07422 -1.92684,-2.93241 -1.29962,-1.38999 -1.52996,-1.49761 -0.81149,-3.3817 0.18072,-0.4735 0.31894,-1.01333 0.62987,-1.47877 0.31716,-0.47977 0.97361,-0.68691 1.20839,-1.24471 0.35612,-0.83847 -0.12934,-2.34324 -0.22946,-3.17453 -0.14085,-1.19092 -0.16832,-2.49123 -0.35258,-3.71258 -0.26931,-1.77114 -1.88786,-1.29225 -2.67635,-2.50469 -0.62632,-0.96223 0.31807,-2.41226 0.92314,-3.09921 0.93641,-1.06536 1.20307,-1.31017 1.12952,-2.84275 -0.0593,-1.25369 -2.00126,-3.87938 -0.6033,-4.63087 1.00195,-0.53807 2.7277,0.46809 3.75625,0.58558 1.6407,0.18743 4.91589,0.18293 6.25805,-0.77302 1.86038,-1.32541 1.66284,-4.61385 2.10845,-6.54278 0.60948,-2.6347 0.94528,-5.27475 -0.37562,-7.59738 -0.65648,-1.15414 -1.09235,-2.18002 -2.47612,-2.77009 -1.43162,-0.6116 -3.03069,-0.43315 -4.42334,-1.14428 -1.10383,-0.56226 -2.40081,-1.73793 -3.76245,-1.82133 -1.23138,-0.0744 -2.2413,0.53537 -3.63573,0.34973 -0.5599,-0.0744 -0.99932,-0.40712 -1.60795,-0.3856 -0.29143,0.0116 -0.21792,0.58379 -0.61038,0.52012 -0.54039,-0.0879 -1.09764,-0.76135 -1.47328,-1.12452 -0.82741,-0.79993 -1.55475,-1.74691 -2.43534,-2.48046 -2.4212,-2.01861 -4.35336,-0.73444 -6.98449,-0.49322 -1.36429,0.12642 -2.34587,-0.33449 -3.53565,-0.49771 -1.34747,-0.18383 -2.61432,1.21689 -3.78725,0.59815 -1.26774,-0.6672 -1.48034,-2.45085 -2.04644,-3.47854 -0.45982,-0.83311 -1.63451,-1.89666 -2.36007,-2.58984 -1.70269,-1.62763 -3.85725,-3.14945 -5.89216,-3.93231 -1.93483,-0.74431 -4.8149,-1.44649 -6.44852,-2.84007 -1.11979,-0.95326 -1.89142,-1.98273 -3.08207,-2.78176 -0.64494,-0.43133 -1.17381,-0.99631 -1.8019,-1.40343 -0.78583,-0.51025 -0.83366,-0.0565 -1.11006,-1.01871 -0.32691,-1.13711 -0.25425,-2.63559 -0.48727,-3.80139 -0.14439,-0.72906 -0.45711,-1.58727 -0.77339,-2.25626 -0.20729,-0.43942 -0.56874,-0.82233 -0.74416,-1.22408 -0.46155,-1.05998 -0.15592,-2.15403 -0.31448,-3.26152 -0.2419,-1.68144 -0.77074,-3.35658 -1.46619,-4.92505 -1.09055,-2.45443 -1.52197,-4.00941 -0.14617,-6.55802 0.56346,-1.04383 1.27572,-2.29929 2.00748,-3.21401 0.64581,-0.80884 1.68144,-1.4339 2.17222,-2.3486 0.90453,-1.68414 0.5351,-5.28733 0.0949,-7.08264 -0.55812,-2.27956 -1.71156,-4.52955 -2.66924,-6.65757 -0.97978,-2.18362 -1.66108,-4.42731 -2.41497,-6.70869 -0.64051,-1.94239 -0.37652,-4.69543 -0.27199,-6.77684 0.1205,-2.38898 0.57585,-4.81742 0.36675,-7.30592 -0.094,-1.11737 -0.42788,-2.03565 -0.36675,-3.2104 0.25869,-4.9663 3.59592,-4.01661 7.38405,-5.47474 4.14514,-1.59535 7.84911,-4.18432 12.03501,-5.6846 6.85695,-2.45981 13.94153,-5.4541 19.72297,-9.92267 10.42801,-8.06191 17.98387,-21.33489 24.5458,-32.13282 3.642,-5.99575 9.16738,-10.30919 6.15705,-17.85455 -2.44243,-6.12042 -7.56473,-10.8392 -11.78699,-15.69786 2.44158,-1.81235 5.15597,-0.70127 7.70915,0.24662 2.82608,1.051 4.55004,0.69767 7.71274,0.37751 4.65719,-0.46988 5.14712,0.43047 7.5674,4.09014 0.65824,0.99273 2.38133,3.89466 3.60477,4.36634 1.82759,0.70486 2.18375,-0.41069 3.89976,0.51386 1.07283,0.57931 1.91798,2.25716 2.86412,3.05886 0.93729,0.79364 2.99171,1.38102 3.70665,2.23024 1.00107,1.19003 0.57228,2.95933 1.01259,4.58607 0.24628,0.912 0.73086,1.97646 1.13396,2.85618 0.28793,0.62954 1.18976,0.52821 1.50514,1.21781 0.37031,0.8062 -0.1311,1.65542 0.41462,2.48313 1.94988,2.95842 6.84981,5.2703 10.01515,6.74009 2.48498,1.15319 7.91116,2.37733 9.36408,4.72683 1.4378,2.32262 -0.0771,6.29527 0.75831,8.98107 1.5025,4.82281 5.15154,2.1083 8.84403,3.44895 0.18247,4.74119 -1.43963,12.81028 4.62087,14.4684 5.34466,1.46171 12.44873,-0.1964 18.00517,0.1022 0.68125,4.56365 5.37744,4.5502 8.62074,3.35749 0.63609,-0.23496 1.09322,-0.66628 1.8365,-0.91199 0.85135,-0.2798 2.54255,-0.26096 3.30354,-0.63043 1.67968,-0.81604 1.78511,-2.64636 3.10776,-3.79152 3.36647,-2.91448 7.33266,-1.9388 10.57418,0.37575 3.21674,2.29841 5.45452,2.29394 8.87149,0.62415 3.77838,-1.84733 7.71003,-2.276 11.79496,-0.46723 3.30885,1.46351 3.8395,3.18443 6.12071,5.35189 2.62849,2.4957 13.85913,4.79676 12.86248,8.81877 -0.50851,2.05359 -3.797,4.77884 -5.14977,6.43069 -1.92419,2.35131 -2.70732,4.7932 -3.80852,7.44313 -1.80636,4.3502 -6.07199,10.24103 -6.97119,14.86296"
+     inkscape:connector-curvature="0" />
+<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+     d="m 739.31575,217.63202 c 1.07194,0.42564 2.33683,0.30406 3.48741,0.35678 1.7312,0.0823 3.48921,0.0743 5.23379,0.0661 2.3717,-0.0108 4.31998,1.50315 6.20035,2.75145 2.57896,1.71058 4.63974,2.96691 6.04404,5.86233 0.88525,1.82681 2.10277,5.81222 -0.11614,7.33236 -0.71018,0.48642 -1.56146,0.19762 -2.28148,-0.19493 -1.96793,-1.07395 -3.53297,-2.93745 -5.38386,-4.20451 -4.44772,-3.04293 -11.18315,-4.56662 -15.74789,-0.92638 -1.03886,0.82802 -1.18358,1.50493 -2.53067,1.85901 -2.40028,0.6331 -4.81574,1.14638 -7.1651,1.67215 -1.38996,0.3112 -2.76652,0.87809 -4.14755,1.36544 -1.48017,0.52221 -3.06579,0.62592 -4.63797,0.76362 -1.82499,0.16008 -3.56336,-0.007 -5.34458,0.41938 -1.51592,0.36307 -3.07022,0.62594 -4.60939,1.03905 -3.19621,0.85664 -6.19763,1.79196 -9.18127,3.22088 -2.2743,1.08914 -3.56868,2.78096 -5.18645,4.63103 -0.73607,0.84142 -1.48017,1.95383 -2.4932,2.50017 -2.5539,1.37884 -5.61163,1.54158 -8.20754,2.94366 -1.0014,0.54098 -1.9447,1.28586 -2.71024,2.13713 -0.51008,0.5696 -0.8406,1.09984 -0.9317,1.84828 -0.10271,0.86023 0.19295,0.85219 -0.74233,1.30016 -1.28011,0.61432 -3.11492,0.34428 -3.2391,2.00299 -0.0402,0.54008 0.11882,0.93712 0.16796,1.44323 0.10013,0.99524 0.21438,2.56544 -0.31447,3.43191 -0.81734,1.33682 -2.07688,1.70789 -2.22605,3.36036 -0.10988,1.21342 0.12148,2.46172 0,3.67422 -0.25103,2.51002 -2.88535,3.57769 -4.97476,4.52551 -2.04921,0.92819 -3.0497,1.98331 -3.24176,4.38871 -0.2242,2.80506 0.23314,5.28824 1.24794,7.84383 0.40554,1.01941 1.38013,1.74012 1.54629,2.87842 0.12238,0.83339 0.0928,2.01284 -0.33767,2.69599 -0.57081,0.90225 -2.13589,1.67303 -3.02289,2.24442 -0.98799,0.63576 -2.15285,1.00952 -3.16228,1.58361 -0.52436,0.29778 -1.00495,0.58301 -1.58559,0.75559 -0.42789,0.12698 -1.00941,0.0742 -1.40692,0.33088 -0.84953,0.54811 -1.24169,1.63904 -1.86162,2.40625 -0.52973,0.65455 -1.40515,1.06229 -1.79642,1.81967 -0.26798,0.52041 -0.24209,1.17408 -0.50382,1.7571 -0.80306,1.79016 -2.68523,2.83191 -4.24046,3.81908 -2.76564,1.74993 -2.02867,3.74397 -1.11483,6.35326 0.62709,1.79463 -0.39125,3.49718 -1.44446,4.80986 -0.66818,0.83249 -1.11574,1.56484 -1.54717,2.54306 -0.28496,0.6447 -0.78164,2.58871 -1.86342,1.97974 -0.41266,-0.23339 -0.57171,-1.06229 -0.8263,-1.47185 -0.26173,-0.41937 -0.58063,-0.77973 -0.91114,-1.15976 -0.49133,-0.56511 -0.90224,-1.74008 -1.61954,-2.04142 -0.67179,-0.2808 -2.0278,0.0126 -2.74065,0.10551 -5.5375,0.72697 -6.15298,6.54726 -7.05608,10.95026 -0.46542,2.25874 -0.0857,4.66767 -0.54849,6.94072 -0.54134,2.66112 -2.62183,3.43638 -5.07302,4.01672 -2.56643,0.60805 -4.96223,1.65781 -7.56797,2.18003 -2.48423,0.49896 -4.70853,1.0909 -7.40182,1.35828 -2.18141,0.21641 -5.15965,1.48792 -6.83817,2.83457 -1.00315,0.80567 -1.42302,2.21672 -2.26448,3.0537 -1.02548,1.02382 -1.95276,1.99672 -2.94521,3.10373 -1.81426,2.02263 -4.11716,3.2003 -6.15387,4.88585 -0.96387,0.79761 -2.23237,1.3395 -3.03185,2.19614 -0.90129,0.96841 -0.75927,2.50016 -1.41764,3.54368 -0.59313,-0.62145 -0.28047,-1.56483 -0.36625,-2.37049 -0.093,-0.88706 -0.3198,-1.67126 -0.36982,-2.59764 -0.12148,-2.28019 -0.37786,-5.20152 0.30552,-7.33594 0.35731,-1.12042 0.80039,-2.17022 1.58381,-3.15382 0.76373,-0.96036 1.80533,-1.73206 2.33415,-2.89092 0.80934,-1.76873 2.48335,-4.79378 1.29527,-6.81913 -0.68873,-1.17406 -2.02866,-1.56392 -2.90319,-2.52964 -0.81198,-0.896 -1.13358,-2.06828 -1.94291,-2.924 -1.31045,-1.38601 -1.54271,-1.49332 -0.81825,-3.37201 0.18222,-0.47214 0.3216,-1.01042 0.63512,-1.47453 0.3198,-0.47839 0.98173,-0.68494 1.21847,-1.24114 0.35908,-0.83606 -0.13042,-2.33652 -0.23138,-3.16543 -0.14202,-1.1875 -0.16972,-2.48408 -0.35551,-3.70193 -0.27157,-1.76606 -1.90361,-1.28854 -2.69867,-2.49751 -0.63155,-0.95946 0.32072,-2.40534 0.93084,-3.09032 0.94421,-1.0623 1.21309,-1.30641 1.13893,-2.8346 -0.0598,-1.25009 -2.01794,-3.86825 -0.60833,-4.61759 1.0103,-0.53652 2.75044,0.46675 3.78756,0.5839 1.65439,0.1869 4.95688,0.18241 6.31023,-0.7708 1.87589,-1.32162 1.6767,-4.60062 2.12602,-6.52402 0.61457,-2.62714 0.95317,-5.25962 -0.37875,-7.57559 -0.66195,-1.15084 -1.10145,-2.17377 -2.49676,-2.76216 -1.44355,-0.60984 -3.05596,-0.4319 -4.46021,-1.14099 -1.11304,-0.56064 -2.42083,-1.73294 -3.79383,-1.8161 -1.24164,-0.0742 -2.25997,0.53383 -3.66603,0.34872 -0.56457,-0.0742 -1.00765,-0.40595 -1.62135,-0.38449 -0.29387,0.0116 -0.21974,0.58211 -0.61548,0.51862 -0.54489,-0.0876 -1.10679,-0.75916 -1.48556,-1.12129 -0.8343,-0.79763 -1.56771,-1.7419 -2.45564,-2.47335 -2.44139,-2.01282 -4.38966,-0.73233 -7.04273,-0.4918 -1.37565,0.12605 -2.36541,-0.33354 -3.56512,-0.49629 -1.3587,-0.1833 -2.63612,1.21341 -3.81882,0.59644 -1.27831,-0.66528 -1.49269,-2.44382 -2.0635,-3.46856 -0.46366,-0.83073 -1.64813,-1.89123 -2.37975,-2.58242 -1.71688,-1.62296 -3.8894,-3.14042 -5.94128,-3.92104 -1.95096,-0.74217 -4.85504,-1.44234 -6.50228,-2.83192 -1.12912,-0.95053 -1.90719,-1.97704 -3.10776,-2.77378 -0.65032,-0.4301 -1.18361,-0.99345 -1.81693,-1.39941 -0.79238,-0.50879 -0.84061,-0.0563 -1.11931,-1.01579 -0.32964,-1.13384 -0.25637,-2.62803 -0.49133,-3.79048 -0.14559,-0.72698 -0.46093,-1.58272 -0.77985,-2.2498 -0.20901,-0.43816 -0.57348,-0.81997 -0.75036,-1.22057 -0.46539,-1.05694 -0.15722,-2.14785 -0.3171,-3.25217 -0.24391,-1.67662 -0.77716,-3.34695 -1.47842,-4.91092 -1.09963,-2.44739 -1.53465,-3.99791 -0.14738,-6.53922 0.56816,-1.04084 1.28636,-2.29269 2.02421,-3.20479 0.6512,-0.80652 1.69547,-1.42979 2.19034,-2.34187 0.91206,-1.6793 0.53956,-5.27217 0.0957,-7.06233 -0.56277,-2.27302 -1.72584,-4.51655 -2.6915,-6.63848 -0.98794,-2.17735 -1.67493,-4.41461 -2.4351,-6.68945 -0.64585,-1.93682 -0.37966,-4.68196 -0.27426,-6.7574 0.12151,-2.38214 0.58065,-4.80361 0.36981,-7.28497 -0.0948,-1.11417 -0.43145,-2.02982 -0.36981,-3.2012 0.26085,-4.95205 3.6259,-4.00509 7.44562,-5.45904 4.17969,-1.59078 7.91454,-4.17232 12.13534,-5.6683 6.91411,-2.45275 14.05776,-5.43846 19.8874,-9.89422 10.51495,-8.03878 18.13379,-21.27371 24.75044,-32.04067 3.67236,-5.97856 9.2438,-10.27963 6.20837,-17.80336 -2.46279,-6.10286 -7.6278,-10.80811 -11.88525,-15.65285 2.46194,-1.80714 5.19896,-0.69925 7.77341,0.24592 2.84964,1.04799 4.58798,0.69567 7.77705,0.37643 4.69602,-0.46854 5.19003,0.42924 7.63049,4.07841 0.66372,0.98988 2.40118,3.88349 3.63482,4.35382 1.84283,0.70284 2.20196,-0.40952 3.93228,0.51239 1.08177,0.57764 1.93396,2.25068 2.88799,3.05009 0.9451,0.79136 3.01665,1.37706 3.73755,2.22384 1.00941,1.18662 0.57705,2.95085 1.02103,4.57292 0.24833,0.90938 0.73696,1.97079 1.14342,2.84799 0.29033,0.62773 1.19967,0.52669 1.51768,1.21432 0.3734,0.80388 -0.13219,1.65067 0.41808,2.47601 1.96614,2.94993 6.90692,5.25518 10.09865,6.72076 2.5057,1.14988 7.97711,2.37052 9.44214,4.71328 1.44979,2.31595 -0.0777,6.27721 0.76464,8.95532 1.51502,4.80897 5.19448,2.10224 8.91776,3.43905 0.18399,4.7276 -1.45164,12.77355 4.65939,14.42691 5.38922,1.45752 12.55252,-0.19583 18.15528,0.10191 0.68693,4.55057 5.42227,4.53716 8.69261,3.34786 0.64139,-0.23428 1.10233,-0.66437 1.85181,-0.90937 0.85845,-0.279 2.56374,-0.26022 3.33109,-0.62862 1.69367,-0.81371 1.79998,-2.63878 3.13366,-3.78066 3.39454,-2.90612 7.39379,-1.93323 10.66234,0.37468 3.24356,2.29182 5.49999,2.28736 8.94545,0.62236 3.80988,-1.84203 7.7743,-2.26948 11.89329,-0.46589 3.33644,1.45931 3.87151,3.1753 6.17174,5.33654 2.6504,2.48854 13.97467,4.78301 12.96972,8.79349 -0.51276,2.04769 -3.82866,4.76513 -5.19271,6.41224 -1.94023,2.34458 -2.72989,4.77946 -3.84027,7.42179 -1.82142,4.33773 -6.12262,10.21167 -7.02931,14.82034"
      id="path55"
      inkscape:connector-curvature="0" />
+
+	<path
+	onmouseover="seleccionarDepa(this, true)"
+	onmouseout="seleccionarDepa(this, false)"
+	onclick="clickDepa(this)"
+	metadatajson="{
+		id_departamento: '13',
+		name:'LIMA',
+		x:515,
+		y:380,
+		sectores: {
+			1: {
+				name: 'Transporte',
+				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+			},
+			2: {
+				name: 'Comercio y Turismo',
+			},
+			6: {
+				name: 'Educación',
+			},
+			7: {
+				name: 'Salud',
+			},
+			9: {
+				name: 'Cultura y Esparcimiento',
+			}
+		}
+	}"
+	style="fill:#51BDE9;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.13241525;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+	d="m 669.72576,531.0887 c -1.43967,-0.63019 -2.20814,-1.11902 -2.77943,-1.76804 -0.40623,-0.4615 -0.67005,-0.6396 -1.03466,-0.69849 -0.26917,-0.0435 -1.0836,-0.3572 -1.80984,-0.69717 -1.68176,-0.78727 -2.57064,-0.87201 -3.9927,-0.38064 -0.89366,0.30879 -0.98446,0.31633 -1.72139,0.14296 -1.14936,-0.2704 -1.66176,-0.23628 -2.22861,0.1484 l -0.49449,0.33557 0.0599,-1.29558 c 0.0329,-0.71256 0.21399,-1.98082 0.40233,-2.81835 0.58317,-2.59327 0.79455,-4.69444 0.71932,-7.15042 -0.0834,-2.72286 -0.36574,-3.89155 -1.61547,-6.68697 -1.03054,-2.30515 -1.34387,-2.87713 -2.75643,-5.03178 -1.67677,-2.55765 -2.9469,-5.46528 -3.47567,-7.95659 -0.34878,-1.64324 -0.42105,-5.62343 -0.13348,-7.35007 0.1262,-0.75771 0.2554,-1.40441 0.28712,-1.43709 0.0924,-0.0952 1.20641,0.23603 2.23831,0.66561 0.60112,0.25025 1.37926,0.74166 2.10837,1.33147 1.71216,1.38505 2.01377,1.4907 4.17704,1.46322 1.98903,-0.0253 2.28791,-0.0721 5.49524,-0.86098 2.13782,-0.52581 2.35097,-0.55361 4.23728,-0.55257 2.839,0.002 5.03046,0.51489 8.14354,1.90755 1.75154,0.78355 2.96068,1.53917 7.04695,4.40378 4.48757,3.14594 5.24493,3.60143 7.48324,4.5006 1.07139,0.43039 2.18801,0.92505 2.4814,1.09925 1.32026,0.78391 1.92379,1.80609 1.92379,3.25823 0,0.93523 -0.33154,2.72767 -0.65747,3.55457 -0.13427,0.34066 -0.40301,1.56424 -0.59718,2.71905 -0.40444,2.40535 -0.66389,3.1936 -1.38058,4.19444 -0.52067,0.72712 -1.24785,1.21696 -4.31657,2.9077 -1.62511,0.89538 -2.8995,2.2298 -3.74142,3.91768 -1.39742,2.80151 -1.39486,5.02847 0.007,6.51914 0.31403,0.33381 0.35508,0.42347 0.15874,0.34669 -1.59011,-0.62182 -3.82542,-1.29674 -4.88322,-1.4744 -2.61006,-0.43839 -4.74174,0.24817 -6.67426,2.1496 -1.1593,1.14064 -1.33732,1.18012 -2.67716,0.59363 l -10e-6,0 z"
+	id="path4253"
+	inkscape:connector-curvature="0" />
+
+
+	<path
+	       style="fill:#51BDE9;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.529661;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+	       d="m 765.18769,568.41956 c -0.46447,-1.93612 -0.62071,-1.8005 -1.3349,-2.15674 -0.16943,-0.0845 -0.55968,-0.13904 -0.68814,-0.20844 -0.57295,-0.30954 -1.55063,-1.13427 -2.42434,-1.82861 -1.06961,-0.85002 -2.36343,-1.17605 -3.52253,-1.37188 -3.68437,-0.62247 -4.866,-4.50513 -1.7835,-6.97801 1.72839,-1.38656 1.91865,-1.80785 2.11623,-4.6859 0.14904,-2.17092 0.49868,-3.36995 1.11524,-3.82445 1.22504,-0.90306 4.01173,-1.44711 5.92495,-0.5094 l 2.03084,0.99535 6.46059,5.66852 11.79759,9.2636 c 0.60711,0.47671 6.83035,0.77755 6.13859,4.06792 -0.295,1.40318 -2.97871,0.48006 -3.20201,2.72009 -0.11771,1.18081 0.33896,2.36957 0.77436,3.38798 0.21718,0.50801 6.21918,-0.76601 6.99309,0.57578 0.52999,0.91888 -1.75208,4.63689 -3.26746,4.83285 -1.88948,0.24434 -2.47441,-0.86074 -3.83892,1.06378 -0.75536,1.06537 1.6882,3.08209 0.67489,3.41164 -4.14101,1.34674 -6.04326,0.65764 -7.694,-1.73564 -0.3304,-0.47902 -1.30161,-0.74885 -2.21955,-1.45462 -2.26283,-1.7398 -5.62797,-4.22729 -8.67538,-5.15643 -3.23655,-0.98682 -4.51435,-3.42909 -4.52832,-3.42909 -0.1166,0 -0.49789,-1.19174 -0.84732,-2.6483 z"
+	       id="path4273"
+	       inkscape:connector-curvature="0"
+	       sodipodi:nodetypes="sssssssssccsssssssssssss" />

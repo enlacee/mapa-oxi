@@ -47,7 +47,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer _container">
+            <div class="footer _container hide">
                 <div class="button-download col-md-3 pull-right nopadding">
                     <div class="text-center imageDownload">
                         <a href="#">

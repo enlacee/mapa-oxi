@@ -65,7 +65,9 @@ function setText(elDepa, json, statusOver) {
     if (statusOver) {
         text.setAttribute('x', json.x);
         text.setAttribute('y', json.y);
-        text.innerHTML = json.name;
+        text.innerHTML = typeof(departamento[json.id_departamento]) != 'undefined'
+            ? departamento[json.id_departamento].name.toUpperCase()
+            : 'none';
     } else {
         text.innerHTML = '';
     }
@@ -80,7 +82,8 @@ function selectSector(el, sectores, flagOVER) {
             el.style.fill = '#0079C0';
             el.style.fillOpacity = 1;
         } else {
-            el.style.fillOpacity = 0;
+            el.style.fillOpacity = 1;
+            el.style.fill = '#51BDE9';
         }
     }
 
