@@ -60,6 +60,7 @@ function setText(elDepa, json, statusOver) {
     var text = document.getElementById('nombre_depa');
     text.setAttribute('onmouseover', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), true)");
     text.setAttribute('onmouseout', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), false)");
+    text.setAttribute('onclick', "clickDepa(document.getElementById('"+elDepa.id+"'))");
 
     if (statusOver) {
         text.setAttribute('x', json.x);
