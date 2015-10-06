@@ -38,6 +38,8 @@
 
 	<text id="nombre_depa" x="0" y="0" fill="black" style="font-weight:bold; font-size: 15px;" />
 
+	<?php require_once 'paths.php'; ?>
+
 	<!-- cirlces-->
 	<!-- TRANSPORTE-->
 	<image id="sector_1" xlink:href="" x="380" y="0" height="100px" width="100px"/>
