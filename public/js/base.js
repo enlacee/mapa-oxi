@@ -45,7 +45,7 @@ var departamento = [];
 
 function seleccionarDepa(el, statusOver) {
     var json = readMetaData(el);
-    setText(json, statusOver);
+    setText(el, json, statusOver);
     selectSector(el, json.sectores, statusOver);
     //
     setSector();
@@ -56,12 +56,15 @@ function readMetaData(el) {
     return JSON.parse(str_json);
 }
 
-function setText(data, flag) {
+function setText(elDepa, json, statusOver) {
     var text = document.getElementById('nombre_depa');
-    if (flag) {
-        text.setAttribute('x', data.x);
-        text.setAttribute('y', data.y);
-        text.innerHTML = data.name;
+    text.setAttribute('onmouseover', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), true)");
+    text.setAttribute('onmouseout', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), false)");
+
+    if (statusOver) {
+        text.setAttribute('x', json.x);
+        text.setAttribute('y', json.y);
+        text.innerHTML = json.name;
     } else {
         text.innerHTML = '';
     }
@@ -96,7 +99,7 @@ function selectSector(el, sectores, flagOVER) {
             }
         } else {
             //FUERA
-            if (typeof(curItem.name) != 'undefined') { //click
+            if (typeof(curItem.name) != 'undefined') {
                 img.setAttribute('xlink:href', item.image);
                 if (typeof(curItem.sectores[idlocal]) != 'undefined') {
                     img.setAttribute('xlink:href', curItem.sectores[idlocal].image);
@@ -127,6 +130,7 @@ function setSector() {
                 var img = document.getElementById('sector_'+i);
                 var imgText = document.getElementById('sector_text_'+i);
                 var indice = i-1;
+
                 if (curIdSector == i) {
                     img.setAttribute('xlink:href', sector[indice].imageSelect);
                     imgText.setAttribute('fill', colorPurple);
@@ -138,7 +142,6 @@ function setSector() {
         }
     }
 }
-
 //========================================
 // buble
 function abrirVentanaBase(el) {
@@ -205,7 +208,6 @@ $(function() {
     $('.btn-close').click(function(event){
         modalPadre(false);
         modalHijo(event, false);
-        //$(this).parent().css('display', 'none')
     });
 
     $('.btn-close-blue').click(function(){
@@ -262,6 +264,4 @@ $(document).ready(function() {
         $shadow_modalTop.show();
         $modalTop.show();
     });
-
-
 });
