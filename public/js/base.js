@@ -254,7 +254,10 @@ $(document).ready(function() {
     // MODALS
     var $shadow =  $('#shadow');
     var $modalTop = $('#modalTop');
-    var $shadow_modalTop = $('#shadow_modalTop');
+    var $shadow_modalTop = $('#shadow_modalTop');    
+    var $modalPadreShadow = $('#modalPadreShadow');
+    var $modalHijoShadow = $('#modalHijoShadow');
+    
     var $slide = $('#slide');
 
     $shadow_modalTop.click(function(){
@@ -263,9 +266,14 @@ $(document).ready(function() {
     });
     //
     $shadow.click(function(){
-        console.log('shadow');
         $(this).css('display', 'none');
         $slide.fadeOut();
+    });
+    $modalPadreShadow.click(function(event){
+        modalPadre(false)
+    });
+    $modalHijoShadow.click(function(event){
+        modalHijo(event, false)
     });
     //
     $('#ver-gallery').click(function(){
