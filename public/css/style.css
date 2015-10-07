@@ -166,8 +166,8 @@ body {
     background-color: white;
     border:1px solid black;
     border-radius: 26px;
-    top: 10%;
-    width: 34%;
+    top: 5%;
+    width: 38%;
     left: 4%;
 }
 
@@ -213,8 +213,8 @@ div#modalPadre a:hover, a:focus {
     background-color: white;
     border:1px solid black;
     border-radius: 26px;
-    top: 15%;
-    width: 32%;
+    top: 10%;
+    width: 36%;
     height: auto;
     left: 3%;
 }

@@ -24,7 +24,7 @@
                             </spam></div>
                         </div>
                     </div>
-                    <div class="col-md-5 text-right" style="margin-top:30px">
+                    <div class="col-md-5" style="margin-top:30px; padding-left: 50px">
                         <img class="img-responsive_" src="public/image/ico_proinversion.png" />
                     </div>
                 </div>

@@ -45,7 +45,6 @@ var departamento = [];
 
 function seleccionarDepa(el, statusOver) {
     var json = readMetaData(el);
-    setText(el, json, statusOver);
     selectSector(el, json.sectores, statusOver);
     //
     setSector();
@@ -54,23 +53,6 @@ function readMetaData(el) {
     var stringMeta =  el.getAttribute('metadatajson')
     var str_json = JSON.stringify(eval("(" + stringMeta + ")"));
     return JSON.parse(str_json);
-}
-
-function setText(elDepa, json, statusOver) {
-    var text = document.getElementById('nombre_depa');
-    text.setAttribute('onmouseover', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), true)");
-    text.setAttribute('onmouseout', "seleccionarDepa(document.getElementById('"+elDepa.id+"'), false)");
-    text.setAttribute('onclick', "clickDepa(document.getElementById('"+elDepa.id+"'))");
-
-    if (statusOver) {
-        text.setAttribute('x', json.x);
-        text.setAttribute('y', json.y);
-        text.innerHTML = typeof(departamento[json.id_departamento]) != 'undefined'
-            ? departamento[json.id_departamento].name.toUpperCase()
-            : 'none';
-    } else {
-        text.innerHTML = '';
-    }
 }
 
 function selectSector(el, sectores, flagOVER) {
@@ -92,6 +74,8 @@ function selectSector(el, sectores, flagOVER) {
         var imgText = document.getElementById('sector_text_'+item.id);
         var idlocal = item.id;
 
+        setEventSectores(img, idlocal);
+
         if (flagOVER == true) {
             if (typeof(sectores[item.id]) != 'undefined') {
                 img.setAttribute('xlink:href', sector[i].imageOn);
@@ -105,18 +89,25 @@ function selectSector(el, sectores, flagOVER) {
             //FUERA
             if (typeof(curItem.name) != 'undefined') {
                 img.setAttribute('xlink:href', item.image);
-                if (typeof(curItem.sectores[idlocal]) != 'undefined') {
-                    img.setAttribute('xlink:href', curItem.sectores[idlocal].image);
-                    img.setAttribute('onclick', 'abrirVentanaBase(this)');
-                }
+                
             } else {
-                img.setAttribute('xlink:href', '');
+                img.setAttribute('xlink:href', item.image);
                 imgText.innerHTML = '';
             }
         }
     });
+    //private
+    function setEventSectores(img, idlocal) {
+        if (typeof(curItem.sectores) != 'undefined') {
+            if (typeof(curItem.sectores[idlocal]) != 'undefined') {
+                img.setAttribute('xlink:href', curItem.sectores[idlocal].image);
+                img.setAttribute('onclick', 'abrirVentanaBase(this)');
+            }
+        }
+    }
+    
     // set sector
-    setSector();
+    //setSector();
 }
 // click
 function clickDepa(el) {

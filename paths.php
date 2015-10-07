@@ -11,64 +11,67 @@
 	onmouseover="seleccionarDepa(this, true)"
 	onmouseout="seleccionarDepa(this, false)"
 	onclick="clickDepa(this)"
-	metadatajson="{
+	 metadatajson="{
 		id_departamento: '13',
-		x:556,
-		y:450,
-		sectores: {
-			1: {
-				name: 'Transporte',
-				content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
-			},
-			2: {
-				name: 'Comercio y Turismo',
-			},
-			6: {
-				name: 'Educación',
-			},
-			7: {
-				name: 'Salud',
-			},
-			9: {
-				name: 'Cultura y Esparcimiento',
-			}
-		}
+        name_:'ANCASH',
+	 	x:522,
+	 	y:380,
+	 	sectores: {
+	 		1: {
+	 			name: 'Transporte',
+	 			content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+	 		},
+	 		2: {
+	 			name: 'Comercio y Turismo',
+	 		},
+	 		6: {
+	 			name: 'Educación',
+	 		},
+	 		7: {
+	 			name: 'Salud',
+	 		},
+	 		9: {
+	 			name: 'Cultura y Esparcimiento',
+	 		}
+	 	}
 	}"
      style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
      d="m 535.99969,414.01889 c 0.72891,-2.00299 0.94513,-9.12431 4.57635,-5.03251 1.82411,2.05664 2.90319,7.94848 5.15965,8.35532 1.0541,-0.28434 0.93082,-1.02743 1.75084,-1.37793 1.09698,-0.46676 1.11574,-0.39167 2.28237,-0.56692 2.93536,-0.44799 2.32346,-2.31328 3.15688,-4.76515 0.79147,-2.33029 2.94163,-4.27872 5.62153,-3.44621 1.62041,0.50519 5.38028,2.23904 6.20836,3.78421 1.05142,1.96722 1.41052,4.32432 2.35116,6.30853 1.16485,2.45813 2.11531,4.85991 3.10776,7.3082 1.75172,4.31448 2.86033,9.73419 5.39995,13.43613 1.51591,2.21493 3.31412,3.30047 4.28247,5.84624 0.91741,2.4152 2.16712,3.88169 3.88314,5.70584 1.53734,1.63368 2.82368,2.80955 4.8997,3.79137 2.02866,0.96038 5.12928,3.2325 6.6184,5.29808 2.55214,3.53832 4.24402,7.88055 3.96351,12.69304 -0.27066,4.59525 -4.62098,8.96877 -9.21252,7.94492 -1.55161,-0.34515 -1.22112,-0.70016 -2.8719,0.0851 -1.00407,0.47569 -0.80398,1.20894 -1.8116,1.80536 -0.44401,0.26378 -0.8442,0.74934 -1.23186,1.19197 -0.45024,0.51413 -1.30689,1.41192 -1.63295,1.75617 -0.97277,1.01847 -2.54944,2.09421 -3.50973,3.2334 -5.3687,-2.17557 -7.00255,-9.59108 -10.12371,-13.87247 -2.68521,-3.68318 -4.55132,-7.76875 -7.37502,-11.42958 -1.45157,-1.88139 -2.33955,-4.01311 -3.66427,-5.9115 -1.35868,-1.94039 -3.11849,-2.39284 -3.66609,-4.87333 -0.49754,-2.26767 0.45648,-4.99945 -0.15185,-7.2054 -0.53329,-1.93949 -2.73259,-4.36186 -3.90726,-5.99287 -1.44354,-2.00658 -2.58966,-5.05756 -4.38519,-6.47842 -1.11392,-0.87989 -3.00324,-0.86916 -4.05819,-1.83219 -1.54274,-1.41103 -0.34571,-0.90225 -0.15904,-2.78274 0.19029,-1.9082 -0.37337,-0.98541 -0.95491,-2.4331 -0.68157,-1.69449 0.093,-2.40447 -0.0564,-4.19554 -0.28048,-3.37825 -5.25881,-2.12369 -4.50217,-5.90525 l 0.0125,-0.44262 z"
      id="path7"
      inkscape:connector-curvature="0" />
+
 	<path
-		onmouseover="seleccionarDepa(this, true)"
-		onmouseout="seleccionarDepa(this, false)"
-		onclick="clickDepa(this)"
-		metadatajson="{
-			id_departamento: '1',
-			x:521,
-			y:380,
-			sectores: {
-				1: {
-					name: 'Transporte',
-					content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
-				},
-				2: {
-					name: 'Comercio y Turismo',
-				},
-				6: {
-					name: 'Educación',
-				},
-				7: {
-					name: 'Salud',
-				},
-				9: {
-					name: 'Cultura y Esparcimiento',
-				}
-			}
-		}"
-	     style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
-	     d="m 560.65458,407.75237 c -1.96346,-1.63456 -2.44049,-2.83188 -1.00675,-5.23903 0.63601,-1.06858 1.61061,-2.18363 1.87949,-3.4981 0.48507,-2.37676 -1.81966,-2.08972 -2.25736,-3.40954 -0.81289,-2.45457 -0.79949,-8.13984 0.97548,-10.92434 2.17697,-3.41581 5.12929,-6.34341 4.97207,-10.72764 -0.12684,-3.52131 -5.49644,-7.65426 -7.9503,-10.04533 -3.06934,-2.99104 -4.77467,-7.15978 -7.34108,-10.49959 -2.66113,-3.46233 -4.52275,-7.98873 -7.75019,-10.79648 -3.66608,-3.19136 -9.47247,-1.03371 -13.69329,0.005 -2.26273,0.55706 -3.68573,0.66438 -5.41246,2.34186 -1.83305,1.77945 -3.05151,4.1723 -4.1708,6.58215 -0.66102,1.42445 -1.25415,4.45665 -2.54139,5.4626 -1.90541,1.48973 -4.57099,0.0982 -6.07798,1.87871 -3.16672,3.74309 1.62758,9.64029 3.20692,12.78875 1.97418,3.93711 4.077,7.64533 6.10121,11.48141 2.14387,4.06408 3.07203,8.49393 5.52768,12.49989 2.06439,3.36486 3.57498,6.38454 4.97206,10.03999 1.3328,3.48378 2.62362,6.87812 5.70903,9.18068 1.05321,-1.5836 1.32479,-9.17263 5.24362,-5.54221 2.81029,2.60301 0.37696,8.54221 5.19898,7.9762 0.78787,-2.13266 2.42798,-1.10881 3.91887,-1.78749 1.64991,-0.75025 1.61687,-1.64174 1.9965,-3.42476 0.73786,-3.45606 4.4102,-6.76994 8.27009,-4.33953"
-	     id="path37"
-	     inkscape:connector-curvature="0" />
+    onmouseover="seleccionarDepa(this, true)"
+    onmouseout="seleccionarDepa(this, false)"
+    onclick="clickDepa(this)"
+    metadatajson="{
+        id_departamento: '1',
+        name_:'ANCASH',
+        x:521,
+        y:380,
+        sectores: {
+            1: {
+                name: 'Transporte',
+                content: '<ol><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Progreso Coischo – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Acceso vial Nuevo Chimbote – Santa<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Construcción y mejoramiento calles Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento camino vecinal Huarmey -Ancash<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento vías Caserío de Chora, Lacabamba<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas barrios de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal distritos de Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial barrio La Pradera, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento Jr. Ladislao Meza, Huaraz<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Llamac, Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento infraestructura vial y peatonal Pacllon<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento carretera vecinal Culebras, Huarmey<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento pistas y veredas San Cristóbal de Chupan, Huachis<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Chasquitambo - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llamarumi - Colquioc\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Pistas y veredas Llampa - Colquioc<\/a><\/li><li><a onclick=\'modalHijo(event, true)\' href=\'#\'>Mejoramiento transitabilidad Ciudad del Pescador – Huarmey<\/a><\/li><\/ol>',
+            },
+            2: {
+                name: 'Comercio y Turismo',
+            },
+            3: {
+                name: 'Educación',
+            },
+            4: {
+                name: 'Salud',
+            },
+            5: {
+                name: 'Cultura y Esparcimiento',
+            }
+        }
+    }"
+    style="fill:#51BDE9;fill-opacity:1;stroke:#ffffff;stroke-width:0.89374197"
+    d="m 560.65458,407.75237 c -1.96346,-1.63456 -2.44049,-2.83188 -1.00675,-5.23903 0.63601,-1.06858 1.61061,-2.18363 1.87949,-3.4981 0.48507,-2.37676 -1.81966,-2.08972 -2.25736,-3.40954 -0.81289,-2.45457 -0.79949,-8.13984 0.97548,-10.92434 2.17697,-3.41581 5.12929,-6.34341 4.97207,-10.72764 -0.12684,-3.52131 -5.49644,-7.65426 -7.9503,-10.04533 -3.06934,-2.99104 -4.77467,-7.15978 -7.34108,-10.49959 -2.66113,-3.46233 -4.52275,-7.98873 -7.75019,-10.79648 -3.66608,-3.19136 -9.47247,-1.03371 -13.69329,0.005 -2.26273,0.55706 -3.68573,0.66438 -5.41246,2.34186 -1.83305,1.77945 -3.05151,4.1723 -4.1708,6.58215 -0.66102,1.42445 -1.25415,4.45665 -2.54139,5.4626 -1.90541,1.48973 -4.57099,0.0982 -6.07798,1.87871 -3.16672,3.74309 1.62758,9.64029 3.20692,12.78875 1.97418,3.93711 4.077,7.64533 6.10121,11.48141 2.14387,4.06408 3.07203,8.49393 5.52768,12.49989 2.06439,3.36486 3.57498,6.38454 4.97206,10.03999 1.3328,3.48378 2.62362,6.87812 5.70903,9.18068 1.05321,-1.5836 1.32479,-9.17263 5.24362,-5.54221 2.81029,2.60301 0.37696,8.54221 5.19898,7.9762 0.78787,-2.13266 2.42798,-1.10881 3.91887,-1.78749 1.64991,-0.75025 1.61687,-1.64174 1.9965,-3.42476 0.73786,-3.45606 4.4102,-6.76994 8.27009,-4.33953"
+    id="path37"
+    inkscape:connector-curvature="0" />
 
 		<path
 			onmouseover="seleccionarDepa(this, true)"
