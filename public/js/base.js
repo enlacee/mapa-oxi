@@ -47,7 +47,7 @@ function seleccionarDepa(el, statusOver) {
     var json = readMetaData(el);
     selectSector(el, json.sectores, statusOver);
     //
-    setSector();
+    //setSector();
 }
 function readMetaData(el) {
     var stringMeta =  el.getAttribute('metadatajson')
@@ -74,25 +74,31 @@ function selectSector(el, sectores, flagOVER) {
         var imgText = document.getElementById('sector_text_'+item.id);
         var idlocal = item.id;
 
-        setEventSectores(img, idlocal);
+        img.setAttribute('onclick', 'abrirVentanaBase(this)');
+        //setEventSectores(img, idlocal);
 
         if (flagOVER == true) {
             if (typeof(sectores[item.id]) != 'undefined') {
-                img.setAttribute('xlink:href', sector[i].imageOn);
+                img.setAttribute('xlink:href',item.imageOn);
                 imgText.innerHTML = sector[i].name.toUpperCase();
                 imgText.setAttribute('fill', colorBlue);
             } else {
                 img.setAttribute('xlink:href', item.image);
-                imgText.innerHTML = sector[i].name.toUpperCase();
+                imgText.innerHTML = item.name.toUpperCase();
+                imgText.setAttribute('fill', colorGray);   
             }
         } else {
             //FUERA
             if (typeof(curItem.name) != 'undefined') {
-                img.setAttribute('xlink:href', item.image);
+                //img.setAttribute('xlink:href', item.image);
+                /*
+                img.setAttribute('xlink:href', sector[i].imageOn);
+                imgText.innerHTML = sector[i].name.toUpperCase();
+                imgText.setAttribute('fill', colorBlue);*/
                 
             } else {
-                img.setAttribute('xlink:href', item.image);
-                imgText.innerHTML = '';
+                //img.setAttribute('xlink:href', item.image);
+                //imgText.innerHTML = '';
             }
         }
     });
@@ -111,6 +117,24 @@ function selectSector(el, sectores, flagOVER) {
 }
 // click
 function clickDepa(el) {
+    //pintar
+    var json = readMetaData(el);
+    var sectores = json.sectores;
+    sector.forEach(function(item, i) {
+        var img = document.getElementById('sector_'+item.id);
+        var imgText = document.getElementById('sector_text_'+item.id);
+        if (typeof(sectores[item.id]) != 'undefined') {
+            img.setAttribute('xlink:href', sector[i].imageOn);
+            imgText.innerHTML = sector[i].name.toUpperCase();
+            imgText.setAttribute('fill', colorBlue);
+        } else {
+            img.setAttribute('xlink:href', sector[i].image);
+            imgText.innerHTML = sector[i].name.toUpperCase();
+            imgText.setAttribute('fill', colorGray);   
+        }
+    }); 
+    //end
+    
     el.style.fill = '#0079C0';
     el.style.fillOpacity = 1;
     var json = readMetaData(el);
@@ -145,12 +169,12 @@ function abrirVentanaBase(el) {
     var $modal = $('#modalPadre');
     var strid = el.getAttribute('id');
     var key = strid.split('_')[1];
-    //console.log('el', key);
+    console.log('key', key);
     curIdSector = key;
 
-    $modal.find('.title').html(curItem.sectores[key].name);
+    $modal.find('.title').html(sector[(key-1)].name);
     $modal.find('.content').html(curItem.sectores[key].content);
-    el.setAttribute('xlink:href',curItem.sectores[key].imageSelect);
+    el.setAttribute('xlink:href',sector[(key-1)].imageSelect);
     setSector();
 }
 
