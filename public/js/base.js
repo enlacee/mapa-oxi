@@ -64,7 +64,7 @@ function selectSector(el, sectores, flagOVER) {
             el.style.fill = '#0079C0';
             el.style.fillOpacity = 1;
         } else {
-            el.style.fillOpacity = 1;
+            //el.style.fillOpacity = 1;
             el.style.fill = '#51BDE9';
         }
     }
@@ -89,17 +89,17 @@ function selectSector(el, sectores, flagOVER) {
             }
         } else {
             //FUERA
-            if (typeof(curItem.name) != 'undefined') {
-                //img.setAttribute('xlink:href', item.image);
-                /*
-                img.setAttribute('xlink:href', sector[i].imageOn);
-                imgText.innerHTML = sector[i].name.toUpperCase();
-                imgText.setAttribute('fill', colorBlue);*/
+            // Pinta los sectores seleccionados  x click *curItem*
+            if(typeof(curItem.sectores)!= 'undefined') {
+                var indice = (i+1);
+                if (typeof(curItem.sectores[indice])!='undefined') {
+                    img.setAttribute('xlink:href', item.imageOn);
+                } else {
+                    img.setAttribute('xlink:href', item.image);
+                }
                 
-            } else {
-                //img.setAttribute('xlink:href', item.image);
-                //imgText.innerHTML = '';
             }
+
         }
     });
     //private
