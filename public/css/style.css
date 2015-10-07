@@ -61,6 +61,7 @@
 .title-h3 {
     font-weight:bold;
     font-size: 13px;
+    margin-top: -10px;
 }
 .text-bold {
     font-family: 'BreePeru-Bold';
@@ -101,11 +102,12 @@
     font-size: 12px;
 }
 .button-download {
-    font-size:11px;
+    font-size: 11px;
     font-family: 'BreePeru-Oblique';
     position: fixed;
     bottom: 4%;
-    right: 8%;
+    right: 15%;
+    width: 150px;
 }
 .imageDownload {
     margin-bottom:10px;
@@ -132,7 +134,7 @@
 }
 .link-purpura,  .link-purpura a, .link-purpura a:hover, a:focus{
     font-weight:bold;
-    color:#E61499;
+    color:#a82292;
     font-family:'BreePeru-Bold';
 }
 
@@ -171,13 +173,12 @@ body {
 
 #modalPadre h2 {
     font-family: 'BreePeru-Regular';
-    margin: 15px 15px 0 25px;
-    font-size: 23px;
-    font-weight: bold;
+    margin: 5px 15px 1px 25px;
+    font-size: 28px;
     color:white;
 }
 #modalPadre .franja-lila {
-    background-color: #E61499;
+    background-color: #90278e;
     display: inline-block;
     margin: 25px 0 12px 0;
     padding-right: 20px;
@@ -189,23 +190,23 @@ body {
     margin: 5px 0 5px 0;
 }
 div#modalPadre a {
-    color:black;
+    color:#231F20;
     font-weight: 100;
 }
 div#modalPadre a:hover, a:focus {
-    font-family: 'BreePeru-Bold';
     text-decoration: none;
-    color:#E61499;
-    font-weight: bold;
+    /*color:#E61499;*/
+    color:#a82292;
+    font-weight: normal;
 }
 .bold-purple {
 
 }
 
 .modalshadow {
-    -moz-box-shadow:    3px 3px 5px 6px #ccc;
-    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
-    box-shadow:         3px 3px 5px 6px #ccc;
+    -moz-box-shadow:    3px 3px 5px 6px #868686;
+    -webkit-box-shadow: 3px 3px 5px 6px #868686;
+    box-shadow:         3px 3px 5px 6px #868686;
 }
 #modalHijo {
     position: fixed;
@@ -219,7 +220,7 @@ div#modalPadre a:hover, a:focus {
 }
 #modalHijo h2 {
     font-family: 'BreePeru-Regular';
-    color: #E61499;
+    color: #a82292;
     margin: 15px 0 0 25px;
     font-size: 23px;
     font-weight: bold;

@@ -35,9 +35,7 @@
                     <div class="col-md-4 content-instruction">
                         <div class="title-instruction">INSTRUCCIONES DE NAVEGACIÓN</div>
                         <ul>
-                            <li>Click sobre el departamento a consultar.</li>
-                            <li>Seleccionar el sector del proyecto a consultar y hacer click.</li>
-                            <li>Buscar el proyecto en la lista y hacer click para ver detalle.</li>
+                            <li>Hacer click sobre la región a consultar.</li>
                         </ul>
                     </div>
                     <div class="col-md-8  _pull-right">
@@ -47,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="footer _container hide">
+
                 <div class="button-download col-md-3 pull-right nopadding">
                     <div class="text-center imageDownload">
                         <a href="#">
@@ -55,18 +53,18 @@
                         </a>
                     </div>
                     <div class="row">
-                        <div class="text-bold text-center">
+                        <div class="text-center">
                             Descargue aquí
                         </div>
                     </div>
                     <div class="row">
-                        <div class="text-bold text-center">
+                        <div class="text-center">
                             Todos los proyectos en Excel
                         </div>
                     </div>
+                    <div style="clear:both"></div>
                 </div>
-            </div>
-            <div style="clear:both"></div>
+
         </div>
 
 <!--modals-->
@@ -124,7 +122,7 @@
 
         <div class="content">
             <div class="content-scroll">
-                <span class="link-purpura">DESCRIPCION</span>
+                <span class="link-purpura">DESCRIPCIÓN</span>
                 <p>Mejoramiento de la Infraestructura vial y peatonal
     en los barrios emprendedores de Vista Alegre, Piedras
     Azules, 08 de diciembre del distrito de Huaraz,
